@@ -21,19 +21,19 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyBAOK__BlIB7d_pibWncHk26Y6limmWC5c",
+  apiKey: "AIzaSyD4-AuZoGrq31lEL4nduLdkNsxM7SFW_nE",
 
-  authDomain: "omo-kayan-b7994.firebaseapp.com",
+  authDomain: "the-cloud-awaits.firebaseapp.com",
 
-  projectId: "omo-kayan-b7994",
+  projectId: "the-cloud-awaits",
 
-  storageBucket: "omo-kayan-b7994.appspot.com",
+  storageBucket: "the-cloud-awaits.appspot.com",
 
-  messagingSenderId: "118737242725",
+  messagingSenderId: "842314863271",
 
-  appId: "1:118737242725:web:317c4c0bc6e781f213d48c",
+  appId: "1:842314863271:web:dcc5fc593b8b3aab488182",
 
-  measurementId: "G-X1T6FJHFD7"
+  measurementId: "G-J0123PNV64"
 
 };
 
