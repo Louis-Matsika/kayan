@@ -17,7 +17,7 @@ body {
 
 .main-content {
   margin: 0 auto;
-  padding: 2.4rem 0;
+  padding: 4.8rem 0 9.6rem 0;
   width: 120rem;
   text-align: center;
 }
@@ -31,15 +31,16 @@ body {
   width: 4rem;
 }
 
-/* LOGO SECTION */
+/* PICTURE SECTION */
 .main-logo {
   width: 30rem;
+  /* border: 0.5rem solid #333; */
   border-radius: 8px;
 }
 
 /* TITLE SECTION */
 .section-title {
-  margin: 3.2rem 0 6.4rem 0;
+  margin: 3.2rem 0 4.8rem 0;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -47,8 +48,9 @@ body {
 
 .main-title {
   letter-spacing: -0.5px;
-  font-size: 4rem;
+  font-size: 3.2rem;
   line-height: 1.2;
+  font-weight: 700;
 }
 
 .subheading {
@@ -61,14 +63,27 @@ body {
 }
 
 /* BUTTON SECTION */
+.section-buttons {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 1.2rem;
+}
+
 .button,
 .button:link,
 .button:visited {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  justify-content: center;
+
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6rem 4.8rem;
   border-radius: 8px;
   transition: all 0.3s;
   background-color: #c21010;
@@ -78,4 +93,16 @@ body {
 .button:hover,
 .button:active {
   background-color: #ad2525;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4.8rem 0;
+}
+
+.footer-logo {
+  width: 7rem;
 }
