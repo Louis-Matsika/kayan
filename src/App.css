@@ -1,0 +1,81 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Rubik", sans-serif;
+  color: #333;
+}
+
+.main-content {
+  margin: 0 auto;
+  padding: 2.4rem 0;
+  width: 120rem;
+  text-align: center;
+}
+
+/* HEADER */
+.header {
+  padding: 2.4rem 2.4rem;
+}
+
+.header-logo {
+  width: 4rem;
+}
+
+/* LOGO SECTION */
+.main-logo {
+  width: 30rem;
+  border-radius: 8px;
+}
+
+/* TITLE SECTION */
+.section-title {
+  margin: 3.2rem 0 6.4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.main-title {
+  letter-spacing: -0.5px;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #c21010;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+/* BUTTON SECTION */
+.button,
+.button:link,
+.button:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+  background-color: #c21010;
+  color: #fff;
+}
+
+.button:hover,
+.button:active {
+  background-color: #ad2525;
+}
