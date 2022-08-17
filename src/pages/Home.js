@@ -4,26 +4,26 @@ function Home() {
   return (
     <div>
       <header class="header">
-        <img
-          src="site-content/omologo.png"
-          alt="OMO logo"
-          class="header-logo"
-        ></img>
+        <a href="https://www.instagram.com/omocloud/" target="_blank">
+          <img
+            src="site-content/omologo.png"
+            alt="OMO logo"
+            class="header-logo"
+          ></img>
+        </a>
       </header>
       <main class="main-content">
         <div class="main-column">
           <section class="section-logo">
             <img
-              src="site-content/toni_phases.png"
+              src="site-content/toni_phases.jpg"
               alt="Artwork for 'Phases', a song by omo Toni"
               class="main-logo"
             ></img>
           </section>
           <section class="section-title">
             <p class="song-title title">Phases</p>
-            <p class="artists title">
-              omo Toni <span class="extra-credits2">ft. SAI's fate.</span>
-            </p>
+            <p class="artists title">omo Toni ft. SAI's fate.</p>
           </section>
           <section class="section-buttons">
             <p class="subheading">listen on</p>
@@ -55,11 +55,13 @@ function Home() {
         </div>
       </main>
       <footer class="footer">
-        <img
-          src="site-content/omologo.png"
-          alt="OMO logo"
-          class="footer-logo"
-        ></img>
+        <a href="https://www.instagram.com/omocloud/" target="_blank">
+          <img
+            src="site-content/omologo.png"
+            alt="OMO logo"
+            class="footer-logo"
+          ></img>
+        </a>
       </footer>
     </div>
   );
