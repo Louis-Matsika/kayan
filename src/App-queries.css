@@ -14,6 +14,7 @@
 @media (max-width: 22em) {
   .main-content {
     width: fit-content;
+    padding: 4.8rem 0;
   }
 
   .main-logo {
@@ -23,6 +24,6 @@
 
   .section-buttons {
     width: 80%;
-    padding: 2.4rem 1rem;
+    padding: 2.4rem 1rem 0 1rem;
   }
 }
