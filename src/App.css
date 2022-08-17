@@ -22,13 +22,23 @@ body {
   text-align: center;
 }
 
+*:focus {
+  outline: none;
+  border: 5px solid #f16c6c;
+}
+
 /* HEADER */
 .header {
   padding: 2.4rem 2.4rem;
 }
 
-.header-logo {
+.header-link {
   width: 4rem;
+  display: inline-block;
+}
+
+.header-logo {
+  width: 100%;
 }
 
 /* PICTURE SECTION */
@@ -113,6 +123,16 @@ body {
   padding: 4.8rem 0;
 }
 
-.footer-logo {
+.footer-link {
+  display: inline-block;
+  margin: 0;
   width: 7rem;
+}
+
+/* .footer-link:focus {
+  width: 4rem;
+} */
+
+.footer-logo {
+  width: 100%;
 }

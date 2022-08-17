@@ -4,7 +4,11 @@ function Home() {
   return (
     <div>
       <header class="header">
-        <a href="https://www.instagram.com/omocloud/" target="_blank">
+        <a
+          href="https://www.instagram.com/omocloud/"
+          target="_blank"
+          class="header-link"
+        >
           <img
             src="site-content/omologo.png"
             alt="OMO logo"
@@ -55,11 +59,15 @@ function Home() {
         </div>
       </main>
       <footer class="footer">
-        <a href="https://www.instagram.com/omocloud/" target="_blank">
+        <a
+          class="footer-link"
+          href="https://www.instagram.com/omocloud/"
+          target="_blank"
+        >
           <img
+            class="footer-logo"
             src="site-content/omologo.png"
             alt="OMO logo"
-            class="footer-logo"
           ></img>
         </a>
       </footer>
