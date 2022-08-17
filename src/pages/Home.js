@@ -20,7 +20,10 @@ function Home() {
             ></img>
           </section>
           <section class="section-title">
-            <p class="main-title">omo Toni - 'Phases' ft. SAI's fate.</p>
+            <p class="song-title title">Phases</p>
+            <p class="artists title">
+              omo Toni <span class="extra-credits2">ft. SAI's fate.</span>
+            </p>
           </section>
           <section class="section-buttons">
             <p class="subheading">listen on</p>

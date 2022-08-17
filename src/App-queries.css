@@ -1,0 +1,23 @@
+/* BELOW 1216 px */
+@media (max-width: 76em) {
+  .main-content {
+    width: 100%;
+  }
+}
+
+/* BELOW 352px */
+@media (max-width: 22em) {
+  .main-content {
+    width: fit-content;
+  }
+
+  .main-logo {
+    width: 90%;
+    text-align: center;
+  }
+
+  .section-buttons {
+    width: 80%;
+    padding: 0 1rem;
+  }
+}
