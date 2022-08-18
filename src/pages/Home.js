@@ -32,7 +32,7 @@ function Home() {
           <section class="section-buttons">
             <p class="subheading">listen on</p>
             <a
-              href="https://www.youtube.com/channel/UCOiVt80wJ2Nq7rcWIN4LJGg"
+              href="https://open.spotify.com/track/4fjP2ztoeLmp6b0ND9VTCl?si=0ad50d3ed2df4e65&nd=1"
               target="_blank"
               class="button"
             >
@@ -40,7 +40,7 @@ function Home() {
               <i class="fa-brands fa-spotify"></i>
             </a>
             <a
-              href="https://www.youtube.com/channel/UCOiVt80wJ2Nq7rcWIN4LJGg"
+              href="https://soundcloud.com/welcome-omocloud/phases?si=098dc4291db04c92a739621ab9a5f6f8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
               target="_blank"
               class="button"
             >
@@ -48,7 +48,7 @@ function Home() {
               <i class="fa-brands fa-soundcloud"></i>
             </a>
             <a
-              href="https://www.youtube.com/channel/UCOiVt80wJ2Nq7rcWIN4LJGg"
+              href="https://www.youtube.com/watch?v=cSwOvy3itgg&list=OLAK5uy_kzFv4Ez9FA2vP3Thu_3Lw-LaO72W6TuDs&ab_channel=omoToni-Topic"
               target="_blank"
               class="button"
             >
