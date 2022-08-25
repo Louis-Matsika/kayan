@@ -55,6 +55,14 @@ function Home() {
               <span>YouTube</span>
               <i class="fa-brands fa-youtube"></i>
             </a>
+            <a
+              href="https://www.instagram.com/omocloud/"
+              target="_blank"
+              class="button"
+            >
+              <span>Instagram</span>
+              <i class="fa-brands fa-instagram"></i>
+            </a>
           </section>
         </div>
       </main>

@@ -121,6 +121,10 @@ body {
   background-color: #ad2525;
 }
 
+.fa-brands {
+  line-height: none;
+}
+
 /* FOOTER */
 .footer {
   border-top: 1px solid #eee;
