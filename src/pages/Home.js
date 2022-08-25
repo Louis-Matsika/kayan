@@ -10,7 +10,7 @@ function Home() {
           class="header-link"
         >
           <img
-            src="site-content/omologo.png"
+            src="site-content/omologo-white.png"
             alt="OMO logo"
             class="header-logo"
           ></img>
@@ -20,19 +20,19 @@ function Home() {
         <div class="main-column">
           <section class="section-logo">
             <img
-              src="site-content/toni_phases.jpg"
+              src="site-content/off-white.jpg"
               alt="Artwork for 'Phases', a song by omo Toni"
               class="main-logo"
             ></img>
           </section>
           <section class="section-title">
-            <p class="song-title title">Phases</p>
-            <p class="artists title">omo Toni ft. SAI's fate.</p>
+            <p class="song-title title">off white.</p>
+            <p class="artists title">SAI's fate.</p>
           </section>
           <section class="section-buttons">
             <p class="subheading">listen on</p>
             <a
-              href="https://open.spotify.com/track/4fjP2ztoeLmp6b0ND9VTCl?si=0ad50d3ed2df4e65&nd=1"
+              href="https://open.spotify.com/track/4I7LDeeIW9Js1qJm4dY77t?si=5e7a3cb7b7484d72"
               target="_blank"
               class="button"
             >
@@ -40,7 +40,7 @@ function Home() {
               <i class="fa-brands fa-spotify"></i>
             </a>
             <a
-              href="https://soundcloud.com/welcome-omocloud/phases?si=098dc4291db04c92a739621ab9a5f6f8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+              href="https://soundcloud.com/welcome-omocloud/offwhite?si=0c99217c77194ea796b56c66d7f678dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
               target="_blank"
               class="button"
             >
@@ -48,7 +48,7 @@ function Home() {
               <i class="fa-brands fa-soundcloud"></i>
             </a>
             <a
-              href="https://www.youtube.com/watch?v=cSwOvy3itgg&list=OLAK5uy_kzFv4Ez9FA2vP3Thu_3Lw-LaO72W6TuDs&ab_channel=omoToni-Topic"
+              href="https://www.youtube.com/watch?v=KzdVMNXn7BI&list=OLAK5uy_k0NVP5uKfj4xoHL9_myg_7DncFb9AP9gU&ab_channel=SAI%27sfate.-Topic"
               target="_blank"
               class="button"
             >
@@ -74,7 +74,7 @@ function Home() {
         >
           <img
             class="footer-logo"
-            src="site-content/omologo.png"
+            src="site-content/omologo-white.png"
             alt="OMO logo"
           ></img>
         </a>
