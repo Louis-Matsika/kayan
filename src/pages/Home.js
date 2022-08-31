@@ -22,7 +22,7 @@ function Home() {
             <img
               src="site-content/off-white.jpg"
               alt="Artwork for 'Phases', a song by omo Toni"
-              class="main-logo"
+              class="main-pic"
             ></img>
           </section>
           <section class="section-title">
@@ -31,38 +31,36 @@ function Home() {
           </section>
           <section class="section-buttons">
             <p class="subheading">listen on</p>
-            <a
-              href="https://open.spotify.com/track/4I7LDeeIW9Js1qJm4dY77t?si=5e7a3cb7b7484d72"
-              target="_blank"
-              class="button"
-            >
-              <span>Spotify</span>
-              <i class="fa-brands fa-spotify"></i>
-            </a>
-            <a
-              href="https://soundcloud.com/welcome-omocloud/offwhite?si=0c99217c77194ea796b56c66d7f678dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-              target="_blank"
-              class="button"
-            >
-              <span>Soundcloud</span>
-              <i class="fa-brands fa-soundcloud"></i>
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=KzdVMNXn7BI&list=OLAK5uy_k0NVP5uKfj4xoHL9_myg_7DncFb9AP9gU&ab_channel=SAI%27sfate.-Topic"
-              target="_blank"
-              class="button"
-            >
-              <span>YouTube</span>
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/omocloud/"
-              target="_blank"
-              class="button"
-            >
-              <span>Instagram</span>
-              <i class="fa-brands fa-instagram"></i>
-            </a>
+            <div class="buttons">
+              <a
+                href="https://open.spotify.com/track/4I7LDeeIW9Js1qJm4dY77t?si=5e7a3cb7b7484d72"
+                target="_blank"
+                class="button"
+              >
+                <i class="fa-brands fa-spotify"></i>
+              </a>
+              <a
+                href="https://soundcloud.com/welcome-omocloud/offwhite?si=0c99217c77194ea796b56c66d7f678dd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank"
+                class="button"
+              >
+                <i class="fa-brands fa-soundcloud"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=KzdVMNXn7BI&list=OLAK5uy_k0NVP5uKfj4xoHL9_myg_7DncFb9AP9gU&ab_channel=SAI%27sfate.-Topic"
+                target="_blank"
+                class="button"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/omocloud/"
+                target="_blank"
+                class="button"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
           </section>
         </div>
       </main>
