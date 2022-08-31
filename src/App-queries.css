@@ -3,12 +3,22 @@
   .main-content {
     width: 100%;
   }
+
+  iframe {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
 }
 
 /* NEEDED FOR HEADER LATER */
 /* BELOW 560px */
-/* @media (max-width: 35em) {
-} */
+@media (max-width: 35em) {
+  iframe {
+    max-width: 30rem;
+    margin: 0 auto;
+    /* padding: 0 2rem; */
+  }
+}
 
 /* BELOW 352px */
 @media (max-width: 22em) {
@@ -25,5 +35,10 @@
   .section-buttons {
     /* width: 80%; */
     padding: 2.4rem 0 0 0;
+  }
+
+  iframe {
+    /* width: 20rem; */
+    padding: 0 2rem;
   }
 }
