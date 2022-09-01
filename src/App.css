@@ -55,6 +55,8 @@ body {
 iframe {
   aspect-ratio: 16 / 9;
   width: 50rem;
+  border: 5px solid #eee;
+  border-radius: 8px;
 }
 
 /* TITLE SECTION */

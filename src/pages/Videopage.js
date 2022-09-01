@@ -22,7 +22,7 @@ function Home() {
             <iframe
               // width="560"
               // height="315"
-              src="https://www.youtube.com/embed/Qg8pk7HTCuY"
+              src="https://www.youtube.com/embed/XKGE6YnDqKI"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -40,6 +40,7 @@ function Home() {
                 href="https://open.spotify.com/track/1rJwgPTK96Rj421zRuJdzG?si=45cc7f573f5040d5"
                 target="_blank"
                 class="button"
+                aria-label="Spotify"
               >
                 <i class="fa-brands fa-spotify"></i>
               </a>
@@ -47,13 +48,15 @@ function Home() {
                 href="https://soundcloud.com/welcome-omocloud/2minds-prod-remn?si=f811722a1e164f7e860ab60507a97375&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                 target="_blank"
                 class="button"
+                aria-label="Soundcloud"
               >
                 <i class="fa-brands fa-soundcloud"></i>
               </a>
               <a
-                href="https://www.youtube.com/watch?v=aFVtj5JnNZ4&ab_channel=SAI%27sfate.-Topic"
+                href="https://www.youtube.com/watch?v=XKGE6YnDqKI&ab_channel=OMOcloud."
                 target="_blank"
                 class="button"
+                aria-label="YouTube"
               >
                 <i class="fa-brands fa-youtube"></i>
               </a>
@@ -61,6 +64,7 @@ function Home() {
                 href="https://www.instagram.com/omocloud/"
                 target="_blank"
                 class="button"
+                aria-label="Instagram"
               >
                 <i class="fa-brands fa-instagram"></i>
               </a>

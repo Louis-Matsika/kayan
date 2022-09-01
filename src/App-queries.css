@@ -37,8 +37,13 @@
     padding: 2.4rem 0 0 0;
   }
 
-  iframe {
-    /* width: 20rem; */
+  .section-logo {
     padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+  iframe {
+    max-width: 25rem;
+    padding: 0;
   }
 }
