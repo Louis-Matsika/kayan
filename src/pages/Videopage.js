@@ -20,9 +20,7 @@ function Home() {
         <div class="main-column">
           <section class="section-logo">
             <iframe
-              // width="560"
-              // height="315"
-              src="https://www.youtube.com/embed/XKGE6YnDqKI"
+              src="https://www.youtube.com/embed/ik4pDfveVn0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -30,14 +28,14 @@ function Home() {
             ></iframe>
           </section>
           <section class="section-title">
-            <p class="song-title title">2minds.</p>
-            <p class="artists title">SAI's fate.</p>
+            <p class="song-title title">Phases</p>
+            <p class="artists title">omo Toni (ft. SAI's fate.)</p>
           </section>
           <section class="section-buttons">
             <p class="subheading">listen on</p>
             <div class="buttons">
               <a
-                href="https://open.spotify.com/track/1rJwgPTK96Rj421zRuJdzG?si=45cc7f573f5040d5"
+                href="https://open.spotify.com/track/4fjP2ztoeLmp6b0ND9VTCl?si=28c70d34b85d4774"
                 target="_blank"
                 class="button"
                 aria-label="Spotify"
@@ -45,7 +43,7 @@ function Home() {
                 <i class="fa-brands fa-spotify"></i>
               </a>
               <a
-                href="https://soundcloud.com/welcome-omocloud/2minds-prod-remn?si=f811722a1e164f7e860ab60507a97375&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                href="https://soundcloud.com/welcome-omocloud/phases"
                 target="_blank"
                 class="button"
                 aria-label="Soundcloud"
@@ -53,7 +51,7 @@ function Home() {
                 <i class="fa-brands fa-soundcloud"></i>
               </a>
               <a
-                href="https://www.youtube.com/watch?v=XKGE6YnDqKI&ab_channel=OMOcloud."
+                href="https://www.youtube.com/watch?v=ik4pDfveVn0&ab_channel=OMOcloud."
                 target="_blank"
                 class="button"
                 aria-label="YouTube"
