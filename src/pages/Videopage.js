@@ -82,7 +82,7 @@ function Home() {
             <div class="buttons extra-content-buttons">
               <p class="third-heading">still extra content</p>
               <a
-                href="https://www.tiktok.com/@saisfate"
+                href="https://www.twitch.tv/omoweatherman"
                 target="_blank"
                 class="button extra-content-button"
               >
