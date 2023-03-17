@@ -7,6 +7,7 @@ function Home() {
         <a
           href="https://www.instagram.com/omocloud/"
           target="_blank"
+          rel="noreferrer"
           class="header-link"
         >
           <img
@@ -37,6 +38,7 @@ function Home() {
               <a
                 href="https://open.spotify.com/track/2eBTlnsiozWMAHOnkQw0q2?si=8ac5dbebfdc24a36"
                 target="_blank"
+                rel="noreferrer"
                 class="button listen-button"
                 aria-label="Spotify"
               >
@@ -45,6 +47,7 @@ function Home() {
               <a
                 href="https://soundcloud.com/welcome-omocloud/toni-sai-on-my-feet-prod-remn"
                 target="_blank"
+                rel="noreferrer"
                 class="button listen-button"
                 aria-label="Soundcloud"
               >
@@ -53,6 +56,7 @@ function Home() {
               <a
                 href="https://www.youtube.com/watch?v=MSuIMOs5HXo&ab_channel=OMOcloud."
                 target="_blank"
+                rel="noreferrer"
                 class="button listen-button"
                 aria-label="YouTube"
               >
@@ -61,6 +65,7 @@ function Home() {
               <a
                 href="https://www.instagram.com/omocloud/"
                 target="_blank"
+                rel="noreferrer"
                 class="button listen-button"
                 aria-label="Instagram"
               >
@@ -84,6 +89,7 @@ function Home() {
               <a
                 href="https://www.twitch.tv/omoweatherman"
                 target="_blank"
+                rel="noreferrer"
                 class="button extra-content-button"
               >
                 <i class="fa-brands fa-twitch"></i>
@@ -92,6 +98,7 @@ function Home() {
               <a
                 href="https://www.tiktok.com/@saisfate"
                 target="_blank"
+                rel="noreferrer"
                 class="button extra-content-button"
               >
                 <i class="fa-brands fa-tiktok"></i>
@@ -100,6 +107,7 @@ function Home() {
               <a
                 href="https://www.tiktok.com/@omotoni101"
                 target="_blank"
+                rel="noreferrer"
                 class="button extra-content-button"
               >
                 <i class="fa-brands fa-tiktok"></i>
@@ -114,6 +122,7 @@ function Home() {
           class="footer-link"
           href="https://www.instagram.com/omocloud/"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             class="footer-logo"
