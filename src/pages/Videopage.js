@@ -102,7 +102,7 @@ function Home() {
                 class="button extra-content-button"
               >
                 <i class="fa-brands fa-tiktok"></i>
-                <p>SAI tiktok</p>
+                <p>SAI TikTok</p>
               </a>
               <a
                 href="https://www.tiktok.com/@omotoni101"
@@ -111,7 +111,7 @@ function Home() {
                 class="button extra-content-button"
               >
                 <i class="fa-brands fa-tiktok"></i>
-                <p>TONI tiktok</p>
+                <p>TONI TikTok</p>
               </a>
             </div>
           </section>
