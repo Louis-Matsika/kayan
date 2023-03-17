@@ -85,7 +85,7 @@ function Home() {
               ></iframe>
             </div>
             <div class="buttons extra-content-buttons">
-              <p class="third-heading">still extra content</p>
+              <p class="third-heading">Check out OMO on these platforms</p>
               <a
                 href="https://www.twitch.tv/omoweatherman"
                 target="_blank"
