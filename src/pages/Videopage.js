@@ -86,21 +86,24 @@ function Home() {
                 target="_blank"
                 class="button extra-content-button"
               >
-                SAI Twitch
+                <i class="fa-brands fa-twitch"></i>
+                <p>SAI Twitch</p>
               </a>
               <a
                 href="https://www.tiktok.com/@saisfate"
                 target="_blank"
                 class="button extra-content-button"
               >
-                SAI tiktok
+                <i class="fa-brands fa-tiktok"></i>
+                <p>SAI tiktok</p>
               </a>
               <a
                 href="https://www.tiktok.com/@omotoni101"
                 target="_blank"
                 class="button extra-content-button"
               >
-                TONI tiktok
+                <i class="fa-brands fa-tiktok"></i>
+                <p>TONI tiktok</p>
               </a>
             </div>
           </section>
