@@ -192,9 +192,8 @@ iframe {
 .extra-content-button:visited {
   color: #fff;
   background: linear-gradient(to right bottom, #c50f0f 10%, #f01b1b 100%);
-  /* width: 25rem; */
-  padding: 0.6rem 4.8rem;
-  border: 5px solid transparent;
+  width: 25rem;
+  padding: 1.1rem 5.3rem;
   display: grid;
   grid-template-columns: 1fr 5fr;
   gap: 1.2rem;
