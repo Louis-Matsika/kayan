@@ -122,6 +122,7 @@ iframe {
 	width: 51rem;
 	border: 5px solid var(--text-color);
 	border-radius: 8px;
+	background-color: var(--text-color);
 }
 
 /* TITLE SECTION */
