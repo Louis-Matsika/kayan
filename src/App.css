@@ -61,7 +61,7 @@ body {
 /* HEADER */
 .header {
 	padding: 1.2rem 0 1rem 0;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #d4d4d4;
 	text-align: center;
 }
 
@@ -127,7 +127,7 @@ iframe {
 	width: fit-content;
 	margin: 0 auto;
 	gap: 1.2rem;
-	border-top: 1px solid #333;
+	border-top: 1px solid #d4d4d4;
 	padding: 2.4rem 0;
 }
 
@@ -173,7 +173,7 @@ iframe {
 	flex-direction: column;
 	margin: 0 auto;
 	gap: 1.2rem;
-	border-top: 1px solid #333;
+	border-top: 1px solid #d4d4d4;
 	width: fit-content;
 	padding-top: 2.4rem;
 	align-items: center;
@@ -217,7 +217,7 @@ iframe {
 
 /* FOOTER */
 .footer {
-	border-top: 1px solid #333;
+	border-top: 1px solid #d4d4d4;
 	text-align: center;
 	margin: 0 auto;
 	padding: 4.8rem 0;
