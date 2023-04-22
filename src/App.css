@@ -199,10 +199,11 @@ iframe {
 	color: #fff;
 	background: linear-gradient(to right bottom, #c50f0f 10%, #f01b1b 100%);
 	width: 25rem;
-	padding: 1.1rem 5.3rem;
+	padding: 1.1rem 2rem;
 	display: grid;
-	grid-template-columns: 1fr 5fr;
-	gap: 1.2rem;
+	grid-template-columns: 3fr 7fr;
+	/* display: flex; */
+	gap: 2rem;
 }
 
 .extra-content-button:hover,
@@ -213,6 +214,14 @@ iframe {
 
 .button:focus {
 	border: 5px solid #f16c6c;
+}
+
+.section-extra-content .fa-brands {
+	text-align: right;
+}
+
+.extra-content-button p {
+	text-align: left;
 }
 
 /* FOOTER */
