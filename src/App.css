@@ -13,7 +13,25 @@ body {
 	font-size: 1.8rem;
 	font-family: "Rubik", sans-serif;
 	color: #000;
-	background-color: #f3f3f3;
+	background-color: var(--background-color);
+}
+
+:root {
+	--text-color: #000;
+	--section-border-color: #d3d3d3;
+	--background-color: #f3f3f3;
+	--artist-color: #000;
+	/* --text-color: #fff;
+	--section-border-color: #333;
+	--background-color: #000;
+	--artist-color: #777; */
+}
+
+.dark-theme {
+	--text-color: #fff;
+	--section-border-color: #333;
+	--background-color: #000;
+	--artist-color: #777;
 }
 
 .main-content {
@@ -52,7 +70,7 @@ body {
 }
 
 .third-heading {
-	color: #000;
+	color: var(--artist-color);
 	font-weight: 500;
 	font-size: 1.2rem;
 	/* text-transform: uppercase; */
@@ -61,14 +79,19 @@ body {
 /* HEADER */
 .header {
 	padding: 1.2rem 0 1rem 0;
-	border-bottom: 1px solid #d4d4d4;
+	border-bottom: 1px solid var(--section-border-color);
 	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
 }
 
 .header-link {
 	width: 5rem;
 	display: inline-block;
 	border: 5px solid transparent;
+	grid-column-start: 2;
+	justify-self: center;
 }
 
 .header-link:focus {
@@ -77,6 +100,14 @@ body {
 
 .header-logo {
 	width: 100%;
+}
+
+#colouricon {
+	width: 3rem;
+	border: 5px solid transparent;
+	cursor: pointer;
+	justify-self: end;
+	margin-right: 20px;
 }
 
 /* PICTURE SECTION */
@@ -89,7 +120,7 @@ body {
 iframe {
 	aspect-ratio: 16 / 9;
 	width: 50rem;
-	border: 5px solid #000;
+	border: 5px solid var(--text-color);
 	border-radius: 8px;
 }
 
@@ -99,7 +130,7 @@ iframe {
 	display: flex;
 	flex-direction: column;
 	gap: 0.6rem;
-	color: #fff;
+	color: var(--text-color);
 }
 
 .title {
@@ -112,7 +143,7 @@ iframe {
 
 .artist-name,
 .artists {
-	color: #000;
+	color: var(--artist-color);
 }
 
 .artists {
@@ -127,7 +158,7 @@ iframe {
 	width: fit-content;
 	margin: 0 auto;
 	gap: 1.2rem;
-	border-top: 1px solid #d4d4d4;
+	border-top: 1px solid var(--section-border-color);
 	padding: 2.4rem 0;
 }
 
@@ -139,7 +170,7 @@ iframe {
 .listen-button,
 .listen-button:link,
 .listen-button:visited {
-	color: #000;
+	color: var(--text-color);
 	font-size: 3.5rem;
 	border: 5px solid transparent;
 }
@@ -158,7 +189,7 @@ iframe {
 	display: block;
 	font-size: 1.2rem;
 	font-weight: 500;
-	color: #000;
+	color: var(--text-color);
 	text-transform: uppercase;
 	letter-spacing: 0.75px;
 }
@@ -173,7 +204,7 @@ iframe {
 	flex-direction: column;
 	margin: 0 auto;
 	gap: 1.2rem;
-	border-top: 1px solid #d4d4d4;
+	border-top: 1px solid var(--section-border-color);
 	width: fit-content;
 	padding-top: 2.4rem;
 	align-items: center;
@@ -226,7 +257,7 @@ iframe {
 
 /* FOOTER */
 .footer {
-	border-top: 1px solid #d4d4d4;
+	border-top: 1px solid var(--section-border-color);
 	text-align: center;
 	margin: 0 auto;
 	padding: 4.8rem 0;

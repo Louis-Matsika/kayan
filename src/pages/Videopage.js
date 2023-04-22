@@ -14,8 +14,14 @@ function Home() {
 						src="site-content/omologo.png"
 						alt="OMO logo"
 						class="header-logo"
+						id="header-omo-logo"
 					></img>
 				</a>
+				<img
+					src="site-content/moon.svg"
+					alt="Toggle dark mode"
+					id="colouricon"
+				></img>
 			</header>
 			<main class="main-content">
 				<div class="main-column">
@@ -128,11 +134,29 @@ function Home() {
 						class="footer-logo"
 						src="site-content/omologo.png"
 						alt="OMO logo"
+						id="footer-omo-logo"
 					></img>
 				</a>
 			</footer>
 		</div>
 	);
 }
+
+const colouricon = document.getElementById("colouricon");
+const headerlogo = document.getElementById("header-omo-logo");
+const footerlogo = document.getElementById("footer-omo-logo");
+
+colouricon.onclick = function () {
+	document.body.classList.toggle("dark-theme");
+	if (document.body.classList.contains("dark-theme")) {
+		colouricon.src = "site-content/sun-fill.svg";
+		headerlogo.src = "site-content/omologo-white.png";
+		footerlogo.src = "site-content/omologo-white.png";
+	} else {
+		colouricon.src = "site-content/moon.svg";
+		headerlogo.src = "site-content/omologo.png";
+		footerlogo.src = "site-content/omologo.png";
+	}
+};
 
 export default Home;
