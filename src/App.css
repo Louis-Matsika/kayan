@@ -119,7 +119,7 @@ body {
 
 iframe {
 	aspect-ratio: 16 / 9;
-	width: 50rem;
+	width: 51rem;
 	border: 5px solid var(--text-color);
 	border-radius: 8px;
 }
