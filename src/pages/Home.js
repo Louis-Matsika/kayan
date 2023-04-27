@@ -26,23 +26,28 @@ function Home() {
 			<main class="main-content">
 				<div class="main-column">
 					<section class="section-logo">
-						<iframe
+						{/* <iframe
 							src="https://www.youtube.com/embed/MSuIMOs5HXo"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen
-						></iframe>
+						></iframe> */}
+						<img
+							src="site-content/welcome.png"
+							class="main-pic"
+							alt="welcome-omo.cloud cover art"
+						></img>
 					</section>
 					<section class="section-title">
-						<h1 class="song-title title">On my feet</h1>
-						<p class="artists title">omo Toni</p>
+						<h1 class="song-title title">welcome.</h1>
+						<p class="artists title">SAI's fate., omo Toni, omo Xylet</p>
 					</section>
 					<section class="section-music">
 						<h2 class="subheading">listen on</h2>
 						<div class="listen-on-buttons">
 							<a
-								href="https://open.spotify.com/track/2eBTlnsiozWMAHOnkQw0q2?si=8ac5dbebfdc24a36"
+								href="https://open.spotify.com/track/4xWVodFSyziy02Hc8blmf2?si=f7f2c3d58d554468"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -51,7 +56,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcome-omocloud/toni-sai-on-my-feet-prod-remn"
+								href="https://soundcloud.com/welcome-omocloud/welcome-omocloud"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -60,7 +65,7 @@ function Home() {
 								<i class="fa-brands fa-soundcloud"></i>
 							</a>
 							<a
-								href="https://www.youtube.com/watch?v=MSuIMOs5HXo&ab_channel=OMOcloud."
+								href="https://www.youtube.com/watch?v=YCiTG-dtdKo&list=OLAK5uy_mkEsTHIA9v5lRvPfX5mN6knFUHSw1CSTo&ab_channel=SAI%27sfate.-Topic"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
