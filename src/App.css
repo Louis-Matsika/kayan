@@ -112,9 +112,10 @@ body {
 
 /* PICTURE SECTION */
 .main-pic {
-	max-width: 20rem;
-	/* border: 0.5rem solid #333; */
+	/* max-width: 20rem; */
+	max-width: 30rem;
 	border-radius: 8px;
+	border: 5px solid var(--text-color);
 }
 
 iframe {
