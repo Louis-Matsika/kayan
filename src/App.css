@@ -18,6 +18,7 @@ body {
 
 :root {
 	--text-color: #000;
+	--secondary-text-color: #444;
 	--section-border-color: #d3d3d3;
 	--background-color: #f3f3f3;
 	--artist-color: #000;
@@ -29,6 +30,7 @@ body {
 
 .dark-theme {
 	--text-color: #fff;
+	--secondary-text-color: #fff;
 	--section-border-color: #333;
 	--background-color: #000;
 	--artist-color: #777;
@@ -70,7 +72,7 @@ body {
 }
 
 .third-heading {
-	color: var(--artist-color);
+	color: var(--secondary-text-color);
 	font-weight: 500;
 	font-size: 1.2rem;
 	/* text-transform: uppercase; */
@@ -191,7 +193,7 @@ iframe {
 	display: block;
 	font-size: 1.2rem;
 	font-weight: 500;
-	color: var(--text-color);
+	color: var(--secondary-text-color);
 	text-transform: uppercase;
 	letter-spacing: 0.75px;
 }
