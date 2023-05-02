@@ -45,7 +45,7 @@ function Home() {
 					</section>
 					<section class="section-music">
 						<h2 class="subheading">listen on</h2>
-						<div class="listen-on-buttons">
+						<div class="listen-on-icon-buttons">
 							<a
 								href="https://open.spotify.com/track/4xWVodFSyziy02Hc8blmf2?si=f7f2c3d58d554468"
 								target="_blank"
@@ -83,6 +83,26 @@ function Home() {
 								<i class="fa-brands fa-instagram"></i>
 							</a>
 						</div>
+						<div class="listen-on-full-buttons full-text-buttons">
+							<a
+								href="https://www.youtube.com/@saisfate"
+								target="_blank"
+								rel="noreferrer"
+								class="button extra-content-button"
+							>
+								<i class="fa-brands fa-youtube"></i>
+								<p>SAI YouTube</p>
+							</a>
+							<a
+								href="https://www.youtube.com/@omoToni01"
+								target="_blank"
+								rel="noreferrer"
+								class="button extra-content-button"
+							>
+								<i class="fa-brands fa-youtube"></i>
+								<p>Toni YouTube</p>
+							</a>
+						</div>
 					</section>
 					<section class="section-extra-content">
 						<h2 class="subheading">extra content</h2>
@@ -95,7 +115,7 @@ function Home() {
 								allowfullscreen
 							></iframe>
 						</div>
-						<div class="buttons extra-content-buttons">
+						<div class="buttons extra-content-buttons full-text-buttons">
 							<p class="third-heading">Check out OMO on these platforms</p>
 							<a
 								href="https://www.youtube.com/@omoweatherman"
