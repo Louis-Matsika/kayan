@@ -109,7 +109,7 @@ function Home() {
 						<h2 class="subheading">extra content</h2>
 						<div class="extra-content-embed">
 							<iframe
-								src="https://www.youtube.com/embed/cbcR7_Arp0A"
+								src="https://www.youtube.com/embed/vH3aw9RxqFY"
 								title="YouTube video player"
 								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
