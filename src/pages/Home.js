@@ -26,28 +26,29 @@ function Home() {
 			<main class="main-content">
 				<div class="main-column">
 					<section class="section-logo">
-						{/* <iframe
-							src="https://www.youtube.com/embed/MSuIMOs5HXo"
+						<iframe
+							src="https://www.youtube.com/embed/AOi4j4fou4g"
 							title="YouTube video player"
 							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
-						></iframe> */}
-						<img
+						></iframe>
+
+						{/* <img
 							src="site-content/welcome.png"
 							class="main-pic"
 							alt="welcome-omo.cloud cover art"
-						></img>
+						></img> */}
 					</section>
 					<section class="section-title">
-						<h1 class="song-title title">welcome.</h1>
-						<p class="artists title">SAI's fate., omo Toni, omo Xylet</p>
+						<h1 class="song-title title">off white.</h1>
+						<p class="artists title">SAI's fate.</p>
 					</section>
 					<section class="section-music">
 						<h2 class="subheading">listen on</h2>
-						<div class="listen-on-buttons">
+						<div class="listen-on-icon-buttons">
 							<a
-								href="https://open.spotify.com/track/4xWVodFSyziy02Hc8blmf2?si=f7f2c3d58d554468"
+								href="https://open.spotify.com/track/4I7LDeeIW9Js1qJm4dY77t?si=766b354fbe0443cf"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -56,7 +57,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcome-omocloud/welcome-omocloud"
+								href="https://soundcloud.com/saisfate"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -65,7 +66,7 @@ function Home() {
 								<i class="fa-brands fa-soundcloud"></i>
 							</a>
 							<a
-								href="https://www.youtube.com/watch?v=YCiTG-dtdKo&list=OLAK5uy_mkEsTHIA9v5lRvPfX5mN6knFUHSw1CSTo&ab_channel=SAI%27sfate.-Topic"
+								href="https://www.youtube.com/watch?v=AOi4j4fou4g&ab_channel=SAI%27sfate."
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -83,19 +84,39 @@ function Home() {
 								<i class="fa-brands fa-instagram"></i>
 							</a>
 						</div>
+						<div class="listen-on-full-buttons full-text-buttons">
+							<a
+								href="https://www.youtube.com/@saisfate"
+								target="_blank"
+								rel="noreferrer"
+								class="button extra-content-button"
+							>
+								<i class="fa-brands fa-youtube"></i>
+								<p>SAI YouTube</p>
+							</a>
+							<a
+								href="https://www.youtube.com/@omoToni01"
+								target="_blank"
+								rel="noreferrer"
+								class="button extra-content-button"
+							>
+								<i class="fa-brands fa-youtube"></i>
+								<p>Toni YouTube</p>
+							</a>
+						</div>
 					</section>
 					<section class="section-extra-content">
 						<h2 class="subheading">extra content</h2>
 						<div class="extra-content-embed">
 							<iframe
-								src="https://www.youtube.com/embed/cbcR7_Arp0A"
+								src="https://www.youtube.com/embed/vH3aw9RxqFY"
 								title="YouTube video player"
 								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 								allowfullscreen
 							></iframe>
 						</div>
-						<div class="buttons extra-content-buttons">
+						<div class="buttons extra-content-buttons full-text-buttons">
 							<p class="third-heading">Check out OMO on these platforms</p>
 							<a
 								href="https://www.youtube.com/@omoweatherman"
