@@ -1,6 +1,31 @@
-import React from "react";
+import { React, useState } from "react";
+import db from "../firebase-config";
+// import firebase from "firebase/app";
+// import firebase from "firebase";
+import firebase from "firebase/compat/app";
 
 function NoMusic() {
+	const [input, setInput] = useState("");
+	const [message, setMessage] = useState("");
+	const inputHandler = (e) => {
+		setInput(e.target.value);
+	};
+	const submitHandler = (e) => {
+		e.preventDefault();
+		if (input) {
+			console.log(input);
+			// add to firebase
+			db.collection("emails").add({
+				email: input,
+				time: firebase.firestore.FieldValue.serverTimestamp(),
+			});
+			setInput("");
+			setMessage("Thank you for subscribing");
+			setTimeout(() => {
+				setMessage("");
+			}, 3000);
+		}
+	};
 	return (
 		<div>
 			<header class="header">
@@ -60,6 +85,13 @@ function NoMusic() {
 								<p>YouTube</p>
 							</a>
 						</div>
+					</section>
+					<section class="section-newsletter">
+						<form onSubmit={submitHandler}>
+							<input type="email" onChange={inputHandler} value={input}></input>
+							<button type="submit">Submit</button>
+						</form>
+						<div>{message}</div>
 					</section>
 				</div>
 			</main>
