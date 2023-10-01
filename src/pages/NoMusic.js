@@ -4,19 +4,13 @@ function NoMusic() {
 	return (
 		<div>
 			<header class="header">
-				<a
-					href="https://www.instagram.com/omocloud/"
-					target="_blank"
-					rel="noreferrer"
-					class="header-link"
-				>
+				<div class="header-logo">
 					<img
 						src="site-content/omologo.png"
 						alt="OMO logo"
-						class="header-logo"
 						id="header-omo-logo"
 					></img>
-				</a>
+				</div>
 				{/* <img
 					src="site-content/moon.svg"
 					alt="Toggle dark mode"
@@ -77,18 +71,20 @@ function NoMusic() {
 					rel="noreferrer"
 				>
 				</a> */}
-				<img
-					class="footer-logo"
-					src="site-content/omologo.png"
-					alt="OMO logo"
-					id="footer-omo-logo"
-				></img>
-				<img
-					class="footer-logo"
-					src="site-content/weatherstation_logo.png"
-					alt="OMO logo"
-					id="footer-omo-logo"
-				></img>
+				<div class="footer-logo">
+					<img
+						src="site-content/omologo.png"
+						alt="OMO logo"
+						id="footer-omo-logo"
+					></img>
+				</div>
+				<div class="footer-logo">
+					<img
+						src="site-content/weatherstation_logo.png"
+						alt="OMO logo"
+						id="footer-weatherstation-logo"
+					></img>
+				</div>
 			</footer>
 		</div>
 	);
