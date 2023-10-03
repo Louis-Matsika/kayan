@@ -1,12 +1,13 @@
 import { React, useState } from "react";
+import { collection, addDoc } from "firebase/firestore";
 import db from "../firebase-config";
 // import firebase from "firebase/app";
 // import firebase from "firebase";
-import firebase from "firebase/compat/app";
+// import firebase from "firebase/compat/app";
 
 function NoMusic() {
 	const [input, setInput] = useState("");
-	const [message, setMessage] = useState("");
+	// const [message, setMessage] = useState("");
 	const inputHandler = (e) => {
 		setInput(e.target.value);
 	};
@@ -14,16 +15,18 @@ function NoMusic() {
 		e.preventDefault();
 		if (input) {
 			console.log(input);
-			// add to firebase
-			db.collection("emails").add({
+			// add input to firebase database
+			addDoc(collection(db, "emails"), {
 				email: input,
-				time: firebase.firestore.FieldValue.serverTimestamp(),
 			});
-			setInput("");
-			setMessage("Thank you for subscribing");
-			setTimeout(() => {
-				setMessage("");
-			}, 3000);
+			// reset input field once submitted
+			document.getElementById("email").value = "";
+			// send message when form is submitted
+			// setInput("");
+			// setMessage("Thank you for subscribing");
+			// setTimeout(() => {
+			// 	setMessage("");
+			// }, 3000);
 		}
 	};
 	return (
@@ -61,7 +64,7 @@ function NoMusic() {
 					</section>
 					<section class="section-title">
 						<h1 class="song-title title">UNDERWORLD ep.1</h1>
-						<p class="artists title">remn.</p>
+						<p class="artists title">OMO WeatherStation</p>
 					</section>
 					<section class="section-music">
 						<h2 class="subheading">find us</h2>
@@ -87,11 +90,25 @@ function NoMusic() {
 						</div>
 					</section>
 					<section class="section-newsletter">
-						<form onSubmit={submitHandler}>
-							<input type="email" onChange={inputHandler} value={input}></input>
-							<button type="submit">Submit</button>
+						<form onSubmit={submitHandler} id="form">
+							<label for="email" id="input-label" class="subheading">
+								Sign up for our newsletter
+							</label>
+
+							<div id="input-container">
+								<input
+									type="email"
+									id="email"
+									onChange={inputHandler}
+									value={input}
+									placeholder="Enter email address"
+								></input>
+								<button type="submit" id="submit-button">
+									Sign up
+								</button>
+							</div>
 						</form>
-						<div>{message}</div>
+						{/* <div>{message}</div> */}
 					</section>
 				</div>
 			</main>

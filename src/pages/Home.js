@@ -170,14 +170,16 @@ function Home() {
 
 // const colouricon = document.getElementById("colouricon");
 // const headerlogo = document.getElementById("header-omo-logo");
-// const footerlogo = document.getElementById("footer-omo-logo");
+// const footeromologo = document.getElementById("footer-omo-logo");
+// const footerweatherstationlogo = document.getElementById("footer-weatherstation-logo");
 
 // colouricon.onclick = function () {
 // 	document.body.classList.toggle("dark-theme");
 // 	if (document.body.classList.contains("dark-theme")) {
 // 		colouricon.src = "site-content/sun-fill.svg";
 // 		headerlogo.src = "site-content/omologo-white.png";
-// 		footerlogo.src = "site-content/omologo-white.png";
+// 		footeromologo.src = "site-content/omologo-white.png";
+// 		footerweatherstationlogo.src = "site-content/weatherstation_logo-white.png";
 // 	} else {
 // 		colouricon.src = "site-content/moon.svg";
 // 		headerlogo.src = "site-content/omologo.png";
