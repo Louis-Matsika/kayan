@@ -295,6 +295,9 @@ form {
 	outline: 5px solid #c50f0f;
 	width: fit-content;
 	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
 }
 
 /* #email:focus #input-container {
@@ -311,7 +314,8 @@ form {
 	border: none;
 }
 
-#email {
+#email,
+#submit-button {
 	font-family: inherit;
 }
 
