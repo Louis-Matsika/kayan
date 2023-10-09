@@ -1,6 +1,8 @@
 import { React, useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import db from "../firebase-config";
+// import firebase from "firebase/compat/app";
+// const { FieldValue } = require("firebase-admin/firestore");
 
 function Home() {
 	const [input, setInput] = useState("");
@@ -15,6 +17,7 @@ function Home() {
 			// add input to firebase database
 			addDoc(collection(db, "emails"), {
 				email: input,
+				// time: firebase.firestore.FieldValue.serverTimestamp(),
 			});
 			// reset input field once submitted
 			document.getElementById("email").value = "";
@@ -51,7 +54,7 @@ function Home() {
 				<div class="main-column">
 					<section class="section-logo">
 						<iframe
-							src="https://www.youtube.com/embed/5jNKsFCz0rk?si=rZ3k8k6f1wMBOUuH"
+							src="https://www.youtube.com/embed/3j5s0mpLdIA?si=im1gpA3pn2xJd8we"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -72,7 +75,7 @@ function Home() {
 						<h2 class="subheading">listen on</h2>
 						<div class="listen-on-icon-buttons">
 							<a
-								href="https://www.youtube.com/watch?v=AOi4j4fou4g&ab_channel=SAI%27sfate."
+								href="https://www.youtube.com/watch?v=3j5s0mpLdIA"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -81,7 +84,7 @@ function Home() {
 								<i class="fa-brands fa-youtube"></i>
 							</a>
 							<a
-								href="https://open.spotify.com/track/4I7LDeeIW9Js1qJm4dY77t?si=766b354fbe0443cf"
+								href="https://open.spotify.com/track/442NS0Vs1QAD98t7iJJ9EP?si=d33d8a1d67b44c62"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -90,7 +93,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcomeomocloud"
+								href="https://soundcloud.com/welcomeomocloud/sai-chance?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 								target="_blank"
 								rel="noreferrer"
 								class="button listen-button"
@@ -133,7 +136,7 @@ function Home() {
 						<h2 class="subheading">extra content</h2>
 						<div class="extra-content-embed">
 							<iframe
-								src="https://www.youtube.com/embed/5jNKsFCz0rk?si=rZ3k8k6f1wMBOUuH"
+								src="https://www.youtube.com/embed/B25XB8v3SPE?si=GsdZ58D4dMe9QLn3"
 								title="YouTube video player"
 								frameborder="0"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
