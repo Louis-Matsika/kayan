@@ -31,28 +31,23 @@ function Home() {
 	};
 	return (
 		<div>
-			<header class="header">
+			<header>
 				<a
 					href="https://www.youtube.com/@omocloud."
 					target="_blank"
 					rel="noreferrer"
-					class="header-logo"
+					class="header-logo-wrapper"
 				>
 					<img
 						src="site-content/omologo.png"
 						alt="OMO logo"
-						id="header-omo-logo"
-					></img>
+						class="header-logo"
+					/>
 				</a>
-				{/* <img
-					src="site-content/moon.svg"
-					alt="Toggle dark mode"
-					id="colouricon"
-				></img> */}
 			</header>
-			<main class="main-content">
-				<div class="main-column">
-					<section class="section-logo">
+			<main>
+				<section class="section--main-content">
+					<div class="subsection--main-release">
 						<iframe
 							src="https://www.youtube.com/embed/3j5s0mpLdIA?si=im1gpA3pn2xJd8we"
 							title="YouTube video player"
@@ -60,26 +55,18 @@ function Home() {
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
 						></iframe>
-
-						{/* <img
-							src="site-content/welcome.png"
-							class="main-pic"
-							alt="welcome-omo.cloud cover art"
-						></img> */}
-					</section>
-					<section class="section-title">
-						<h1 class="song-title title">chance.</h1>
-						<p class="artists title">SAI's fate.</p>
-					</section>
-					<section class="section-music">
+						<h1 id="release-title">chance.</h1>
+						<p id="creator-title">SAI's fate.</p>
+					</div>
+					<div class="subsection--listen-on">
 						<h2 class="subheading">listen on</h2>
-						<div class="listen-on-icon-buttons">
+						<div class="logo-button-container">
 							<a
 								href="https://www.youtube.com/watch?v=3j5s0mpLdIA"
 								target="_blank"
 								rel="noreferrer"
-								class="button listen-button"
 								aria-label="YouTube"
+								class="logo-button"
 							>
 								<i class="fa-brands fa-youtube"></i>
 							</a>
@@ -87,8 +74,8 @@ function Home() {
 								href="https://open.spotify.com/track/442NS0Vs1QAD98t7iJJ9EP?si=d33d8a1d67b44c62"
 								target="_blank"
 								rel="noreferrer"
-								class="button listen-button"
 								aria-label="Spotify"
+								class="logo-button"
 							>
 								<i class="fa-brands fa-spotify"></i>
 							</a>
@@ -96,122 +83,119 @@ function Home() {
 								href="https://soundcloud.com/welcomeomocloud/sai-chance?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 								target="_blank"
 								rel="noreferrer"
-								class="button listen-button"
 								aria-label="Soundcloud"
+								class="logo-button"
 							>
 								<i class="fa-brands fa-soundcloud"></i>
 							</a>
 						</div>
-						<div class="listen-on-full-buttons full-text-buttons">
+						<div class="text-button-container">
 							<a
 								href="https://www.instagram.com/omosaisfate/"
 								target="_blank"
 								rel="noreferrer"
-								class="button extra-content-button button-short"
+								class="text-button"
 							>
-								<i class="fa-brands fa-instagram short-fa-logo"></i>
+								<i class="fa-brands fa-instagram"></i>
 								<p>SAI</p>
 							</a>
 							<a
 								href="https://www.snapchat.com/add/omo541"
 								target="_blank"
 								rel="noreferrer"
-								class="button extra-content-button button-short"
+								class="text-button"
 							>
-								<i class="fa-brands fa-snapchat short-fa-logo"></i>
+								<i class="fa-brands fa-snapchat"></i>
 								<p>SAI</p>
 							</a>
 							<a
 								href="https://www.instagram.com/omotoni01"
 								target="_blank"
 								rel="noreferrer"
-								class="button extra-content-button button-short"
+								class="text-button"
 							>
-								<i class="fa-brands fa-instagram short-fa-logo"></i>
+								<i class="fa-brands fa-instagram"></i>
 								<p>Toni</p>
 							</a>
 						</div>
-					</section>
-					<section class="section-extra-content">
-						<h2 class="subheading">extra content</h2>
-						<div class="extra-content-embed">
-							<iframe
-								src="https://www.youtube.com/embed/B25XB8v3SPE?si=GsdZ58D4dMe9QLn3"
-								title="YouTube video player"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowfullscreen
-							></iframe>
-						</div>
-						<div class="buttons extra-content-buttons full-text-buttons border-bottom">
-							<p class="third-heading">Check out OMO on these platforms</p>
-							<a
-								href="https://www.youtube.com/@omoweatherstation"
-								target="_blank"
-								rel="noreferrer"
-								class="button extra-content-button"
-							>
-								<i class="fa-brands fa-youtube"></i>
-								<p>2nd channel</p>
-							</a>
-							<a
-								href="https://www.tiktok.com/@omocloud"
-								target="_blank"
-								rel="noreferrer"
-								class="button extra-content-button"
-							>
-								<i class="fa-brands fa-tiktok"></i>
-								<p>OMO TikTok</p>
-							</a>
-						</div>
-					</section>
-					<section class="section-newsletter">
-						<form onSubmit={submitHandler} id="form">
-							<label for="email" id="input-label" class="subheading">
-								Sign up for our newsletter
-							</label>
+					</div>
+				</section>
+				<section class="section--extra-content">
+					<h2 class="subheading">extra content</h2>
+					<iframe
+						src="https://www.youtube.com/embed/B25XB8v3SPE?si=GsdZ58D4dMe9QLn3"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+					<p class="extra-platforms-title">Check out OMO on these platforms</p>
+					<div class="text-button-container">
+						<a
+							href="https://www.youtube.com/@omoweatherstation"
+							target="_blank"
+							rel="noreferrer"
+							class="text-button"
+						>
+							<i class="fa-brands fa-youtube"></i>
+							<p>2nd channel</p>
+						</a>
+						<a
+							href="https://www.tiktok.com/@omocloud"
+							target="_blank"
+							rel="noreferrer"
+							class="text-button"
+						>
+							<i class="fa-brands fa-tiktok"></i>
+							<p>OMO TikTok</p>
+						</a>
+					</div>
+				</section>
+				<section class="section--newsletter">
+					<form id="newsletter-form">
+						<label for="email-input" id="input-label" class="subheading">
+							Sign up for our newsletter
+						</label>
 
-							<div id="input-container">
-								<input
-									type="email"
-									id="email"
-									onChange={inputHandler}
-									value={input}
-									placeholder="Enter email address"
-								></input>
-								<button type="submit" id="submit-button">
-									Sign up
-								</button>
-							</div>
-						</form>
-						{/* <div>{message}</div> */}
-					</section>
-				</div>
+						<div id="input-container">
+							<input
+								type="email"
+								id="email-input"
+								placeholder="Enter email address"
+							/>
+							<button type="submit" id="submit-button">
+								Sign up
+							</button>
+						</div>
+					</form>
+				</section>
 			</main>
-			<footer class="footer">
+			<footer>
 				<a
-					class="footer-logo"
 					href="https://www.youtube.com/@omocloud."
 					target="_blank"
 					rel="noreferrer"
+					class="footer-logo-wrapper footer-logo-wrapper--omo"
 				>
 					<img
 						src="site-content/omologo.png"
 						alt="OMO logo"
-						id="footer-omo-logo"
-					></img>
+						class="footer-logo"
+						id="footer-logo--omo"
+					/>
 				</a>
 				<a
-					class="footer-logo"
 					href="https://www.youtube.com/@omoweatherstation"
 					target="_blank"
 					rel="noreferrer"
+					class="footer-logo-wrapper footer-logo-wrapper--weatherstation"
 				>
 					<img
 						src="site-content/weatherstation_logo.png"
-						alt="OMO logo"
-						id="footer-weatherstation-logo"
-					></img>
+						alt="OMOweatherstation logo"
+						class="footer-logo"
+						id="footer-logo--weatherstation"
+					/>
 				</a>
 			</footer>
 		</div>
