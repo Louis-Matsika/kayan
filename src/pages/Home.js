@@ -20,7 +20,7 @@ function Home() {
 				// time: firebase.firestore.FieldValue.serverTimestamp(),
 			});
 			// reset input field once submitted
-			document.getElementById("email").value = "";
+			document.getElementById("email-input").value = "";
 			// send message when form is submitted
 			// setInput("");
 			// setMessage("Thank you for subscribing");
@@ -123,7 +123,7 @@ function Home() {
 				<section class="section--extra-content">
 					<h2 class="subheading">extra content</h2>
 					<iframe
-						src="https://www.youtube.com/embed/B25XB8v3SPE?si=GsdZ58D4dMe9QLn3"
+						src="https://www.youtube.com/embed/v7nbELMrXJ8?si=1KNqXitpL0h4vIZq"
 						title="YouTube video player"
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -152,7 +152,7 @@ function Home() {
 					</div>
 				</section>
 				<section class="section--newsletter">
-					<form id="newsletter-form">
+					<form onSubmit={submitHandler} id="newsletter-form">
 						<label for="email-input" id="input-label" class="subheading">
 							Sign up for our newsletter
 						</label>
@@ -161,6 +161,8 @@ function Home() {
 							<input
 								type="email"
 								id="email-input"
+								onChange={inputHandler}
+								value={input}
 								placeholder="Enter email address"
 							/>
 							<button type="submit" id="submit-button">
