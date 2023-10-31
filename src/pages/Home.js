@@ -48,21 +48,26 @@ function Home() {
 			<main>
 				<section class="section--main-content">
 					<div class="subsection--main-release">
-						<iframe
+						{/* <iframe
 							src="https://www.youtube.com/embed/3j5s0mpLdIA?si=im1gpA3pn2xJd8we"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
-						></iframe>
-						<h1 id="release-title">chance.</h1>
+						></iframe> */}
+						<img
+							src="site-content/saved.png"
+							class="music-cover"
+							alt="saved. song cover picture"
+						></img>
+						<h1 id="release-title">saved.</h1>
 						<p id="creator-title">SAI's fate.</p>
 					</div>
 					<div class="subsection--listen-on">
 						<h2 class="subheading">listen on</h2>
 						<div class="logo-button-container">
 							<a
-								href="https://www.youtube.com/watch?v=3j5s0mpLdIA"
+								href="https://www.youtube.com/watch?v=zvtWcrpP6ms"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="YouTube"
@@ -71,7 +76,7 @@ function Home() {
 								<i class="fa-brands fa-youtube"></i>
 							</a>
 							<a
-								href="https://open.spotify.com/track/442NS0Vs1QAD98t7iJJ9EP?si=d33d8a1d67b44c62"
+								href="https://open.spotify.com/track/5RkhRvRb02D5WZBZ1fVtbl?si=3af81b6e47464e18"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Spotify"
@@ -80,7 +85,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcomeomocloud/sai-chance?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+								href="https://soundcloud.com/welcomeomocloud/sais-fate-saved?si=67b6ba9e7f2849719c238e5ddf84f28e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Soundcloud"

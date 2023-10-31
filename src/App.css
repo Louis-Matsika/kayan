@@ -57,12 +57,16 @@ main {
 }
 
 /* ELEMENTS */
+.music-cover,
 iframe {
-	aspect-ratio: 16/9;
-	width: 51rem;
 	border: 5px solid var(--text-color);
 	border-radius: 8px;
 	background-color: var(--text-color);
+}
+
+iframe {
+	aspect-ratio: 16/9;
+	width: 51rem;
 }
 
 /* HEADINGS / TITLES */
@@ -158,6 +162,11 @@ footer {
 /***************/
 /* MAIN CONTENT */
 /***************/
+
+/* MAIN MEDIA */
+.music-cover {
+	width: 25.5rem;
+}
 
 /* TEXT / TITLES */
 #release-title {
