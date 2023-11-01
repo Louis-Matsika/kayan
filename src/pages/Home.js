@@ -48,18 +48,18 @@ function Home() {
 			<main>
 				<section class="section--main-content">
 					<div class="subsection--main-release">
-						{/* <iframe
-							src="https://www.youtube.com/embed/3j5s0mpLdIA?si=im1gpA3pn2xJd8we"
+						<iframe
+							src="https://www.youtube.com/embed/0W-VTfWL9cw?si=3QQ6UkT4As2UNytn"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
-						></iframe> */}
-						<img
+						></iframe>
+						{/* <img
 							src="site-content/saved.png"
 							class="music-cover"
 							alt="saved. song cover picture"
-						></img>
+						></img> */}
 						<h1 id="release-title">saved.</h1>
 						<p id="creator-title">SAI's fate.</p>
 					</div>
@@ -67,7 +67,7 @@ function Home() {
 						<h2 class="subheading">listen on</h2>
 						<div class="logo-button-container">
 							<a
-								href="https://www.youtube.com/watch?v=zvtWcrpP6ms"
+								href="https://youtu.be/0W-VTfWL9cw?si=wm_lXHfKYhkzN5FS"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="YouTube"
