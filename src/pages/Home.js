@@ -48,26 +48,26 @@ function Home() {
 			<main>
 				<section class="section--main-content">
 					<div class="subsection--main-release">
-						<iframe
+						{/* <iframe
 							src="https://www.youtube.com/embed/0W-VTfWL9cw?si=3QQ6UkT4As2UNytn"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
-						></iframe>
-						{/* <img
-							src="site-content/saved.png"
+						></iframe> */}
+						<img
+							src="site-content/psalm.png"
 							class="music-cover"
-							alt="saved. song cover picture"
-						></img> */}
-						<h1 id="release-title">saved.</h1>
+							alt="psalm. by SAI's Fate. cover art"
+						></img>
+						<h1 id="release-title">psalm.</h1>
 						<p id="creator-title">SAI's fate.</p>
 					</div>
 					<div class="subsection--listen-on">
 						<h2 class="subheading">listen on</h2>
 						<div class="logo-button-container">
 							<a
-								href="https://youtu.be/0W-VTfWL9cw?si=wm_lXHfKYhkzN5FS"
+								href="https://www.youtube.com/watch?v=5WGa60JYq2g"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="YouTube"
@@ -76,7 +76,7 @@ function Home() {
 								<i class="fa-brands fa-youtube"></i>
 							</a>
 							<a
-								href="https://open.spotify.com/track/5RkhRvRb02D5WZBZ1fVtbl?si=3af81b6e47464e18"
+								href="https://open.spotify.com/track/4Fi9vGd2Qnropjt6YnEt44?si=995a4fe3cf6547c8"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Spotify"
@@ -85,7 +85,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcomeomocloud/sais-fate-saved?si=67b6ba9e7f2849719c238e5ddf84f28e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+								href="https://soundcloud.com/welcomeomocloud/sais-fate-psalm"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Soundcloud"
