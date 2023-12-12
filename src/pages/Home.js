@@ -146,13 +146,13 @@ function Home() {
 							<p>2nd channel</p>
 						</a>
 						<a
-							href="https://www.tiktok.com/@omocloud"
+							href="https://www.tiktok.com/@saisfate"
 							target="_blank"
 							rel="noreferrer"
 							class="text-button"
 						>
 							<i class="fa-brands fa-tiktok"></i>
-							<p>OMO TikTok</p>
+							<p>SAI's TikTok</p>
 						</a>
 					</div>
 				</section>
