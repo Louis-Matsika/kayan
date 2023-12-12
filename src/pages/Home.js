@@ -105,15 +105,6 @@ function Home() {
 								<p>SAI</p>
 							</a>
 							<a
-								href="https://www.snapchat.com/add/omo541"
-								target="_blank"
-								rel="noreferrer"
-								class="text-button"
-							>
-								<i class="fa-brands fa-snapchat"></i>
-								<p>SAI</p>
-							</a>
-							<a
 								href="https://www.instagram.com/omotoni01"
 								target="_blank"
 								rel="noreferrer"
@@ -121,6 +112,15 @@ function Home() {
 							>
 								<i class="fa-brands fa-instagram"></i>
 								<p>Toni</p>
+							</a>
+							<a
+								href="https://www.snapchat.com/add/omo541"
+								target="_blank"
+								rel="noreferrer"
+								class="text-button"
+							>
+								<i class="fa-brands fa-snapchat"></i>
+								<p>SAI</p>
 							</a>
 						</div>
 					</div>
