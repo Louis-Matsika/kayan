@@ -5,6 +5,13 @@ import db from "../firebase-config";
 // const { FieldValue } = require("firebase-admin/firestore");
 
 function Home() {
+	var today = new Date();
+	var date =
+		today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+	var time =
+		today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+	var dateTime = date + " " + time;
+
 	const [input, setInput] = useState("");
 	// const [message, setMessage] = useState("");
 	const inputHandler = (e) => {
@@ -17,6 +24,7 @@ function Home() {
 			// add input to firebase database
 			addDoc(collection(db, "emails"), {
 				email: input,
+				time: dateTime,
 				// time: firebase.firestore.FieldValue.serverTimestamp(),
 			});
 			// reset input field once submitted
@@ -48,26 +56,26 @@ function Home() {
 			<main>
 				<section class="section--main-content">
 					<div class="subsection--main-release">
-						{/* <iframe
-							src="https://www.youtube.com/embed/0W-VTfWL9cw?si=3QQ6UkT4As2UNytn"
+						<iframe
+							src="https://www.youtube.com/embed/m3JmGGpS978?si=_0DTfBu_GvZYfbKb"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
-						></iframe> */}
-						<img
+						></iframe>
+						{/* <img
 							src="site-content/psalm.png"
 							class="music-cover"
 							alt="psalm. by SAI's Fate. cover art"
-						></img>
-						<h1 id="release-title">psalm.</h1>
+						></img> */}
+						<h1 id="release-title">off white.</h1>
 						<p id="creator-title">SAI's fate.</p>
 					</div>
 					<div class="subsection--listen-on">
 						<h2 class="subheading">listen on</h2>
 						<div class="logo-button-container">
 							<a
-								href="https://www.youtube.com/watch?v=5WGa60JYq2g"
+								href="https://www.youtube.com/watch?v=m3JmGGpS978"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="YouTube"
@@ -76,7 +84,7 @@ function Home() {
 								<i class="fa-brands fa-youtube"></i>
 							</a>
 							<a
-								href="https://open.spotify.com/track/4Fi9vGd2Qnropjt6YnEt44?si=995a4fe3cf6547c8"
+								href="https://open.spotify.com/track/2ssAauuGBqYjSkmVmqSS90?si=611c872b42c940e5"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Spotify"
@@ -85,7 +93,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcomeomocloud/sais-fate-psalm"
+								href="https://soundcloud.com/welcomeomocloud/sais-fate-off-white-prod-remn-xylet"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Soundcloud"
