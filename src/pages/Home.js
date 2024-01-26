@@ -5,6 +5,13 @@ import db from "../firebase-config";
 // const { FieldValue } = require("firebase-admin/firestore");
 
 function Home() {
+	var today = new Date();
+	var date =
+		today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+	var time =
+		today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+	var dateTime = date + " " + time;
+
 	const [input, setInput] = useState("");
 	// const [message, setMessage] = useState("");
 	const inputHandler = (e) => {
@@ -17,10 +24,11 @@ function Home() {
 			// add input to firebase database
 			addDoc(collection(db, "emails"), {
 				email: input,
+				time: dateTime,
 				// time: firebase.firestore.FieldValue.serverTimestamp(),
 			});
 			// reset input field once submitted
-			document.getElementById("email").value = "";
+			document.getElementById("email-input").value = "";
 			// send message when form is submitted
 			// setInput("");
 			// setMessage("Thank you for subscribing");
@@ -49,20 +57,25 @@ function Home() {
 				<section class="section--main-content">
 					<div class="subsection--main-release">
 						<iframe
-							src="https://www.youtube.com/embed/3j5s0mpLdIA?si=im1gpA3pn2xJd8we"
+							src="https://www.youtube.com/embed/m3JmGGpS978?si=_0DTfBu_GvZYfbKb"
 							title="YouTube video player"
 							frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 							allowfullscreen
 						></iframe>
-						<h1 id="release-title">chance.</h1>
+						{/* <img
+							src="site-content/psalm.png"
+							class="music-cover"
+							alt="psalm. by SAI's Fate. cover art"
+						></img> */}
+						<h1 id="release-title">off white.</h1>
 						<p id="creator-title">SAI's fate.</p>
 					</div>
 					<div class="subsection--listen-on">
 						<h2 class="subheading">listen on</h2>
 						<div class="logo-button-container">
 							<a
-								href="https://www.youtube.com/watch?v=3j5s0mpLdIA"
+								href="https://www.youtube.com/watch?v=m3JmGGpS978"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="YouTube"
@@ -71,7 +84,7 @@ function Home() {
 								<i class="fa-brands fa-youtube"></i>
 							</a>
 							<a
-								href="https://open.spotify.com/track/442NS0Vs1QAD98t7iJJ9EP?si=d33d8a1d67b44c62"
+								href="https://open.spotify.com/track/2ssAauuGBqYjSkmVmqSS90?si=611c872b42c940e5"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Spotify"
@@ -80,7 +93,7 @@ function Home() {
 								<i class="fa-brands fa-spotify"></i>
 							</a>
 							<a
-								href="https://soundcloud.com/welcomeomocloud/sai-chance?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+								href="https://soundcloud.com/welcomeomocloud/sais-fate-off-white-prod-remn-xylet"
 								target="_blank"
 								rel="noreferrer"
 								aria-label="Soundcloud"
@@ -100,15 +113,6 @@ function Home() {
 								<p>SAI</p>
 							</a>
 							<a
-								href="https://www.snapchat.com/add/omo541"
-								target="_blank"
-								rel="noreferrer"
-								class="text-button"
-							>
-								<i class="fa-brands fa-snapchat"></i>
-								<p>SAI</p>
-							</a>
-							<a
 								href="https://www.instagram.com/omotoni01"
 								target="_blank"
 								rel="noreferrer"
@@ -117,13 +121,22 @@ function Home() {
 								<i class="fa-brands fa-instagram"></i>
 								<p>Toni</p>
 							</a>
+							<a
+								href="https://www.snapchat.com/add/omo541"
+								target="_blank"
+								rel="noreferrer"
+								class="text-button"
+							>
+								<i class="fa-brands fa-snapchat"></i>
+								<p>SAI</p>
+							</a>
 						</div>
 					</div>
 				</section>
 				<section class="section--extra-content">
 					<h2 class="subheading">extra content</h2>
 					<iframe
-						src="https://www.youtube.com/embed/B25XB8v3SPE?si=GsdZ58D4dMe9QLn3"
+						src="https://www.youtube.com/embed/KBOV4KTHQR4?si=sGzIscYHuLPsNQpe"
 						title="YouTube video player"
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -141,18 +154,18 @@ function Home() {
 							<p>2nd channel</p>
 						</a>
 						<a
-							href="https://www.tiktok.com/@omocloud"
+							href="https://www.tiktok.com/@saisfate"
 							target="_blank"
 							rel="noreferrer"
 							class="text-button"
 						>
 							<i class="fa-brands fa-tiktok"></i>
-							<p>OMO TikTok</p>
+							<p>SAI's TikTok</p>
 						</a>
 					</div>
 				</section>
 				<section class="section--newsletter">
-					<form id="newsletter-form">
+					<form onSubmit={submitHandler} id="newsletter-form">
 						<label for="email-input" id="input-label" class="subheading">
 							Sign up for our newsletter
 						</label>
@@ -161,6 +174,8 @@ function Home() {
 							<input
 								type="email"
 								id="email-input"
+								onChange={inputHandler}
+								value={input}
 								placeholder="Enter email address"
 							/>
 							<button type="submit" id="submit-button">

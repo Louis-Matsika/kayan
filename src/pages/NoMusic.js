@@ -31,109 +31,102 @@ function NoMusic() {
 	};
 	return (
 		<div>
-			<header class="header">
-				<div class="header-logo">
-					<img
-						src="site-content/omologo.png"
-						alt="OMO logo"
-						id="header-omo-logo"
-					></img>
-				</div>
-				{/* <img
-					src="site-content/moon.svg"
-					alt="Toggle dark mode"
-					id="colouricon"
-				></img> */}
-			</header>
-			<main class="main-content">
-				<div class="main-column">
-					<section class="section-logo">
-						<iframe
-							src="https://www.youtube.com/embed/5jNKsFCz0rk?si=rZ3k8k6f1wMBOUuH"
-							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							allowfullscreen
-						></iframe>
-
-						{/* <img
-							src="site-content/welcome.png"
-							class="main-pic"
-							alt="welcome-omo.cloud cover art"
-						></img> */}
-					</section>
-					<section class="section-title">
-						<h1 class="song-title title">UNDERWORLD ep.1</h1>
-						<p class="artists title">OMO WeatherStation</p>
-					</section>
-					<section class="section-music">
-						<h2 class="subheading">find us</h2>
-						<div class="listen-on-full-buttons full-text-buttons">
-							<a
-								href="https://www.instagram.com/omoremn/"
-								target="_blank"
-								rel="noreferrer"
-								class="button extra-content-button"
-							>
-								<i class="fa-brands fa-instagram"></i>
-								<p>Instagram</p>
-							</a>
-							<a
-								href="https://www.youtube.com/@OMOweatherstation"
-								target="_blank"
-								rel="noreferrer"
-								class="button extra-content-button"
-							>
-								<i class="fa-brands fa-youtube"></i>
-								<p>YouTube</p>
-							</a>
-						</div>
-					</section>
-					<section class="section-newsletter">
-						<form onSubmit={submitHandler} id="form">
-							<label for="email" id="input-label" class="subheading">
-								Sign up for our newsletter
-							</label>
-
-							<div id="input-container">
-								<input
-									type="email"
-									id="email"
-									onChange={inputHandler}
-									value={input}
-									placeholder="Enter email address"
-								></input>
-								<button type="submit" id="submit-button">
-									Sign up
-								</button>
-							</div>
-						</form>
-						{/* <div>{message}</div> */}
-					</section>
-				</div>
-			</main>
-			<footer class="footer">
-				{/* <a
-					class="footer-link"
-					href="https://www.instagram.com/omocloud/"
+			<header>
+				<a
+					href="https://www.youtube.com/@omocloud."
 					target="_blank"
 					rel="noreferrer"
+					class="header-logo-wrapper"
 				>
-				</a> */}
-				<div class="footer-logo">
 					<img
 						src="site-content/omologo.png"
 						alt="OMO logo"
-						id="footer-omo-logo"
-					></img>
-				</div>
-				<div class="footer-logo">
+						class="header-logo"
+					/>
+				</a>
+			</header>
+			<main>
+				<section
+					class="section--extra-content"
+					id="section--extra-content--no-music-page"
+				>
+					<iframe
+						src="https://www.youtube.com/embed/KBOV4KTHQR4?si=sGzIscYHuLPsNQpe"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+					<p class="extra-platforms-title">Check out OMO on these platforms</p>
+					<div class="text-button-container">
+						<a
+							href="https://www.youtube.com/@omoweatherstation"
+							target="_blank"
+							rel="noreferrer"
+							class="text-button"
+						>
+							<i class="fa-brands fa-youtube"></i>
+							<p>2nd channel</p>
+						</a>
+						<a
+							href="https://www.tiktok.com/@omocloud"
+							target="_blank"
+							rel="noreferrer"
+							class="text-button"
+						>
+							<i class="fa-brands fa-tiktok"></i>
+							<p>OMO TikTok</p>
+						</a>
+					</div>
+				</section>
+				<section class="section--newsletter">
+					<form onSubmit={submitHandler} id="newsletter-form">
+						<label for="email-input" id="input-label" class="subheading">
+							Sign up for our newsletter
+						</label>
+
+						<div id="input-container">
+							<input
+								type="email"
+								id="email-input"
+								onChange={inputHandler}
+								value={input}
+								placeholder="Enter email address"
+							/>
+							<button type="submit" id="submit-button">
+								Sign up
+							</button>
+						</div>
+					</form>
+				</section>
+			</main>
+			<footer>
+				<a
+					href="https://www.youtube.com/@omocloud."
+					target="_blank"
+					rel="noreferrer"
+					class="footer-logo-wrapper footer-logo-wrapper--omo"
+				>
+					<img
+						src="site-content/omologo.png"
+						alt="OMO logo"
+						class="footer-logo"
+						id="footer-logo--omo"
+					/>
+				</a>
+				<a
+					href="https://www.youtube.com/@omoweatherstation"
+					target="_blank"
+					rel="noreferrer"
+					class="footer-logo-wrapper footer-logo-wrapper--weatherstation"
+				>
 					<img
 						src="site-content/weatherstation_logo.png"
-						alt="OMO logo"
-						id="footer-weatherstation-logo"
-					></img>
-				</div>
+						alt="OMOweatherstation logo"
+						class="footer-logo"
+						id="footer-logo--weatherstation"
+					/>
+				</a>
 			</footer>
 		</div>
 	);
