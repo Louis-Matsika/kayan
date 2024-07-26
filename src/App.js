@@ -1,16 +1,28 @@
 import "./App.css";
 import "./App-queries.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
+import "./App-waiting.css";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Main from "./pages/Main";
+import Info from "./pages/Info";
+import NoPage from "./pages/NoPage";
 
 function App() {
 	return (
-		<Router>
+		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/" element={<Layout />}>
+					<Route index element={<Main />} />
+					<Route path="Info" element={<Info />} />
+					<Route path="*" element={<NoPage />} />
+				</Route>
 			</Routes>
-		</Router>
+		</BrowserRouter>
 	);
 }
 
 export default App;
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

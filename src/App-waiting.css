@@ -1,0 +1,10 @@
+.waiting-logo {
+	width: 17.5rem;
+}
+
+.waiting-div {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
