@@ -4,7 +4,7 @@ import "./App-waiting.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
-import Main from "./pages/Main";
+import Lobby from "./pages/Lobby";
 import Info from "./pages/Info";
 import NoPage from "./pages/NoPage";
 
@@ -13,7 +13,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Layout />}>
-					<Route index element={<Main />} />
+					<Route index element={<Lobby />} />
 					<Route path="Info" element={<Info />} />
 					<Route path="*" element={<NoPage />} />
 				</Route>
