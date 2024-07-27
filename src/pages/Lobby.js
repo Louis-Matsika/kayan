@@ -12,7 +12,7 @@ export default function Lobby() {
 			<main>
 				<section class="section--main-content">
 					<div>
-						<h1>{SAI.getName}</h1>
+						<h1>test</h1>
 					</div>
 				</section>
 			</main>

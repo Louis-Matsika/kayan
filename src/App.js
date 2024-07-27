@@ -4,7 +4,7 @@ import "./App-waiting.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
-import Lobby from "./pages/Main";
+import Lobby from "./pages/Lobby";
 import Info from "./pages/Info";
 import NoPage from "./pages/NoPage";
 
