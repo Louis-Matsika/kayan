@@ -1,21 +1,25 @@
 import OMOcloud from "./OMOcloud";
 
+//* all members of OMOcloud */
+
 const SAI = new OMOcloud(
-	"SAI's fate.",
-	"sai-icon.png",
-	"",
-	"what a fateful day.",
-	"0011",
-	true,
-	true,
-	true,
-	"1"
+	"SAI's fate.", //name
+	"member-assets/sai-icon.png", //icon path
+	"member-assets/sai-pfp.jpg", //pfp card path
+    "member-assets/sai-card.png", //calling card path
+	"what a fateful day.", //tag
+	"0001", //ID number
+	true, // is artist?
+	true, // is producer?
+	true, //is a visual artist?
+	"1" // member bio
 );
 
 const Shin = new OMOcloud(
 	"Shin",
-	"shin-icon.png",
+	"member-assets/shin-icon.png",
 	"",
+    "",
 	"buzzy bee.",
 	"0009",
 	false,
@@ -26,8 +30,9 @@ const Shin = new OMOcloud(
 
 const Toni = new OMOcloud(
 	"Toni",
-	"toni-icon.png",
+	"member-assets/toni-icon.png",
 	"",
+    "",
 	"ahh I missed it...",
 	"1407",
 	true,
@@ -38,8 +43,9 @@ const Toni = new OMOcloud(
 
 const Xylet = new OMOcloud(
 	"Xylet",
-	"xylet-icon.png",
+	"member-assets/xylet-icon.png",
 	"",
+    "",
 	"here we go again...",
 	"6730",
 	true,
@@ -50,8 +56,9 @@ const Xylet = new OMOcloud(
 
 const Eskimo = new OMOcloud(
 	"Eskimo",
-	"eskimo-icon.png",
+	"member-assets/eskimo-icon.png",
 	"",
+    "",
 	"[classified]",
 	"1300",
 	true,

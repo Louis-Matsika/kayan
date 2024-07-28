@@ -1,3 +1,5 @@
+/* lobby rows */
+
 .row-content {
 	display: grid;
 	grid-template-columns: 90px 400px 60px 70px;
@@ -22,4 +24,24 @@
 
 .row-icon {
 	width: 45px;
+}
+
+
+/* calling card */
+
+.calling-card-content {
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.calling-card{
+	position: relative;
+}
+
+.card-tag{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
