@@ -5,7 +5,7 @@ import Newsletter from ".././components/Newsletter.js";
 // import { collection, addDoc } from "firebase/firestore";
 // import db from "../firebase-config";
 
-export default function Main() {
+function Main() {
 	return (
 		<div>
 			<main>
@@ -125,3 +125,5 @@ export default function Main() {
 		</div>
 	);
 }
+
+export default Main;

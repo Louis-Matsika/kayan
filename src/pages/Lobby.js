@@ -8,7 +8,8 @@ import {
 	Toni,
 	Xylet,
 	Eskimo,
-} from "../components/OMOcloud/OMOcloud.js";
+} from "../components/OMOcloud/Members.js";
+
 // import { collection, addDoc } from "firebase/firestore";
 // import db from "../firebase-config";
 
