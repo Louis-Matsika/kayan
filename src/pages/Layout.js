@@ -11,7 +11,7 @@ const Layout = () => {
 					class="header-logo-wrapper"
 				>
 					<img
-						src="utilities/branding/omologo.png"
+						src="site-content/omologo.png"
 						alt="OMO logo"
 						class="header-logo omo-logo"
 					/>
