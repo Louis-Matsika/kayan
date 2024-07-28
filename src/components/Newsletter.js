@@ -32,7 +32,7 @@ export default function Newsletter() {
 		<section class="section--newsletter">
 			<form id="newsletter-form">
 				<label for="email-input" id="input-label" class="subheading">
-					Sign up for our newsletter
+					Join the campaign
 				</label>
 
 				<div id="input-container">
@@ -42,7 +42,7 @@ export default function Newsletter() {
 						placeholder="Enter email address"
 					/>
 					<button type="submit" id="submit-button">
-						Sign up
+						Enlist
 					</button>
 				</div>
 			</form>

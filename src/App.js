@@ -1,4 +1,5 @@
 import "./App.css";
+import "./components/OMOcloud/OMOcloud.css";
 import "./App-queries.css";
 import "./App-waiting.css";
 import ReactDOM from "react-dom/client";

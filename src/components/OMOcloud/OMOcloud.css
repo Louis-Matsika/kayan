@@ -1,0 +1,21 @@
+.row-content {
+	display: grid;
+	grid-template-columns: 90px 400px 60px 70px;
+	justify-items: left;
+	align-items: center;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 30px;
+	/* background-color: #333; */
+}
+.row:nth-child(even) {
+	background-color: #525252;
+}
+
+.row:nth-child(odd) {
+	background-color: #333;
+}
+
+.row-icon {
+	width: 45px;
+}
