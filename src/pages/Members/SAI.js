@@ -1,11 +1,12 @@
 import { SAI } from "../../components/OMOcloud/Members";
 
-function SAIpage() {
-    return(
-        <div>
-        <div>{SAI.callingCard()}</div>
-        </div>
-    )
+function SaiPage() {
+	return (
+		<div className="background">
+			<div>{SAI.callingCard()}</div>
+			<div>{SAI.links()}</div>
+		</div>
+	);
 }
 
-export default SAIpage;
+export default SaiPage;
