@@ -1,6 +1,8 @@
 // import { React, useState } from "react";
 // import { collection, addDoc } from "firebase/firestore";
 // import db from "../firebase-config";
+import "./Newsletter.css";
+
 export default function Newsletter() {
 	// var today = new Date();
 	// var date =
@@ -32,7 +34,7 @@ export default function Newsletter() {
 		<section class="section--newsletter">
 			<form id="newsletter-form">
 				<label for="email-input" id="input-label" class="subheading">
-					Join the campaign
+					Join the campaign today!
 				</label>
 
 				<div id="input-container">

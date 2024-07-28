@@ -4,13 +4,14 @@ class OMOcloud {
 	#name;
 	#icon;
 	#pfp;
-	#callingCard
+	#callingCard;
 	#tag;
 	#idNumber;
 	#isArtist;
 	#isProducer;
 	#isVisual;
 	#bio;
+	#links;
 	constructor(
 		name,
 		icon,
@@ -21,7 +22,8 @@ class OMOcloud {
 		isArtist,
 		isProducer,
 		isVisual,
-		bio
+		bio,
+		links
 	) {
 		/*
         name = (string) name of member
@@ -34,6 +36,7 @@ class OMOcloud {
         isProducer = (boolean) is member a producer yes or no?
         isVisual = (boolean) is member a visual artist yes or no?
         bio = (string) biography of member
+		links = (array) social links of member [youtube, soundcloud, spotify, tiktok, instagram, snapchat]
         */
 
 		this.#name = name;
@@ -46,6 +49,7 @@ class OMOcloud {
 		this.#isProducer = isProducer;
 		this.#isVisual = isVisual;
 		this.#bio = bio;
+		this.#links = links;
 	}
 
 	//* getters */
@@ -89,33 +93,94 @@ class OMOcloud {
 		return this.#isVisual;
 	}
 
+	get getLinks() {
+		return this.#links;
+	}
+
 	//* functions */
 	//the row() function creates a lobby row for a given OMOcloud member
 	row() {
 		return (
-			<div className="row-content">
+			<div className="row">
 				<span className="row-team">[OMO]</span>
 				<span className="row-name">{this.#name}</span>
-				<img alt={this.#name + " member icon"} className="row-icon" src={this.#icon}></img>
+				<img
+					className="row-icon"
+					alt={this.#name + " member icon"}
+					src={this.#icon}
+				></img>
 				<span className="row-number">{this.#idNumber}</span>
 			</div>
 		);
 	}
 
 	//the callingCard() function creates a calling card for a given OMOcloud member
-	callingCard(){
-		return(
-		<div className="calling-card-content">
-				<div className="calling-card">
-				<span className="card-tag">{this.#tag}</span>
-				<img className="card" alt={this.#name + " member calling card"} src={this.#callingCard}></img>
-				</div>
+	callingCard() {
+		return (
+			<div className="calling-card">
+				<img className="calling-card-pfp" src={this.#pfp}></img>
+				<div className="calling-card-right">
+					<p className="calling-card-name">{this.#name}</p>
+					<div className="calling-card-banner-wrapper">
+						<img className="calling-card-banner" src={this.#callingCard}></img>
+						<p className="calling-card-tag">{this.#tag}</p>
+					</div>
 
-				<span className="card-name">{this.#name}</span>
-				<span className="row-number">{this.#idNumber}</span>
-				<img alt={this.#name + " member profile picture"} className="pfp" src={this.#pfp}></img>
-		</div>
-		)
+					<div className="calling-card-bottom-right">
+						<img className="calling-card-icon" src={this.#icon}></img>
+						<span className="calling-card-number">{this.#idNumber}</span>
+					</div>
+				</div>
+			</div>
+		);
+	}
+
+	// the links() function aggregates links for a given users socials and work
+	links() {
+		return (
+			<div className="links">
+				<nav>
+					<ul className="links-list">
+						<li>
+							<a className="links-link" href={this.#links[0]} target="_blank">
+								<i class="fa-brands fa-youtube"></i>
+								<p>YouTube</p>
+							</a>
+						</li>
+						<li>
+							<a className="links-link" href={this.#links[1]} target="_blank">
+								<i class="fa-brands fa-soundcloud"></i>
+								<p>Soundcloud</p>
+							</a>
+						</li>
+						<li>
+							<a className="links-link" href={this.#links[2]} target="_blank">
+								<i class="fa-brands fa-spotify"></i>
+								<p>Spotify</p>
+							</a>
+						</li>
+						<li>
+							<a className="links-link" href={this.#links[3]} target="_blank">
+								<i class="fa-brands fa-tiktok"></i>
+								<p>TikTok</p>
+							</a>
+						</li>
+						<li>
+							<a className="links-link" href={this.#links[4]} target="_blank">
+								<i class="fa-brands fa-instagram"></i>
+								<p>Instagram</p>
+							</a>
+						</li>
+						<li>
+							<a className="links-link" href={this.#links[5]} target="_blank">
+								<i class="fa-brands fa-snapchat"></i>
+								<p>Snapchat</p>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		);
 	}
 }
 

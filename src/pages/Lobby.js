@@ -1,7 +1,8 @@
 // import { React, useState } from "react";
 import { React } from "react";
-import ExtraMain from "./ExtraMain.js";
+import { Link } from "react-router-dom";
 import Newsletter from ".././components/Newsletter.js";
+import "./Lobby.css";
 import {
 	SAI,
 	Shin,
@@ -15,16 +16,29 @@ import {
 
 export default function Lobby() {
 	return (
-		<div>
-			<main>
-				<section class="section--rows">
-					<div className="row">{SAI.row()}</div>
-					<div className="row">{Shin.row()}</div>
-					<div className="row">{Toni.row()}</div>
-					<div className="row">{Xylet.row()}</div>
-					<div className="row">{Eskimo.row()}</div>
-				</section>
-			</main>
+		<div className="background">
+			<h2>
+				<span className="font-bold">OMO</span>cloud
+				<span className="font-bold">.</span>
+			</h2>
+			<p className="omo-slogan">the cloud awaits...</p>
+			<section className="section--rows">
+				<Link className="row-link" to="/SAI">
+					{SAI.row()}
+				</Link>
+				<Link className="row-link" to={"/" + Shin.getName}>
+					{Shin.row()}
+				</Link>
+				<Link className="row-link" to={"/" + Toni.getName}>
+					{Toni.row()}
+				</Link>
+				<Link className="row-link" to={"/" + Xylet.getName}>
+					{Xylet.row()}
+				</Link>
+				<Link className="row-link" to={"/" + Eskimo.getName}>
+					{Eskimo.row()}
+				</Link>
+			</section>
 			<Newsletter />
 		</div>
 	);

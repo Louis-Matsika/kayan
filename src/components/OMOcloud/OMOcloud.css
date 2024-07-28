@@ -1,24 +1,14 @@
 /* lobby rows */
-
-.row-content {
+.row {
 	display: grid;
 	grid-template-columns: 90px 400px 60px 70px;
 	justify-items: left;
 	align-items: center;
+	width: fit-content;
+
 	padding: 5px 10px;
 	color: #fff;
 	font-size: 30px;
-	/* background-color: #333; */
-}
-.row:nth-child(even) {
-	background-color: #525252;
-}
-
-.row:nth-child(odd) {
-	background-color: #333;
-}
-
-.row {
 	background-color: #333;
 }
 
@@ -26,22 +16,103 @@
 	width: 45px;
 }
 
-
 /* calling card */
+.calling-card {
+	display: grid;
+	grid-template-columns: 100px 450px;
 
-.calling-card-content {
-	position: relative;
-  	text-align: center;
-  	color: white;
+	width: 550px;
+	/* height: 150px; */
+	background-color: #525252;
+	margin: 0 auto;
+	color: #fff;
 }
 
-.calling-card{
+/* SECTIONS */
+.calling-card-right {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	position: relative;
+	padding-top: 10px;
 }
 
-.card-tag{
+.calling-card-bottom-right {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.calling-card-pfp {
+	width: 100%;
+}
+
+.calling-card-name,
+.calling-card-number {
+	font-size: 30px;
+}
+
+.calling-card-icon {
+	width: 35px;
+}
+
+.calling-card-banner-wrapper {
+	position: relative;
+	width: fit-content;
+}
+
+.calling-card-tag {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 0px 0px 2px black, 0px 0px 5px black, 0px 0px 2px black,
+		0px 0px 2px black;
+}
+
+/* LINKS */
+.links {
+	width: 550px;
+	padding: 10px 0;
+	margin: 0 auto;
+	background-color: #333;
+	border-top: 2px solid #f3c20f;
+	font-size: 14px;
+}
+
+.links-list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0 20px;
+}
+
+.links-link:link,
+.links-link:visited {
+	display: flex;
+	gap: 5px;
+	color: #f3c20f;
+	text-decoration: none;
+}
+
+.links-link:hover,
+.links-link:active {
+	font-weight: 700;
+}
+
+/*******/
+.background {
+	background-image: url(../../../public/welcome-omo-background.png);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
 }
