@@ -2,7 +2,7 @@ import { Xylet } from "../../components/OMOcloud/Members";
 
 function XyletPage() {
 	return (
-		<div className="background">
+		<div className="background padding-top">
 			<div>{Xylet.callingCard()}</div>
 			<div>{Xylet.links()}</div>
 		</div>

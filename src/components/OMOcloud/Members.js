@@ -28,7 +28,7 @@ const SAI = new OMOcloud(
 		"member-assets/skill-2.png",
 		"member-assets/skill-3.png",
 		"member-assets/skill-4.png",
-		"member-assets/skill-5.png"
+		"member-assets/skill-5.png",
 	],
 	"1", // member bio
 	[
@@ -60,7 +60,7 @@ const Shin = new OMOcloud(
 		"",
 		"member-assets/skill-3.png",
 		"member-assets/skill-4.png",
-		"member-assets/skill-5.png"
+		"member-assets/skill-5.png",
 	],
 	"1", // member bio
 	[
@@ -92,7 +92,7 @@ const Toni = new OMOcloud(
 		"",
 		"",
 		"",
-		""
+		"",
 	],
 	"1", // member bio
 	[
@@ -114,7 +114,7 @@ const Toni = new OMOcloud(
 const Xylet = new OMOcloud(
 	"Xylet", // name
 	"member-assets/xylet-icon.png", // icon path
-	"member-assets/xylet-pfp.jpg", // pfp card path
+	"member-assets/xylet-pfp.png", // pfp card path
 	"member-assets/xylet-card.png", // calling card path
 	"here we go again...", // tag
 	"6730", // ID number
@@ -124,13 +124,13 @@ const Xylet = new OMOcloud(
 		"member-assets/skill-2.png",
 		"",
 		"",
-		""
+		"",
 	],
 	"1", // member bio
 	[
 		// array of flag paths
 		"member-assets/flag-dk.png",
-		"member-assets/flag-gb.png",
+		"member-assets/flag-et.png",
 	],
 	[
 		// array of member links
@@ -156,7 +156,7 @@ const Eskimo = new OMOcloud(
 		"",
 		"",
 		"",
-		"member-assets/skill-5.png"
+		"member-assets/skill-5.png",
 	],
 	"1", // member bio
 	[

@@ -144,6 +144,7 @@ class OMOcloud {
 		);
 	}
 
+	// the links() function aggregates all the social links for a member
 	links() {
 		return (
 			<div className="links">
@@ -173,6 +174,104 @@ class OMOcloud {
 						platformId={this.#links.indexOf(this.#links[5])}
 					/>
 				</ul>
+			</div>
+		);
+	}
+
+	// the featuredMusic() function features a song with links to the song
+	featuredMusic(
+		musicTitle,
+		musicArt,
+		description,
+		soundcloudLink,
+		spotifyLink,
+		youtubeLink
+	) {
+		return (
+			<div className="featured-music-box">
+				<img
+					className="featured-music-image"
+					src={"music-assets/" + musicArt}
+				></img>
+				<div className="featured-music-right">
+					<p className="featured-music-title">{musicTitle}</p>
+					<p className="featured-music-artist">{this.#name}</p>
+					<p className="featured-music-description">{description}</p>
+					<div>
+						<ul className="links-list">
+							<li>
+								<a
+									className="links-link"
+									href={soundcloudLink}
+									target="_blank"
+									rel="noopener"
+								>
+									<i class="fa-brands fa-soundcloud"></i>
+									<p>SoundCloud</p>
+								</a>
+							</li>
+							<li>
+								<a
+									className="links-link"
+									href={spotifyLink}
+									target="_blank"
+									rel="noopener"
+								>
+									<i class="fa-brands fa-spotify"></i>
+									<p>Spotify</p>
+								</a>
+							</li>
+							<li>
+								<a
+									className="links-link"
+									href={youtubeLink}
+									target="_blank"
+									rel="noopener"
+								>
+									<i class="fa-brands fa-youtube"></i>
+									<p>YouTube</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		);
+	}
+
+	// the featuredMusic() function features a song with links to the song
+	featuredVideo(videoTitle, description, youtubeEmbedLink, youtubeLink) {
+		return (
+			<div className="featured-music-box featured-video-box">
+				<iframe
+					className="featured-video-embed"
+					src={youtubeEmbedLink}
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerPolicy="strict-origin-when-cross-origin"
+					allowFullScreen
+				></iframe>
+				<div className="featured-music-right">
+					<p className="featured-music-title">{videoTitle}</p>
+					<p className="featured-music-artist">{this.#name}</p>
+					<p className="featured-music-description">{description}</p>
+					<div>
+						<ul className="links-list">
+							<li>
+								<a
+									className="links-link"
+									href={youtubeLink}
+									target="_blank"
+									rel="noopener"
+								>
+									<i class="fa-brands fa-youtube"></i>
+									<p>YouTube</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		);
 	}

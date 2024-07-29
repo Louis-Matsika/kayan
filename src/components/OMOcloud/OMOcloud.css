@@ -147,3 +147,72 @@
 	width: 100%;
 	height: 100vh;
 }
+
+.padding-top {
+	padding-top: 150px;
+}
+
+.box-shadow {
+	box-shadow: 0px 0px 8px #000;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.border-bottom {
+	border-bottom: 2px solid #f3c20f;
+}
+
+/* FEATURED MUSIC */
+.featured-music-box {
+	width: 665px;
+	display: flex;
+
+	margin: 0 auto;
+	background-color: #525252;
+	text-align: center;
+}
+
+.featured-music-image {
+	width: 135px;
+}
+
+.featured-music-right {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.featured-music-title {
+	font-size: 30px;
+	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000;
+}
+
+.featured-music-artist {
+	font-size: 15px;
+	margin-bottom: 20px;
+	text-shadow: 0px 0px 2px #000, 0px 0px 3px #000;
+}
+
+.featured-music-description {
+	margin-bottom: 10px;
+}
+
+.featured-music-box .links-link {
+	font-size: 14px;
+}
+
+/* FEATURED VIDEO */
+.featured-video-box {
+	background-color: #333;
+	/* padding: 40px 200px; */
+}
+
+/* .featured-music-box.featured-video-box {
+	display: block;
+} */
+
+.featured-video-embed {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
