@@ -5,9 +5,7 @@ const Layout = () => {
 		<>
 			<header>
 				<a
-					href="https://www.youtube.com/@saisfate"
-					target="_blank"
-					rel="noreferrer"
+					href="/"
 					class="header-logo-wrapper"
 				>
 					<img

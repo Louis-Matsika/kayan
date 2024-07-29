@@ -28,6 +28,7 @@ const SAI = new OMOcloud(
 		"member-assets/skill-2.png",
 		"member-assets/skill-3.png",
 		"member-assets/skill-4.png",
+		"member-assets/skill-5.png"
 	],
 	"1", // member bio
 	[
@@ -59,6 +60,7 @@ const Shin = new OMOcloud(
 		"",
 		"member-assets/skill-3.png",
 		"member-assets/skill-4.png",
+		"member-assets/skill-5.png"
 	],
 	"1", // member bio
 	[
@@ -90,6 +92,7 @@ const Toni = new OMOcloud(
 		"",
 		"",
 		"",
+		""
 	],
 	"1", // member bio
 	[
@@ -100,10 +103,10 @@ const Toni = new OMOcloud(
 	[
 		// array of member links
 		"",
-		"",
-		"",
-		"",
-		"",
+		"https://soundcloud.com/omotoni",
+		"https://open.spotify.com/artist/52b2C0ye6EH0axeJWPh0nk?si=WCf49JhTTcaEVeOJleAHog",
+		"https://www.tiktok.com/@omotoni01",
+		"https://www.instagram.com/omostoni01/",
 		"",
 	]
 );
@@ -111,7 +114,7 @@ const Toni = new OMOcloud(
 const Xylet = new OMOcloud(
 	"Xylet", // name
 	"member-assets/xylet-icon.png", // icon path
-	"member-assets/xylet-pfp.png", // pfp card path
+	"member-assets/xylet-pfp.jpg", // pfp card path
 	"member-assets/xylet-card.png", // calling card path
 	"here we go again...", // tag
 	"6730", // ID number
@@ -121,6 +124,7 @@ const Xylet = new OMOcloud(
 		"member-assets/skill-2.png",
 		"",
 		"",
+		""
 	],
 	"1", // member bio
 	[
@@ -134,7 +138,7 @@ const Xylet = new OMOcloud(
 		"",
 		"",
 		"",
-		"",
+		"https://www.instagram.com/omoshin0/",
 		"",
 	]
 );
@@ -152,6 +156,7 @@ const Eskimo = new OMOcloud(
 		"",
 		"",
 		"",
+		"member-assets/skill-5.png"
 	],
 	"1", // member bio
 	[
@@ -165,7 +170,7 @@ const Eskimo = new OMOcloud(
 		"",
 		"",
 		"",
-		"",
+		"https://www.instagram.com/lropong_13/",
 		"",
 	]
 );
