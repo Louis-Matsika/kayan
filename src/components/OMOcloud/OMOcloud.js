@@ -1,4 +1,19 @@
 import "./OMOcloud.css";
+
+function MemberLink({ href, icon, platform, isActive }) {
+	if (!isActive) {
+		return null;
+	}
+	return (
+		<li>
+			<a className="links-link" href={href} target="_blank">
+				<i class={"fa-brands fa-" + icon}></i>
+				<p>{platform}</p>
+			</a>
+		</li>
+	);
+}
+
 //the OMOcloud class creates a template for all OMOcloud members
 class OMOcloud {
 	#name;
@@ -136,47 +151,63 @@ class OMOcloud {
 	}
 
 	// the links() function aggregates links for a given users socials and work
+
 	links() {
 		return (
 			<div className="links">
 				<nav>
 					<ul className="links-list">
-						<li>
-							<a className="links-link" href={this.#links[0]} target="_blank">
-								<i class="fa-brands fa-youtube"></i>
-								<p>YouTube</p>
-							</a>
-						</li>
-						<li>
+						<MemberLink
+							href={this.#links[0]}
+							icon="youtube"
+							platform="YouTube"
+							isActive={this.#links[0].length !== 0}
+						/>
+						<MemberLink
+							href={this.#links[1]}
+							icon="soundcloud"
+							platform="Soundcloud"
+							isActive={this.#links[1].length !== 0}
+						/>
+						<MemberLink
+							href={this.#links[2]}
+							icon="spotify"
+							platform="Spotify"
+							isActive={this.#links[2].length !== 0}
+						/>
+						<MemberLink
+							href={this.#links[3]}
+							icon="tiktok"
+							platform="TikTok"
+							isActive={this.#links[3].length !== 0}
+						/>
+						<MemberLink
+							href={this.#links[4]}
+							icon="instagram"
+							platform="Instagram"
+							isActive={this.#links[4].length !== 0}
+						/>
+						<MemberLink
+							href={this.#links[5]}
+							icon="snapchat"
+							platform="Snapchat"
+							isActive={this.#links[5].length !== 0}
+						/>
+						{/* {this.#links[0].length !== 0 && (
+							<li>
+								<a className="links-link" href={this.#links[0]} target="_blank">
+									<i class="fa-brands fa-youtube"></i>
+									<p>YouTube</p>
+								</a>
+							</li>
+						)} */}
+
+						{/* <li>
 							<a className="links-link" href={this.#links[1]} target="_blank">
 								<i class="fa-brands fa-soundcloud"></i>
 								<p>Soundcloud</p>
 							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[2]} target="_blank">
-								<i class="fa-brands fa-spotify"></i>
-								<p>Spotify</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[3]} target="_blank">
-								<i class="fa-brands fa-tiktok"></i>
-								<p>TikTok</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[4]} target="_blank">
-								<i class="fa-brands fa-instagram"></i>
-								<p>Instagram</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[5]} target="_blank">
-								<i class="fa-brands fa-snapchat"></i>
-								<p>Snapchat</p>
-							</a>
-						</li>
+						</li> */}
 					</ul>
 				</nav>
 			</div>
