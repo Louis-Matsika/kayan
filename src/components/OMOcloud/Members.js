@@ -9,10 +9,9 @@ import OMOcloud from "./OMOcloud";
 		callingCard = (string) path to calling card
 		tag = (string) chosen catch phrase
         idNumber = (string) 4 digit ID number picked by member
-        isArtist = (boolean) is member a artist yes or no?
-        isProducer = (boolean) is member a producer yes or no?
-        isVisual = (boolean) is member a visual artist yes or no?
+       	credit = (array) credits members skill [artist, producer, visual artist, engineer]
         bio = (string) biography of member
+		flags = (array) paths to flags [primary, secondary]
 		links = (array) social links of member [youtube, soundcloud, spotify, tiktok, instagram, snapchat]
         */
 
@@ -23,11 +22,21 @@ const SAI = new OMOcloud(
 	"member-assets/sai-card.png", // calling card path
 	"what a fateful day.", // tag
 	"0001", // ID number
-	true, // is artist?
-	true, // is producer?
-	true, // is a visual artist?
+	[
+		// array of members skill credits
+		"member-assets/skill-1.png",
+		"member-assets/skill-2.png",
+		"member-assets/skill-3.png",
+		"member-assets/skill-4.png",
+	],
 	"1", // member bio
 	[
+		// array of flag paths
+		"member-assets/flag-gb.png",
+		"member-assets/flag-zw.png",
+	],
+	[
+		// array of member links
 		"https://www.youtube.com/@saisfate",
 		"https://soundcloud.com/saisfate",
 		"https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg",
@@ -44,11 +53,21 @@ const Shin = new OMOcloud(
 	"member-assets/shin-card.png", // calling card path
 	"buzzy bee.", // tag
 	"0009", // ID number
-	false, // is artist?
-	false, // is producer?
-	true, // is a visual artist?
+	[
+		// array of members skill
+		"",
+		"",
+		"member-assets/skill-3.png",
+		"member-assets/skill-4.png",
+	],
 	"1", // member bio
 	[
+		// array of flag paths
+		"member-assets/flag-no.png",
+		"",
+	],
+	[
+		// array of member links
 		"https://www.youtube.com/@omoshin",
 		"",
 		"",
@@ -65,10 +84,28 @@ const Toni = new OMOcloud(
 	"member-assets/toni-card.png", // calling card path
 	"ahh I missed it...", // tag
 	"1407", // ID number
-	true, // is artist?
-	false, // is producer?
-	false, // is a visual artist?
-	"1" // member bio
+	[
+		// array of members skill
+		"member-assets/skill-1.png",
+		"",
+		"",
+		"",
+	],
+	"1", // member bio
+	[
+		// array of flag paths
+		"member-assets/flag-gb.png",
+		"member-assets/flag-es.png",
+	],
+	[
+		// array of member links
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+	]
 );
 
 const Xylet = new OMOcloud(
@@ -78,10 +115,28 @@ const Xylet = new OMOcloud(
 	"member-assets/xylet-card.png", // calling card path
 	"here we go again...", // tag
 	"6730", // ID number
-	true, // is artist?
-	true, // is producer?
-	false, // is a visual artist?
-	"1" // member bio
+	[
+		// array of members skill
+		"member-assets/skill-1.png",
+		"member-assets/skill-2.png",
+		"",
+		"",
+	],
+	"1", // member bio
+	[
+		// array of flag paths
+		"member-assets/flag-dk.png",
+		"member-assets/flag-gb.png",
+	],
+	[
+		// array of member links
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+	]
 );
 
 const Eskimo = new OMOcloud(
@@ -91,10 +146,28 @@ const Eskimo = new OMOcloud(
 	"member-assets/eskimo-card.png", // calling card path
 	"[classified]", // tag
 	"1300", // ID number
-	true, // is artist?
-	false, // is producer?
-	false, // is a visual artist?
-	"1" // member bio
+	[
+		// array of members skill
+		"member-assets/skill-1.png",
+		"",
+		"",
+		"",
+	],
+	"1", // member bio
+	[
+		// array of flag paths
+		"member-assets/flag-gb.png",
+		"member-assets/flag-ng.png",
+	],
+	[
+		// array of member links
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+	]
 );
 
 export { SAI, Shin, Toni, Xylet, Eskimo };

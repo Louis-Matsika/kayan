@@ -1,5 +1,7 @@
 import "./OMOcloud.css";
 import LinkElement from "./LinkElement";
+import FlagElement from "./FlagElement";
+import CreditElement from "./CreditElement";
 //the OMOcloud class creates a template for all OMOcloud members
 class OMOcloud {
 	#name;
@@ -8,10 +10,9 @@ class OMOcloud {
 	#callingCard;
 	#tag;
 	#idNumber;
-	#isArtist;
-	#isProducer;
-	#isVisual;
+	#credit;
 	#bio;
+	#flags;
 	#links;
 	constructor(
 		name,
@@ -20,10 +21,9 @@ class OMOcloud {
 		callingCard,
 		tag,
 		idNumber,
-		isArtist,
-		isProducer,
-		isVisual,
+		credit,
 		bio,
+		flags,
 		links
 	) {
 		/*
@@ -33,10 +33,9 @@ class OMOcloud {
 		callingCard = (string) path to calling card
 		tag = (string) chosen catch phrase
         idNumber = (string) 4 digit ID number picked by member
-        isArtist = (boolean) is member a artist yes or no?
-        isProducer = (boolean) is member a producer yes or no?
-        isVisual = (boolean) is member a visual artist yes or no?
+        credit = (array) credits members skill [artist, producer, visual artist, engineer]
         bio = (string) biography of member
+		flags = (array) paths to flags [primary, secondary]
 		links = (array) social links of member [youtube, soundcloud, spotify, tiktok, instagram, snapchat]
         */
 
@@ -46,10 +45,9 @@ class OMOcloud {
 		this.#callingCard = callingCard;
 		this.#tag = tag;
 		this.#idNumber = idNumber;
-		this.#isArtist = isArtist;
-		this.#isProducer = isProducer;
-		this.#isVisual = isVisual;
+		this.#credit = credit;
 		this.#bio = bio;
+		this.#flags = flags;
 		this.#links = links;
 	}
 
@@ -78,20 +76,16 @@ class OMOcloud {
 		return this.#idNumber;
 	}
 
-	get getIsArtist() {
-		return this.#isArtist;
-	}
-
-	get getIsProducer() {
-		return this.#isProducer;
-	}
-
-	get getIsVisual() {
-		return this.#isVisual;
+	get getCredit() {
+		return this.#credit;
 	}
 
 	get getBio() {
-		return this.#isVisual;
+		return this.#bio;
+	}
+
+	get getFlag() {
+		return this.#flags;
 	}
 
 	get getLinks() {
@@ -120,52 +114,64 @@ class OMOcloud {
 		return (
 			<div className="calling-card">
 				<img className="calling-card-pfp" src={this.#pfp}></img>
+
 				<div className="calling-card-right">
+					<div className="calling-card-flags">
+						<FlagElement memberFlag={this.#flags[0]} />
+						<FlagElement memberFlag={this.#flags[1]} />
+					</div>
+
 					<p className="calling-card-name">{this.#name}</p>
 					<div className="calling-card-banner-wrapper">
 						<img className="calling-card-banner" src={this.#callingCard}></img>
 						<p className="calling-card-tag">{this.#tag}</p>
 					</div>
 
-					<div className="calling-card-bottom-right">
+					<div className="calling-card-top-right">
 						<img className="calling-card-icon" src={this.#icon}></img>
 						<span className="calling-card-number">{this.#idNumber}</span>
+					</div>
+
+					<div className="calling-card-skills">
+						<CreditElement memberCredit={this.#credit[0]} />
+						<CreditElement memberCredit={this.#credit[1]} />
+						<CreditElement memberCredit={this.#credit[2]} />
+						<CreditElement memberCredit={this.#credit[3]} />
 					</div>
 				</div>
 			</div>
 		);
 	}
 
-		
-	links(){
-		return(
+	links() {
+		return (
 			<div className="links">
-					<ul className="links-list">
-						<LinkElement
-							memberLink={this.#links[0]}
-							platformId={this.#links.indexOf(this.#links[0])}
-        				/>
-						<LinkElement
-							memberLink={this.#links[1]}
-							platformId={this.#links.indexOf(this.#links[1])}
-        				/>
-						<LinkElement
-							memberLink={this.#links[2]}
-							platformId={this.#links.indexOf(this.#links[2])}
-        				/>
-						<LinkElement
-							memberLink={this.#links[3]}
-							platformId={this.#links.indexOf(this.#links[3])}
-        				/>
-						<LinkElement
-							memberLink={this.#links[4]}
-							platformId={this.#links.indexOf(this.#links[4])}
-        				/>
-						<LinkElement
-							memberLink={this.#links[5]}
-							platformId={this.#links.indexOf(this.#links[5])}
-        				/>
-					</ul>
+				<ul className="links-list">
+					<LinkElement
+						memberLink={this.#links[0]}
+						platformId={this.#links.indexOf(this.#links[0])}
+					/>
+					<LinkElement
+						memberLink={this.#links[1]}
+						platformId={this.#links.indexOf(this.#links[1])}
+					/>
+					<LinkElement
+						memberLink={this.#links[2]}
+						platformId={this.#links.indexOf(this.#links[2])}
+					/>
+					<LinkElement
+						memberLink={this.#links[3]}
+						platformId={this.#links.indexOf(this.#links[3])}
+					/>
+					<LinkElement
+						memberLink={this.#links[4]}
+						platformId={this.#links.indexOf(this.#links[4])}
+					/>
+					<LinkElement
+						memberLink={this.#links[5]}
+						platformId={this.#links.indexOf(this.#links[5])}
+					/>
+				</ul>
 			</div>
 		);
 	}
