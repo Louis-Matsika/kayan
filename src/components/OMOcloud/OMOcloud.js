@@ -1,4 +1,5 @@
 import "./OMOcloud.css";
+import LinkElement from "./LinkElement";
 //the OMOcloud class creates a template for all OMOcloud members
 class OMOcloud {
 	#name;
@@ -135,50 +136,36 @@ class OMOcloud {
 		);
 	}
 
-	// the links() function aggregates links for a given users socials and work
-	links() {
-		return (
+		
+	links(){
+		return(
 			<div className="links">
-				<nav>
 					<ul className="links-list">
-						<li>
-							<a className="links-link" href={this.#links[0]} target="_blank">
-								<i class="fa-brands fa-youtube"></i>
-								<p>YouTube</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[1]} target="_blank">
-								<i class="fa-brands fa-soundcloud"></i>
-								<p>Soundcloud</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[2]} target="_blank">
-								<i class="fa-brands fa-spotify"></i>
-								<p>Spotify</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[3]} target="_blank">
-								<i class="fa-brands fa-tiktok"></i>
-								<p>TikTok</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[4]} target="_blank">
-								<i class="fa-brands fa-instagram"></i>
-								<p>Instagram</p>
-							</a>
-						</li>
-						<li>
-							<a className="links-link" href={this.#links[5]} target="_blank">
-								<i class="fa-brands fa-snapchat"></i>
-								<p>Snapchat</p>
-							</a>
-						</li>
+						<LinkElement
+							memberLink={this.#links[0]}
+							platformId={this.#links.indexOf(this.#links[0])}
+        				/>
+						<LinkElement
+							memberLink={this.#links[1]}
+							platformId={this.#links.indexOf(this.#links[1])}
+        				/>
+						<LinkElement
+							memberLink={this.#links[2]}
+							platformId={this.#links.indexOf(this.#links[2])}
+        				/>
+						<LinkElement
+							memberLink={this.#links[3]}
+							platformId={this.#links.indexOf(this.#links[3])}
+        				/>
+						<LinkElement
+							memberLink={this.#links[4]}
+							platformId={this.#links.indexOf(this.#links[4])}
+        				/>
+						<LinkElement
+							memberLink={this.#links[5]}
+							platformId={this.#links.indexOf(this.#links[5])}
+        				/>
 					</ul>
-				</nav>
 			</div>
 		);
 	}

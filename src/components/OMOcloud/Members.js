@@ -2,6 +2,20 @@ import OMOcloud from "./OMOcloud";
 
 //* all members of OMOcloud */
 
+/*
+        name = (string) name of member
+        icon = (string) path to icon
+        pfp = (string) path to profile picture
+		callingCard = (string) path to calling card
+		tag = (string) chosen catch phrase
+        idNumber = (string) 4 digit ID number picked by member
+        isArtist = (boolean) is member a artist yes or no?
+        isProducer = (boolean) is member a producer yes or no?
+        isVisual = (boolean) is member a visual artist yes or no?
+        bio = (string) biography of member
+		links = (array) social links of member [youtube, soundcloud, spotify, tiktok, instagram, snapchat]
+        */
+
 const SAI = new OMOcloud(
 	"SAI's fate.", // name
 	"member-assets/sai-icon.png", // icon path
