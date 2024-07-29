@@ -137,6 +137,7 @@ class OMOcloud {
 						<CreditElement memberCredit={this.#credit[1]} />
 						<CreditElement memberCredit={this.#credit[2]} />
 						<CreditElement memberCredit={this.#credit[3]} />
+						<CreditElement memberCredit={this.#credit[4]} />
 					</div>
 				</div>
 			</div>
