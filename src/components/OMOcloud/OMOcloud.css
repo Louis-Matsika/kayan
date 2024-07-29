@@ -19,10 +19,9 @@
 /* calling card */
 .calling-card {
 	display: grid;
-	grid-template-columns: 100px 450px;
+	grid-template-columns: 135px 530px;
 
-	width: 550px;
-	/* height: 150px; */
+	width: 665px;
 	background-color: #525252;
 	margin: 0 auto;
 	color: #fff;
@@ -37,13 +36,36 @@
 	padding-top: 10px;
 }
 
-.calling-card-bottom-right {
+.calling-card-flags {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+.calling-card-skills {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.calling-card-skill {
+	width: 37px;
+}
+
+.calling-card-top-right {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 
 	position: absolute;
-	top: 10px;
+	top: 8px;
 	right: 10px;
 }
 
@@ -56,8 +78,16 @@
 	font-size: 30px;
 }
 
+.calling-card-name {
+	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000;
+}
+
 .calling-card-icon {
 	width: 35px;
+}
+
+.calling-card-flag {
+	height: 25px;
 }
 
 .calling-card-banner-wrapper {
@@ -74,13 +104,13 @@
 	width: 100%;
 	text-align: center;
 	font-size: 20px;
-	text-shadow: 0px 0px 2px black, 0px 0px 5px black, 0px 0px 2px black,
-		0px 0px 2px black;
+	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000,
+		0px 0px 2px #000;
 }
 
 /* LINKS */
 .links {
-	width: 550px;
+	width: 665px;
 	padding: 10px 0;
 	margin: 0 auto;
 	background-color: #333;
@@ -90,7 +120,8 @@
 
 .links-list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 15px;
 	list-style: none;
 	padding: 0 20px;
 }
