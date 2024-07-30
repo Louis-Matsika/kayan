@@ -1,6 +1,6 @@
 import "./App.css";
-import "./App-queries.css";
 import "./components/OMOcloud/OMOcloud.css";
+import "./App-queries.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import of all needed pages for kayan

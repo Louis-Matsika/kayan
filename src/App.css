@@ -16,6 +16,8 @@ body {
 	color: #fff;
 	line-height: 1;
 	background-image: url(../public/welcome-omo-background.png);
+	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 }
 
