@@ -97,14 +97,16 @@ class OMOcloud {
 	row() {
 		return (
 			<div className="row">
-				<span className="row-team">[OMO]</span>
-				<span className="row-name">{this.#name}</span>
-				<img
-					className="row-icon"
-					alt={this.#name + " member icon"}
-					src={this.#icon}
-				></img>
-				<span className="row-number">{this.#idNumber}</span>
+				{/* <span className="row-team"></span> */}
+				<span className="row-name">[OMO] {this.#name}</span>
+				<div className="row-right">
+					<img
+						className="row-icon"
+						alt={this.#name + " member icon"}
+						src={this.#icon}
+					></img>
+					<span className="row-number">{this.#idNumber}</span>
+				</div>
 			</div>
 		);
 	}
@@ -148,7 +150,7 @@ class OMOcloud {
 	// the links() function aggregates all the social links for a member
 	links() {
 		return (
-			<div className="links">
+			<div className="links content-box">
 				<ul className="link-list">
 					<LinkElement
 						memberLink={this.#links[0]}
@@ -194,7 +196,10 @@ class OMOcloud {
 					className="featured-music-image content-image"
 					src={"music-assets/" + musicArt}
 				></img>
-				<div className="featured-right content-right">
+				<div
+					className="featured-right content-right"
+					// style={{ backgroundImage: "url(music-assets/" + { musicArt } }}
+				>
 					<p className="featured-title content-title">{musicTitle}</p>
 					<p className="featured-artist">{this.#name}</p>
 					<p className="featured-description">{description}</p>
