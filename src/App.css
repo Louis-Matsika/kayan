@@ -1,5 +1,5 @@
 /***************/
-/* DOCUMENT DECLARATIONS */
+/* DOCUMENT */
 /***************/
 * {
 	margin: 0;
@@ -12,79 +12,45 @@ html {
 }
 
 body {
-	/* font-size: 1.8rem; */
 	font-family: "Convection Medium", sans-serif;
 	color: #fff;
 	line-height: 1;
+	background-image: url(../public/welcome-omo-background.png);
+	background-attachment: fixed;
 }
 
 /***************/
-/* GENERAL / REUSABLE SELECTORS */
+/* GENERAL / REUSABLE */
 /***************/
-
-main {
-	text-align: center;
-	margin: 4.8rem auto 7.2rem auto;
+.content-container {
+	box-shadow: 0px 0px 8px #000;
 	width: fit-content;
+	margin: 0 auto;
 }
 
-.subheading {
-	font-size: 1.2rem;
-	font-weight: 500;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 0.75px;
+.font-bold {
+	font-weight: 700;
 }
 
 /***************/
-/* HEADER + FOOTER */
+/* HEADER */
 /***************/
-
-/* FULL SECTIONS */
 header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 	border-bottom: 2px solid #f3c20f;
-	padding: 1.2rem 0;
+	padding: 12px 0;
 	background-color: #181818;
 }
 
-footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	border-top: 1px solid #d3d3d3;
-	padding: 4.8rem 0;
-}
-
-/* LOGO WRAPPERS */
-.header-logo-wrapper,
-.footer-logo-wrapper {
-	display: inline-block;
+.header-logo-wrapper {
 	border: 5px solid transparent;
 	border-radius: 9px;
+	width: 50px;
 }
 
-.header-logo-wrapper {
-	width: 5rem;
-}
-
-.footer-logo-wrapper--omo {
-	width: 8rem;
-}
-
-.footer-logo-wrapper--weatherstation {
-	width: 6rem;
-}
-
-/* LOGOS */
 .header-logo {
-	width: 100%;
-}
-
-.footer-logo {
 	width: 100%;
 }

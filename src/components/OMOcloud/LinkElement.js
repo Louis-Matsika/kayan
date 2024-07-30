@@ -37,13 +37,8 @@ function LinkElement({ memberLink, platformId }) {
 		<>
 			{memberLink !== "" && (
 				<li>
-					<a
-						className="links-link"
-						href={memberLink}
-						target="_blank"
-						rel="noopener"
-					>
-						<i class={"fa-brands fa-" + platformIcon}></i>
+					<a className="link" href={memberLink} target="_blank" rel="noopener">
+						<i className={"fa-brands fa-" + platformIcon}></i>
 						<p>{platform}</p>
 					</a>
 				</li>

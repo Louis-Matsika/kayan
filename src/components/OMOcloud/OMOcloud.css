@@ -1,4 +1,6 @@
-/* lobby rows */
+/***************/
+/* LOBBY ROWS */
+/***************/
 .row {
 	display: grid;
 	grid-template-columns: 90px 400px 60px 70px;
@@ -16,83 +18,80 @@
 	width: 45px;
 }
 
-/* calling card */
-.calling-card {
-	display: grid;
-	grid-template-columns: 135px 530px;
-
-	width: 665px;
-	background-color: #525252;
-	margin: 0 auto;
-	color: #fff;
+/***************/
+/* REUSABLE / GENERAL */
+/***************/
+.member-content-container {
+	margin: 100px auto;
 }
 
-/* SECTIONS */
-.calling-card-right {
+.content-box {
+	display: flex;
+	background-color: #525252;
+	width: 665px;
+}
+
+.content-image {
+	width: 135px;
+}
+
+.content-right {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	position: relative;
-	padding-top: 10px;
-}
-
-.calling-card-flags {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-
-	position: absolute;
-	top: 14px;
-	left: 14px;
-}
-
-.calling-card-skills {
-	display: flex;
-	align-items: center;
-
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-}
-
-.calling-card-skill {
-	width: 37px;
-}
-
-.calling-card-top-right {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-
-	position: absolute;
-	top: 8px;
-	right: 10px;
-}
-
-.calling-card-pfp {
 	width: 100%;
+	text-align: center;
+	position: relative;
 }
 
-.calling-card-name,
-.calling-card-number {
+.content-title {
 	font-size: 30px;
-}
-
-.calling-card-name {
 	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000;
 }
 
-.calling-card-icon {
-	width: 35px;
+.flex-absolute {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
 }
 
-.calling-card-flag {
-	height: 25px;
+.link-list {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	list-style: none;
 }
 
+.link:link,
+.link:visited {
+	display: flex;
+	gap: 5px;
+
+	color: #f3c20f;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+	font-weight: 700;
+}
+
+/***************/
+/* CALLING CARD */
+/***************/
+.calling-card-right {
+	padding-top: 10px;
+}
+
+/* main content (name + banner + tag) */
 .calling-card-banner-wrapper {
 	position: relative;
-	width: fit-content;
+}
+
+.calling-card-banner {
+	vertical-align: top;
 }
 
 .calling-card-tag {
@@ -102,117 +101,85 @@
 	transform: translate(-50%, -50%);
 
 	width: 100%;
-	text-align: center;
 	font-size: 20px;
 	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000,
 		0px 0px 2px #000;
 }
 
+/* top left (flags) */
+.calling-card-flags {
+	gap: 10px;
+
+	top: 12px;
+	left: 14px;
+}
+
+.calling-card-flag {
+	height: 25px;
+}
+
+/* top right (icon + idNumber) */
+.calling-card-number-wrapper {
+	gap: 10px;
+
+	top: 7px;
+	right: 12px;
+}
+
+.calling-card-icon {
+	width: 35px;
+}
+
+.calling-card-number {
+	font-size: 30px;
+}
+
+/* bottom right (credit / skills) */
+.calling-card-credit {
+	bottom: 5px;
+	right: 5px;
+}
+
+.calling-card-skill {
+	width: 37px;
+}
+
+/***************/
 /* LINKS */
+/***************/
 .links {
 	width: 665px;
 	padding: 10px 0;
-	margin: 0 auto;
 	background-color: #333;
 	border-top: 2px solid #f3c20f;
-	font-size: 14px;
 }
 
-.links-list {
-	display: flex;
-	justify-content: center;
-	gap: 15px;
-	list-style: none;
-	padding: 0 20px;
-}
-
-.links-link:link,
-.links-link:visited {
-	display: flex;
-	gap: 5px;
-	color: #f3c20f;
-	text-decoration: none;
-}
-
-.links-link:hover,
-.links-link:active {
-	font-weight: 700;
-}
-
-/*******/
-.background {
-	background-image: url(../../../public/welcome-omo-background.png);
-	background-size: cover;
-	background-attachment: fixed;
-	width: 100%;
-	height: 100vh;
-}
-
-.padding-top {
-	padding-top: 150px;
-}
-
-.box-shadow {
-	box-shadow: 0px 0px 8px #000;
-	width: fit-content;
-	margin: 0 auto;
-}
-
-.border-bottom {
-	border-bottom: 2px solid #f3c20f;
-}
-
-/* FEATURED MUSIC */
-.featured-music-box {
-	width: 665px;
-	display: flex;
-
-	margin: 0 auto;
-	background-color: #525252;
-	text-align: center;
-}
-
-.featured-music-image {
-	width: 135px;
-}
-
-.featured-music-right {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+/***************/
+/* FEATURED */
+/***************/
+/* music + video */
+.featured-right {
 	justify-content: center;
 }
 
-.featured-music-title {
-	font-size: 30px;
-	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000;
-}
-
-.featured-music-artist {
+.featured-artist {
 	font-size: 15px;
 	margin-bottom: 20px;
 	text-shadow: 0px 0px 2px #000, 0px 0px 3px #000;
 }
 
-.featured-music-description {
+.featured-description {
 	margin-bottom: 10px;
 }
 
-.featured-music-box .links-link {
-	font-size: 14px;
-}
-
-/* FEATURED VIDEO */
+/* video */
 .featured-video-box {
 	background-color: #333;
-	/* padding: 40px 200px; */
+	border-top: 2px solid #f3c20f;
 }
-
-/* .featured-music-box.featured-video-box {
-	display: block;
-} */
 
 .featured-video-embed {
 	width: 100%;
 	aspect-ratio: 16 / 9;
+	border: none;
 }

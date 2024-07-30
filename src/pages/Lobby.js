@@ -16,13 +16,13 @@ import {
 
 export default function Lobby() {
 	return (
-		<div className="background">
+		<div>
 			<h2>
 				<span className="font-bold">OMO</span>cloud
 				<span className="font-bold">.</span>
 			</h2>
 			<p className="omo-slogan">the cloud awaits...</p>
-			<section className="section--rows">
+			<section className="section--rows content-container">
 				<Link className="row-link" to="/SAI">
 					{SAI.row()}
 				</Link>

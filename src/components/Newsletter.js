@@ -31,9 +31,9 @@ export default function Newsletter() {
 	// 	}
 	// };
 	return (
-		<section class="section--newsletter">
+		<section className="section--newsletter">
 			<form id="newsletter-form">
-				<label for="email-input" id="input-label" class="subheading">
+				<label htmlFor="email-input" id="input-label">
 					Join the campaign today!
 				</label>
 

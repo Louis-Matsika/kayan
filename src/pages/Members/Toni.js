@@ -2,9 +2,11 @@ import { Toni } from "../../components/OMOcloud/Members";
 
 function ToniPage() {
 	return (
-		<div className="background padding-top">
-			<div>{Toni.callingCard()}</div>
-			<div>{Toni.links()}</div>
+		<div>
+			<div className="member-content-container content-container">
+				<div>{Toni.callingCard()}</div>
+				<div>{Toni.links()}</div>
+			</div>
 		</div>
 	);
 }
