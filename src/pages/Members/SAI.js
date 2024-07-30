@@ -2,11 +2,11 @@ import { SAI } from "../../components/OMOcloud/Members";
 
 function SaiPage() {
 	return (
-		<div className="background padding-top">
-			<div className="box-shadow">
+		<div>
+			<div className="member-content-container content-container">
 				<div>{SAI.callingCard()}</div>
 				<div>{SAI.links()}</div>
-				<div className="border-bottom">
+				<div>
 					{SAI.featuredMusic(
 						"1 ⠑⠝⠞⠗⠕⠏⠽",
 						"sai-1-artwork.jpg",

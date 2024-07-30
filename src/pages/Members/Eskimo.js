@@ -3,7 +3,7 @@ import { Eskimo } from "../../components/OMOcloud/Members";
 function EskimoPage() {
 	return (
 		<div>
-			<div className="background padding-top">
+			<div className="member-content-container content-container">
 				<div>{Eskimo.callingCard()}</div>
 				<div>{Eskimo.links()}</div>
 			</div>
