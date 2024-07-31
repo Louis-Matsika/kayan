@@ -9,6 +9,8 @@ import {
 	Toni,
 	Xylet,
 	Eskimo,
+	Bakura,
+	LOSS,
 } from "../components/OMOcloud/Members.js";
 
 // import { collection, addDoc } from "firebase/firestore";
@@ -37,6 +39,12 @@ export default function Lobby() {
 				</Link>
 				<Link className="row-link" to={"/" + Eskimo.getName}>
 					{Eskimo.row()}
+				</Link>
+				<Link className="row-link" to={"/" + Bakura.getName}>
+					{Bakura.row()}
+				</Link>
+				<Link className="row-link" to={"/" + LOSS.getName}>
+					{LOSS.row()}
 				</Link>
 			</section>
 			<Newsletter />

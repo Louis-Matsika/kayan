@@ -14,6 +14,8 @@ import ShinPage from "./pages/Members/Shin";
 import ToniPage from "./pages/Members/Toni";
 import XyletPage from "./pages/Members/Xylet";
 import EskimoPage from "./pages/Members/Eskimo";
+import BakuraPage from "./pages/Members/Bakura";
+import LossPage from "./pages/Members/LOSS";
 
 function App() {
 	return (
@@ -30,6 +32,8 @@ function App() {
 					<Route path="Toni" element={<ToniPage />} />
 					<Route path="Xylet" element={<XyletPage />} />
 					<Route path="Eskimo" element={<EskimoPage />} />
+					<Route path="Bakura" element={<BakuraPage />} />
+					<Route path="LOSS" element={<LossPage />} />
 					<Route path="Info" element={<Info />} />
 					{/* "*" is the 404 page */}
 					<Route path="*" element={<NoPage />} />

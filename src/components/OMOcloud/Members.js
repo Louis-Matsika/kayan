@@ -42,7 +42,7 @@ const SAI = new OMOcloud(
 		"https://soundcloud.com/saisfate",
 		"https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg",
 		"https://www.tiktok.com/@omosaisfate",
-		"https://www.instagram.com/omosaisfate/",
+		"https://www.instagram.com/omosaisfate",
 		"https://www.snapchat.com/add/omo541",
 	]
 );
@@ -51,7 +51,7 @@ const Shin = new OMOcloud(
 	"Shin", // name
 	"member-assets/shin-icon.png", // icon path
 	"member-assets/shin-pfp.png", // pfp card path
-	"member-assets/shin-card.png", // calling card path
+	"member-assets/shin-card-2.png", // calling card path
 	"buzzy bee.", // tag
 	"0009", // ID number
 	[
@@ -74,7 +74,7 @@ const Shin = new OMOcloud(
 		"",
 		"",
 		"",
-		"https://www.instagram.com/omoshin0/",
+		"https://www.instagram.com/omoshin0",
 		"",
 	]
 );
@@ -105,8 +105,8 @@ const Toni = new OMOcloud(
 		"",
 		"https://soundcloud.com/omotoni",
 		"https://open.spotify.com/artist/52b2C0ye6EH0axeJWPh0nk?si=WCf49JhTTcaEVeOJleAHog",
-		"https://www.tiktok.com/@omotoni01",
-		"https://www.instagram.com/omostoni01/",
+		"https://www.tiktok.com/@omotoni101",
+		"https://www.instagram.com/omotoni01/",
 		"",
 	]
 );
@@ -138,7 +138,7 @@ const Xylet = new OMOcloud(
 		"",
 		"",
 		"",
-		"https://www.instagram.com/omoshin0/",
+		"https://www.instagram.com/omoxylet",
 		"",
 	]
 );
@@ -175,4 +175,68 @@ const Eskimo = new OMOcloud(
 	]
 );
 
-export { SAI, Shin, Toni, Xylet, Eskimo };
+const Bakura = new OMOcloud(
+	"Bakura", // name
+	"member-assets/eskimo-icon.png", // icon path
+	"member-assets/bakura-pfp.png", // pfp card path
+	"member-assets/eskimo-card.png", // calling card path
+	"I'mm deaddd", // tag
+	"0777", // ID number
+	[
+		// array of members skill
+		"",
+		"",
+		"",
+		"",
+		"member-assets/skill-5.png",
+	],
+	"1", // member bio
+	[
+		// array of flag paths
+		"member-assets/flag-gb.png",
+		"member-assets/flag-lk.png",
+	],
+	[
+		// array of member links
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+	]
+);
+
+const LOSS = new OMOcloud(
+	"LOSS", // name
+	"member-assets/eskimo-icon.png", // icon path
+	"member-assets/loss-pfp.jpg", // pfp card path
+	"member-assets/eskimo-card.png", // calling card path
+	"Double or nothing, I test my luck", // tag
+	"1011", // ID number
+	[
+		// array of members skill
+		"member-assets/skill-1.png",
+		"member-assets/skill-2.png",
+		"",
+		"member-assets/skill-4.png",
+		"member-assets/skill-5.png",
+	],
+	"1", // member bio
+	[
+		// array of flag paths
+		"member-assets/flag-en.png",
+		"member-assets/flag-ng.png",
+	],
+	[
+		// array of member links
+		"",
+		"https://soundcloud.com/loss-873819248",
+		"",
+		"",
+		"https://www.instagram.com/lossent1",
+		"",
+	]
+);
+
+export { SAI, Shin, Toni, Xylet, Eskimo, Bakura, LOSS };
