@@ -1,0 +1,20 @@
+
+{ 
+    "theCloud": [
+        {
+            "name":"sai faFf",
+            "role":"prod",
+            "id":"0001"
+        },
+        {
+            "name":"shin",
+            "role":"bee",
+            "id":"0002"
+        },
+        {
+            "name":"toni",
+            "role":"artist",
+            "id":"0003"
+        }
+    ]   
+}

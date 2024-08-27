@@ -1,11 +1,12 @@
-import { SAI } from "../../components/OMOcloud/Members.js";
+import FetchMember from "@/components/FetchMember";
 
-function MemberPage({params}) {
+async function MemberPage({params}) {
 	const member = params.memberId;
 	return (
 		<div>
 		{params.memberId}
-		{SAI.callingCard()}	
+		<FetchMember />
+
 		</div>
 	);
 }
