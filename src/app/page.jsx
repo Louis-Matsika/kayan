@@ -25,7 +25,13 @@ export default function Lobby() {
 				<span className="font-bold">.</span>
 			</h2>
 			<p className="omo-slogan">the cloud awaits...</p>
-
+			<section className="section--rows content-container">
+				<Link  
+          href="/SAI"
+          className="row-link">
+					{SAI.row()}
+				</Link>
+			</section>
 			<Newsletter />
 		</div>
 	);
