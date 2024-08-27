@@ -27,7 +27,7 @@ export default function Lobby() {
 			<p className="omo-slogan">the cloud awaits...</p>
 			<section className="section--rows content-container">
 				<Link  
-          href="/SAI"
+          href="/Members/SAI"
           className="row-link">
 					{SAI.row()}
 				</Link>
