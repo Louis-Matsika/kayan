@@ -1,0 +1,198 @@
+/***************/
+/* LOBBY ROWS */
+/***************/
+.row {
+	/* grid-template-columns: 90px 400px 60px 70px; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 620px;
+
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 30px;
+	background-color: #333;
+}
+
+.row-right {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.row-icon {
+	width: 45px;
+}
+
+/***************/
+/* REUSABLE / GENERAL */
+/***************/
+.member-content-container {
+	margin: 100px auto;
+}
+
+.content-box {
+	display: flex;
+	background-color: #525252;
+	width: 665px;
+}
+
+.content-image {
+	width: 135px;
+}
+
+.content-right {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.content-title {
+	font-size: 30px;
+	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000;
+}
+
+.flex-absolute {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+}
+
+.link-list {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	gap: 15px;
+	list-style: none;
+}
+
+.link:link,
+.link:visited {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+
+	color: #f3c20f;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+	font-weight: 700;
+}
+
+i {
+	vertical-align: bottom;
+}
+
+/***************/
+/* CALLING CARD */
+/***************/
+.calling-card-right {
+	padding-top: 10px;
+}
+
+/* main content (name + banner + tag) */
+.calling-card-banner-wrapper {
+	position: relative;
+}
+
+.calling-card-banner {
+	vertical-align: top;
+}
+
+.calling-card-tag {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 100%;
+	font-size: 20px;
+	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000,
+		0px 0px 2px #000;
+}
+
+/* top left (flags) */
+.calling-card-flags {
+	gap: 10px;
+
+	top: 12px;
+	left: 14px;
+}
+
+.calling-card-flag {
+	height: 25px;
+}
+
+/* top right (icon + idNumber) */
+.calling-card-number-wrapper {
+	gap: 10px;
+
+	top: 7px;
+	right: 12px;
+}
+
+.calling-card-icon {
+	width: 35px;
+}
+
+.calling-card-number {
+	font-size: 30px;
+}
+
+/* bottom right (credit / skills) */
+.calling-card-credit {
+	bottom: 5px;
+	right: 5px;
+}
+
+.calling-card-skill {
+	width: 37px;
+}
+
+/***************/
+/* LINKS */
+/***************/
+.links {
+	justify-content: center;
+	padding: 10px 0;
+	background-color: #333;
+	border-top: 2px solid #f3c20f;
+}
+
+/***************/
+/* FEATURED */
+/***************/
+/* music + video */
+.featured-right {
+	justify-content: center;
+}
+
+.featured-artist {
+	font-size: 15px;
+	margin-bottom: 20px;
+	text-shadow: 0px 0px 2px #000, 0px 0px 3px #000;
+}
+
+.featured-description {
+	margin-bottom: 10px;
+}
+
+/* video */
+.featured-video-box {
+	background-color: #333;
+	border-top: 2px solid #f3c20f;
+}
+
+.featured-video-embed {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	border: none;
+}
