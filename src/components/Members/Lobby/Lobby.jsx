@@ -1,33 +1,26 @@
 import "@/components/Members/Lobby/Lobby.css";
 import "@/components/Members/OMOcloud.css";
-import LobbyRow from "@/components/Members/Lobby/LobbyRow"
+import Link from "next/link";
+import LobbyRow from "@/components/Members/Lobby/LobbyRow";
 import fetchData from "@/components/fetchMemberData";
 
-
-async function Lobby(){
+async function Lobby() {
     //fetch member data
     const theCloud = await fetchData();
 
-    return(
-        <>  
+    return (
+        <>
             {/* map out member data to create a lobby made up of lobby rows */}
             {console.log(JSON.stringify(theCloud))}
             {theCloud.map((welcome, index) => (
-               <div key={index}>
-
-                <LobbyRow
-                    name={welcome.name}
-                    icon={welcome.icon}
-                    idNumber={welcome.idNumber}
-                />
-
-               </div>
+                <div key={index} className="row-link">
+                    <Link href={"/" + welcome.username}>
+                        <LobbyRow name={welcome.name} icon={welcome.icon} idNumber={welcome.idNumber} />
+                    </Link>
+                </div>
             ))}
 
-            {theCloud.length === 0 && (
-                <p>whoopss something went wrong try later, AHHHHH we have no members!!</p>
-
-            )}
+            {theCloud.length === 0 && <p>whoopss something went wrong try later, AHHHHH we have no members!!</p>}
         </>
     );
 }
