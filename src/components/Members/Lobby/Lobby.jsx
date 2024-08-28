@@ -18,7 +18,7 @@ async function Lobby(){
                 <LobbyRow
                     name={welcome.name}
                     icon={welcome.icon}
-                    id={welcome.idNumber}
+                    idNumber={welcome.idNumber}
                 />
 
                </div>
