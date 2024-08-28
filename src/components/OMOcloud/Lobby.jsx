@@ -10,9 +10,6 @@ async function Lobby(){
 
                 {console.log(theCloud)}
                 lobby rows should be here
-                <h2>{Members.name}</h2>
-                <p>{Members.idNumber}</p>
-                <p>{Members.icon}</p>
                 <LobbyRow
                     name={Members.name}
                     icon={Members.icon}

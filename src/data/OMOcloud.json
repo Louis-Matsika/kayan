@@ -30,6 +30,38 @@
 		        "instagram":"https://www.instagram.com/omosaisfate",
 		        "snapchat":"https://www.snapchat.com/add/omo541"
             }
+        },
+
+        {
+            "name":"Shin.",
+            "icon":"member-assets/shin-icon.png",
+            "pfp":"member-assets/shin-pfp.png",
+            "callingCard":"member-assets/shin-card-2.png",
+            "tag":"buzzy bee..",
+            "idNumber":"0009",
+            "credit":{
+                "skill1":"",
+                "skill2":"",
+                "skill3":"member-assets/skill-3.png",
+                "skill4":"member-assets/skill-4.png",
+                "skill5":"member-assets/skill-5.png"
+
+
+            },
+            "bio":"classified",
+            "flags":{
+                "flag1":"member-assets/flag-no.png",
+                "flag2":""
+                
+            },
+            "links":{
+                "youtube":"https://www.youtube.com/@omoshin",
+		        "soundcloud":"",
+		        "spotify":"",
+		        "tiktok":"https://www.tiktok.com/@omoshinsvision",
+		        "instagram":"https://www.tiktok.com/@omoshin0",
+		        "snapchat":""
+            }
         }
     ]   
 }
