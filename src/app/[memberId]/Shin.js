@@ -1,4 +1,4 @@
-import { Shin } from "../../components/OMOcloud/Members";
+import { Shin } from "../../components/Members/Members";
 
 function ShinPage() {
 	return (

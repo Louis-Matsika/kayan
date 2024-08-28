@@ -1,4 +1,4 @@
-import Lobby from "@/components/OMOcloud/Lobby.jsx";
+import Lobby from "@/components/Members/Lobby/Lobby.jsx";
 
 async function MemberPage({params}) {
 	const member = params.memberId;

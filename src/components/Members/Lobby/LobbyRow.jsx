@@ -1,4 +1,4 @@
-import "@/components/OMOcloud/OMOcloud.css";
+//import "@/components/Members/OMOcloud.css";
 
 //the row() function creates a lobby row for a given OMOcloud member
 function LobbyRow({name, icon, idNumber}) {

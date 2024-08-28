@@ -1,4 +1,4 @@
-import { Eskimo } from "../../components/OMOcloud/Members";
+import { Eskimo } from "../../components/Members/Members";
 
 function EskimoPage() {
 	return (

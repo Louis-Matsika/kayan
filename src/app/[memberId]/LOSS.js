@@ -1,4 +1,4 @@
-import { LOSS } from "../../components/OMOcloud/Members";
+import { LOSS } from "../../components/Members/Members";
 
 function LossPage() {
 	return (

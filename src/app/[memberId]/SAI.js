@@ -1,4 +1,4 @@
-import { SAI } from "../../components/OMOcloud/Members";
+import { SAI } from "../../components/Members/Members";
 
 function SaiPage() {
 	return (

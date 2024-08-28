@@ -1,4 +1,4 @@
-import { Bakura } from "../../components/OMOcloud/Members";
+import { Bakura } from "../../components/Members/Members";
 
 function BakuraPage() {
 	return (

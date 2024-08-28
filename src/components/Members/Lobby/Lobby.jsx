@@ -1,6 +1,6 @@
-import "@/components/OMOcloud/Lobby.css";
-import "@/components/OMOcloud/OMOcloud.css";
-import LobbyRow from "@/components/OMOcloud/LobbyRow"
+import "@/components/Members/Lobby/Lobby.css";
+import "@/components/Members/OMOcloud.css";
+import LobbyRow from "@/components/Members/Lobby/LobbyRow"
 import fetchData from "@/components/fetchMemberData";
 
 
@@ -9,7 +9,7 @@ async function Lobby(){
 
     return(
         <>
-            {theCloud && theCloud.map && theCloud.map((welcome, index) => (
+            {theCloud.map((welcome, index) => (
                <div key={index}>
 
                 {console.log(theCloud)}

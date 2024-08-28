@@ -1,4 +1,4 @@
-import { Toni } from "../../components/OMOcloud/Members";
+import { Toni } from "../../components/Members/Members";
 
 function ToniPage() {
 	return (

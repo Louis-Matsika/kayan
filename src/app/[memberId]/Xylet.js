@@ -1,4 +1,4 @@
-import { Xylet } from "../../components/OMOcloud/Members";
+import { Xylet } from "../../components/Members/Members";
 
 function XyletPage() {
 	return (
