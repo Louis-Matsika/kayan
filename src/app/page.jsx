@@ -19,10 +19,6 @@ export default function homePage() {
 			</h2>
 			<p className="omo-slogan">the cloud awaits...</p>
 			<section className="section--rows content-container">
-				<Link  
-          			href="/Members/SAI"
-          			className="row-link">test link
-				</Link>
 				<Lobby />
 			</section>
 			<Newsletter />

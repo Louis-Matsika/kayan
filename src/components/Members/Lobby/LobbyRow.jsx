@@ -1,6 +1,6 @@
-//import "@/components/Members/OMOcloud.css";
+import "@/components/Members/OMOcloud.css";
 
-//the row() function creates a lobby row for a given OMOcloud member
+//the LobbyRow() function creates a lobby row for a given OMOcloud member
 function LobbyRow({name, icon, idNumber}) {
 	return (
 		<div className="row">
