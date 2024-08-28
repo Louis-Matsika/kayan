@@ -2,22 +2,14 @@ import styles from "./page.module.css";
 import Link from "next/link";
 // import { React, useState } from "react";
 import { React } from "react";
-import Newsletter from ".././components/Newsletter.js";
+import Newsletter from "../components/Newsletter/Newsletter.js";
 import "./Lobby.css";
-import {
-	SAI,
-	Shin,
-	Toni,
-	Xylet,
-	Eskimo,
-	Bakura,
-	LOSS,
-} from "../components/OMOcloud/Members.js";
+import Lobby from "@/components/OMOcloud/Lobby"
 
 // import { collection, addDoc } from "firebase/firestore";
 // import db from "../firebase-config";
 
-export default function Lobby() {
+export default function homePage() {
 	return (
 		<div>
 			<h2>
@@ -27,10 +19,10 @@ export default function Lobby() {
 			<p className="omo-slogan">the cloud awaits...</p>
 			<section className="section--rows content-container">
 				<Link  
-          href="/Members/SAI"
-          className="row-link">
-					{SAI.row()}
+          			href="/Members/SAI"
+          			className="row-link">test link
 				</Link>
+				<Lobby />
 			</section>
 			<Newsletter />
 		</div>

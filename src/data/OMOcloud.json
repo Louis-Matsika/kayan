@@ -1,20 +1,35 @@
 
 { 
-    "theCloud": [
+    "Members": [
         {
-            "name":"sai faFf",
-            "role":"prod",
-            "id":"0001"
-        },
-        {
-            "name":"shin",
-            "role":"bee",
-            "id":"0002"
-        },
-        {
-            "name":"toni",
-            "role":"artist",
-            "id":"0003"
+            "name":"SAI's fate.",
+            "icon":"member-assets/sai-icon.png",
+            "pfp":"member-assets/sai-pfp.jpg",
+            "callingCard":"member-assets/sai-card.png",
+            "tag":"what a fateful day.",
+            "idNumber":"0001",
+            "credit":{
+                "skill1":"member-assets/skill-1.png",
+                "skill2":"member-assets/skill-2.png",
+                "skill3":"member-assets/skill-3.png",
+                "skill4":"member-assets/skill-4.png",
+                "skill5":"member-assets/skill-5.png"
+
+
+            },
+            "bio":"classified",
+            "flags":{
+                "flag1":"member-assets/flag-gb.png",
+                "flag2":"member-assets/flag-zw.png"
+            },
+            "links":{
+                "youtube":"https://www.youtube.com/@saisfate",
+		        "soundcloud":"https://soundcloud.com/saisfate",
+		        "spotify":"https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg",
+		        "tiktok":"https://www.tiktok.com/@omosaisfate",
+		        "instagram":"https://www.instagram.com/omosaisfate",
+		        "snapchat":"https://www.snapchat.com/add/omo541"
+            }
         }
     ]   
 }
