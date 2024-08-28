@@ -3,7 +3,8 @@ import Link from "next/link";
 // import { React, useState } from "react";
 import { React } from "react";
 import Newsletter from "../components/Newsletter/Newsletter.js";
-import "./Lobby.css";
+import "@/components/OMOcloud/Lobby.css";
+import "@/components/OMOcloud/OMOcloud.css";
 import Lobby from "@/components/OMOcloud/Lobby"
 
 // import { collection, addDoc } from "firebase/firestore";

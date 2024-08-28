@@ -1,4 +1,3 @@
-
 { 
     "Members": [
         {
@@ -52,7 +51,7 @@
             "flags":{
                 "flag1":"member-assets/flag-no.png",
                 "flag2":""
-                
+
             },
             "links":{
                 "youtube":"https://www.youtube.com/@omoshin",
