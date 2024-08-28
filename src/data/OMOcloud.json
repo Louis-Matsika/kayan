@@ -1,66 +1,235 @@
-{ 
+{
     "Members": [
         {
-            "name":"SAI's fate.",
-            "icon":"member-assets/sai-icon.png",
-            "pfp":"member-assets/sai-pfp.jpg",
-            "callingCard":"member-assets/sai-card.png",
-            "tag":"what a fateful day.",
-            "idNumber":"0001",
-            "credit":{
-                "skill1":"member-assets/skill-1.png",
-                "skill2":"member-assets/skill-2.png",
-                "skill3":"member-assets/skill-3.png",
-                "skill4":"member-assets/skill-4.png",
-                "skill5":"member-assets/skill-5.png"
-
-
+            "name": "SAI's fate.",
+            "icon": "member-assets/sai-icon.png",
+            "pfp": "member-assets/sai-pfp.jpg",
+            "callingCard": "member-assets/sai-card.png",
+            "tag": "what a fateful day.",
+            "idNumber": "0001",
+            "credit": {
+                "skill1": "member-assets/skill-1.png",
+                "skill2": "member-assets/skill-2.png",
+                "skill3": "member-assets/skill-3.png",
+                "skill4": "member-assets/skill-4.png",
+                "skill5": "member-assets/skill-5.png"
             },
-            "bio":"classified",
-            "flags":{
-                "flag1":"member-assets/flag-gb.png",
-                "flag2":"member-assets/flag-zw.png"
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-gb.png",
+                "flag2": "member-assets/flag-zw.png"
             },
-            "links":{
-                "youtube":"https://www.youtube.com/@saisfate",
-		        "soundcloud":"https://soundcloud.com/saisfate",
-		        "spotify":"https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg",
-		        "tiktok":"https://www.tiktok.com/@omosaisfate",
-		        "instagram":"https://www.instagram.com/omosaisfate",
-		        "snapchat":"https://www.snapchat.com/add/omo541"
+            "links": {
+                "youtube": "https://www.youtube.com/@saisfate",
+                "soundcloud": "https://soundcloud.com/saisfate",
+                "spotify": "https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg",
+                "tiktok": "https://www.tiktok.com/@saisfate",
+                "instagram": "https://www.instagram.com/omosaisfate",
+                "snapchat": "https://www.snapchat.com/add/omo541"
             }
         },
 
         {
-            "name":"Shin.",
-            "icon":"member-assets/shin-icon.png",
-            "pfp":"member-assets/shin-pfp.png",
-            "callingCard":"member-assets/shin-card-2.png",
-            "tag":"buzzy bee..",
-            "idNumber":"0009",
-            "credit":{
-                "skill1":"",
-                "skill2":"",
-                "skill3":"member-assets/skill-3.png",
-                "skill4":"member-assets/skill-4.png",
-                "skill5":"member-assets/skill-5.png"
-
-
+            "name": "Shin",
+            "icon": "member-assets/shin-icon.png",
+            "pfp": "member-assets/shin-pfp.png",
+            "callingCard": "member-assets/shin-card-2.png",
+            "tag": "buzzy bee..",
+            "idNumber": "0009",
+            "credit": {
+                "skill1": "",
+                "skill2": "",
+                "skill3": "member-assets/skill-3.png",
+                "skill4": "member-assets/skill-4.png",
+                "skill5": "member-assets/skill-5.png"
             },
-            "bio":"classified",
-            "flags":{
-                "flag1":"member-assets/flag-no.png",
-                "flag2":""
-
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-no.png",
+                "flag2": ""
             },
-            "links":{
-                "youtube":"https://www.youtube.com/@omoshin",
-		        "soundcloud":"",
-		        "spotify":"",
-		        "tiktok":"https://www.tiktok.com/@omoshinsvision",
-		        "instagram":"https://www.tiktok.com/@omoshin0",
-		        "snapchat":""
+            "links": {
+                "youtube": "https://www.youtube.com/@omoshin",
+                "soundcloud": "",
+                "spotify": "",
+                "tiktok": "https://www.tiktok.com/@shinsvision",
+                "instagram": "https://www.instagram.com/omoshin0",
+                "snapchat": ""
+            }
+        },
+
+        {
+            "name": "Toni",
+            "icon": "member-assets/toni-icon.png",
+            "pfp": "member-assets/toni-pfp.jpg",
+            "callingCard": "member-assets/toni-card.png",
+            "tag": "ahh I missed it...",
+            "idNumber": "1407",
+            "credit": {
+                "skill1": "member-assets/skill-1.png",
+                "skill2": "",
+                "skill3": "",
+                "skill4": "",
+                "skill5": ""
+            },
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-gb.png",
+                "flag2": "member-assets/flag-es.png"
+            },
+            "links": {
+                "youtube": "",
+                "soundcloud": "https://soundcloud.com/omotoni",
+                "spotify": "https://open.spotify.com/artist/52b2C0ye6EH0axeJWPh0nk?si=WCf49JhTTcaEVeOJleAHog",
+                "tiktok": "https://www.tiktok.com/@omotoni101",
+                "instagram": "https://www.instagram.com/omotoni01",
+                "snapchat": ""
+            }
+        },
+
+        {
+            "name": "Xylet",
+            "icon": "member-assets/xylet-icon.png",
+            "pfp": "member-assets/xylet-pfp.jpg",
+            "callingCard": "member-assets/xylet-card.png",
+            "tag": "here we go again...",
+            "idNumber": "6730",
+            "credit": {
+                "skill1": "member-assets/skill-1.png",
+                "skill2": "member-assets/skill-2.png",
+                "skill3": "",
+                "skill4": "",
+                "skill5": ""
+            },
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-dk.png",
+                "flag2": "member-assets/flag-et.png"
+            },
+            "links": {
+                "youtube": "",
+                "soundcloud": "",
+                "spotify": "",
+                "tiktok": "",
+                "instagram": "https://www.instagram.com/omoxylet",
+                "snapchat": ""
+            }
+        },
+
+        {
+            "name": "Xylet",
+            "icon": "member-assets/xylet-icon.png",
+            "pfp": "member-assets/xylet-pfp.jpg",
+            "callingCard": "member-assets/xylet-card.png",
+            "tag": "here we go again...",
+            "idNumber": "6730",
+            "credit": {
+                "skill1": "member-assets/skill-1.png",
+                "skill2": "member-assets/skill-2.png",
+                "skill3": "",
+                "skill4": "",
+                "skill5": ""
+            },
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-dk.png",
+                "flag2": "member-assets/flag-et.png"
+            },
+            "links": {
+                "youtube": "",
+                "soundcloud": "",
+                "spotify": "",
+                "tiktok": "",
+                "instagram": "https://www.instagram.com/omoxylet",
+                "snapchat": ""
+            }
+        },
+
+        {
+            "name": "Eskimo",
+            "icon": "member-assets/eskimo-icon.png",
+            "pfp": "member-assets/eskimo-pfp.jpg",
+            "callingCard": "member-assets/eskimo-card.png",
+            "tag": "[classified]",
+            "idNumber": "1300",
+            "credit": {
+                "skill1": "member-assets/skill-1.png",
+                "skill2": "",
+                "skill3": "",
+                "skill4": "",
+                "skill5": "member-assets/skill-5.png"
+            },
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-gb.png",
+                "flag2": "member-assets/flag-ng.png"
+            },
+            "links": {
+                "youtube": "",
+                "soundcloud": "",
+                "spotify": "",
+                "tiktok": "",
+                "instagram": "https://www.instagram.com/lropong_13",
+                "snapchat": ""
+            }
+        },
+
+        {
+            "name": "Bakura",
+            "icon": "member-assets/eskimo-icon.png",
+            "pfp": "member-assets/bakura-pfp.jpg",
+            "callingCard": "member-assets/eskimo-card.png",
+            "tag": "I'mm deaddd",
+            "idNumber": "0777",
+            "credit": {
+                "skill1": "",
+                "skill2": "",
+                "skill3": "",
+                "skill4": "",
+                "skill5": "member-assets/skill-5.png"
+            },
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-gb.png",
+                "flag2": "member-assets/flag-lk.png"
+            },
+            "links": {
+                "youtube": "",
+                "soundcloud": "",
+                "spotify": "",
+                "tiktok": "",
+                "instagram": "",
+                "snapchat": ""
+            }
+        },
+
+        {
+            "name": "LOSS",
+            "icon": "member-assets/eskimo-icon.png",
+            "pfp": "member-assets/loss-pfp.jpg",
+            "callingCard": "member-assets/eskimo-card.png",
+            "tag": "Double or nothing, I test my luck",
+            "idNumber": "1011",
+            "credit": {
+                "skill1": "member-assets/skill-1.png",
+                "skill2": "member-assets/skill-2.png",
+                "skill3": "",
+                "skill4": "member-assets/skill-4.png",
+                "skill5": "member-assets/skill-5.png"
+            },
+            "bio": "classified",
+            "flags": {
+                "flag1": "member-assets/flag-en.png",
+                "flag2": "member-assets/flag-ng.png"
+            },
+            "links": {
+                "youtube": "",
+                "soundcloud": "https://soundcloud.com/loss-873819248",
+                "spotify": "",
+                "tiktok": "",
+                "instagram": "https://www.instagram.com/lossent1",
+                "snapchat": ""
             }
         }
-    ]   
+    ]
 }
