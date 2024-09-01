@@ -12,10 +12,10 @@ async function Lobby() {
         <>
             {/* map out member data to create a lobby made up of lobby rows */}
             {console.log(JSON.stringify(theCloud))}
-            {theCloud.map((welcome, index) => (
+            {theCloud.map((member, index) => (
                 <div key={index} className="row-link">
-                    <Link href={"/" + welcome.username}>
-                        <LobbyRow name={welcome.name} icon={welcome.icon} idNumber={welcome.idNumber} />
+                    <Link href={"/" + member.username}>
+                        <LobbyRow name={member.name} icon={member.icon} idNumber={member.idNumber} />
                     </Link>
                 </div>
             ))}
