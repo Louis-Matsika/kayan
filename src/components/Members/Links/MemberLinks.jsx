@@ -3,9 +3,8 @@ import LinkElement from "@/components/Members/Links/LinkElement.jsx"
 import fetchData from "@/components/fetchMemberData";
 
 //gathers a users social links
-async function Links({
+async function MemberLinks({
         requestedId,
-        links
     })
 {
     //fetch OMOcloud member data
@@ -56,9 +55,4 @@ async function Links({
     );
 }
 
-export default Links;
-
-// <LinkElement
-//                     memberLink={Object.values(member.links)[index]}
-//                     platformId={Object.keys(member.links)[index]}
-//                 />
+export default MemberLinks;

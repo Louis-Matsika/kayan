@@ -1,5 +1,6 @@
 import Lobby from "@/components/Members/Lobby/Lobby.jsx";
 import CallingCard from "@/components/Members/CallingCard/CallingCard"
+import MemberLinks from "@/components/Members/Links/MemberLinks"
 
 async function MemberPage({params}) {
 	
@@ -10,6 +11,9 @@ async function MemberPage({params}) {
 		{params.cloudMember}
 		<CallingCard
 			requestedId={params.cloudMember} 
+			/>
+		<MemberLinks
+			requestedId={params.cloudMember}
 			/>
 		</div>
 	);
