@@ -1,7 +1,16 @@
 import fetchData from "@/components/fetchMemberData";
 
 async function CallingCard(
-    requestedId
+    requestedId,
+    pfp,
+    name,
+    callingCard,
+    tag,
+    flags,
+    icon,
+    idNumber,
+    credit
+    
 ) {
 
     const theCloud = await fetchData();
@@ -15,7 +24,8 @@ async function CallingCard(
     return(
         <>
         <div>calling card test</div>
-        {JSON.stringify(theCloud)}
+        {JSON.stringify(member)}
+        
         </>
     )
     
