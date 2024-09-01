@@ -1,4 +1,4 @@
-import LinkElement from "@/components/Members/Links/LinkElement.jsx"
+import LinkElement from "@/components/Members/MemberLinks/LinkElement.jsx"
 
 import fetchData from "@/components/fetchMemberData";
 

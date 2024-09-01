@@ -1,6 +1,6 @@
 import Lobby from "@/components/Members/Lobby/Lobby.jsx";
 import CallingCard from "@/components/Members/CallingCard/CallingCard"
-import MemberLinks from "@/components/Members/Links/MemberLinks"
+import MemberLinks from "@/components/Members/MemberLinks/MemberLinks"
 
 async function MemberPage({params}) {
 	
