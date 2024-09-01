@@ -6,7 +6,9 @@ async function MemberPage({params}) {
 	return (
 		<div>
 		{params.memberId}
-		<CallingCard />
+		<CallingCard
+			requestedId={params.memberId} 
+			/>
 		<Lobby />
 		</div>
 	);
