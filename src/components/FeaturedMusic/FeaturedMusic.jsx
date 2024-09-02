@@ -28,7 +28,7 @@ async function FeaturedMusic({requestedId,}) {
 				<p className="featured-description">{FeaturedMusic.description}</p>
 				<div>
 					<ul className="link-list">
-                        {memberLink !== "" && (
+                        {/* {memberLink !== "" && (
 				        //if provided link is not empty, then make a list element
 				        <li>
 					        <a className="link" href={memberLink} target="_blank" rel="noopener">
@@ -36,7 +36,7 @@ async function FeaturedMusic({requestedId,}) {
 						        <p>{platform}</p>
 					        </a>
 				        </li>
-			            )}
+			            )} */}
 						<li>
 							<a
 								className="link"
