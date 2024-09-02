@@ -23,9 +23,7 @@ async function FeaturedMusic({
         {music.map(FeaturedMusic => (
             <div key={requestedId}>
                 {JSON.stringify(music)}
-            </div>
-        ))}
-        <div className="featured-music-box content-box">
+                <div className="featured-music-box content-box">
 				<img
 					alt="featured music"
 					className="featured-music-image content-image"
@@ -77,6 +75,8 @@ async function FeaturedMusic({
 					</div>
 				</div>
 		    </div>
+            </div>
+        ))}
         </>
     );
 }
