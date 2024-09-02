@@ -28,17 +28,10 @@ async function FeaturedMusic({requestedId,}) {
 				<p className="featured-description">{FeaturedMusic.description}</p>
 				<div>
 					<ul className="link-list">
-                        {/* {memberLink !== "" && (
+                        {FeaturedMusic.soundcloud !== "" && (
 				        //if provided link is not empty, then make a list element
 				        <li>
-					        <a className="link" href={memberLink} target="_blank" rel="noopener">
-						        <i className={"fa-brands fa-" + platform}>fix icons</i>
-						        <p>{platform}</p>
-					        </a>
-				        </li>
-			            )} */}
-						<li>
-							<a
+					        <a
 								className="link"
 								href={FeaturedMusic.soundcloud}
 								target="_blank"
@@ -47,9 +40,26 @@ async function FeaturedMusic({requestedId,}) {
 								<i className="fa-brands fa-soundcloud"></i>
 								<p>SoundCloud</p>
 							</a>
-						</li>
-						<li>
-							<a
+				        </li>
+			            )}
+						{FeaturedMusic.youtube !== "" && (
+				        //if provided link is not empty, then make a list element
+				        <li>
+					        <a
+								className="link"
+								href={FeaturedMusic.youtube}
+								target="_blank"
+								rel="noopener"
+							>
+								<i className="fa-brands fa-youtube"></i>
+								<p>YouTube</p>
+							</a>
+				        </li>
+			            )}
+						{FeaturedMusic.spotify !== "" && (
+				        //if provided link is not empty, then make a list element
+				        <li>
+					        <a
 								className="link"
 								href={FeaturedMusic.spotify}
 								target="_blank"
@@ -58,18 +68,9 @@ async function FeaturedMusic({requestedId,}) {
 								<i className="fa-brands fa-spotify"></i>
 								<p>Spotify</p>
 							</a>
-						</li>
-						<li>
-							<a
-								className="link"
-								href={FeaturedMusic.youtube}
-							    target="_blank"
-								rel="noopener"
-							>
-								<i className="fa-brands fa-youtube"></i>
-								<p>YouTube</p>
-							</a>
-						</li>
+				        </li>
+			            )}
+						
 					</ul>
 				</div>
 			</div>
