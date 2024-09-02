@@ -18,6 +18,12 @@ async function MemberPage({params}) {
 			/>
 		<FeaturedMusic
 			requestedId={params.cloudMember}
+			musicTitle="test song"
+			musicArt="sai-1-.jpg"
+			description="test description"
+			soundcloudLink="test link 1"
+			spotifyLink="test link 2"
+			youtubeLink="test link 3"
 			/>
 		</div>
 	);
