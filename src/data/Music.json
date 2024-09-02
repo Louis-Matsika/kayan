@@ -18,5 +18,25 @@
         "soundcloud": "https://soundcloud.com/saisfate/sets/2a1",
         "youtube": "https://www.youtube.com/watch?v=uc7A2kA-FNI",
         "spotify": "https://open.spotify.com/track/78RGaIWDaIDe0BAfPBUTeh?si=d4a37558e8194918"
+    },
+    {
+        "name": "Xylet",
+        "username": "xylet",
+        "artwork": "sai-2-artwork.jpg",
+        "title": "2 ⠉⠓⠁⠝⠉⠑⠎",
+        "description": "'2' features production from Xylet on all tracks, with 'retailTherapy'(producer), 'inDesign'(co-produced) and 'goldfish'(co-produced).)",
+        "soundcloud": "https://soundcloud.com/saisfate/sets/2a1",
+        "youtube": "https://www.youtube.com/watch?v=uc7A2kA-FNI",
+        "spotify": "https://open.spotify.com/track/78RGaIWDaIDe0BAfPBUTeh?si=d4a37558e8194918"
+    },
+    {
+        "name": "LOSS",
+        "username": "loss",
+        "artwork": "loss-deletedb-artwork.jpg",
+        "title": "DeleteDB",
+        "description": "'DeleteDB' is LOSS's standout self produced single",
+        "soundcloud": "https://soundcloud.com/loss-873819248/friends-named-glenns",
+        "youtube": "",
+        "spotify": ""
     }
 ]
