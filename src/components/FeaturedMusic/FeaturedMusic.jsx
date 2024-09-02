@@ -1,19 +1,11 @@
 import fetchData from "@/components/fetchMusicData";
 
-async function FeaturedMusic({
-    requestedId,
-    musicTitle,
-	musicArt,
-    description,
-	soundcloudLink,
-	spotifyLink,
-	youtubeLink
-}) {
+async function FeaturedMusic({requestedId,}) {
     //fetch OMOcloud member data
-    const theCloud = await fetchData();
+    const musicData = await fetchData();
 
     //return only the relevant music data from a specified OMOcloud member
-    const music = theCloud.filter(function(item)
+    const music = musicData.filter(function(item)
     {
         return item.username == requestedId;
     })
@@ -22,7 +14,6 @@ async function FeaturedMusic({
         <>
         {music.map(FeaturedMusic => (
             <div  key={requestedId} className="featured-music-box content-box">
-            {FeaturedMusic.description}   
 			<img
 				alt="featured music"
 				className="featured-music-image content-image"
