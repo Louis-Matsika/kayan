@@ -41,7 +41,7 @@ function LinkElement({memberLink, platformId}) {
                 //if provided link is not empty, then make a list element
                 <li>
                     <a className="link" href={memberLink} target="_blank" rel="noopener">
-                        <FontAwesomeIcon icon={faInstagram} />
+                        {/* <FontAwesomeIcon icon={faInstagram} /> */}
                         <p>{platform}</p>
                     </a>
                 </li>
