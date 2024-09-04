@@ -1,7 +1,7 @@
 // returns a social link element to be used by <Link/>
 function LinkElement({ memberLink, platformId }) {
 	let platform = memberLink;
-	let platformIcon = platformId;
+	let platformIcon;
 
 	switch (platformId) {
 		case 0:
@@ -38,7 +38,7 @@ function LinkElement({ memberLink, platformId }) {
 				//if provided link is not empty, then make a list element
 				<li>
 					<a className="link" href={memberLink} target="_blank" rel="noopener">
-						<i className={"fa-brands fa-" + platform}>fix icons</i>
+						<i className={"fa-brands fa-snapchat"}>fix icons</i>
 						<p>{platform}</p>
 					</a>
 				</li>
