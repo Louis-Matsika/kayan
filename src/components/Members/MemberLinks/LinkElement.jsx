@@ -1,3 +1,6 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faInstagram} from "@fortawesome/free-brands-svg-icons";
+
 // returns a social link element to be used by <Link/>
 function LinkElement({memberLink, platformId}) {
     let platform = memberLink;
@@ -38,7 +41,7 @@ function LinkElement({memberLink, platformId}) {
                 //if provided link is not empty, then make a list element
                 <li>
                     <a className="link" href={memberLink} target="_blank" rel="noopener">
-                        <i className={"fa-brands fa-snapchat"}>fix icons</i>
+                        <FontAwesomeIcon icon={faInstagram} />
                         <p>{platform}</p>
                     </a>
                 </li>
