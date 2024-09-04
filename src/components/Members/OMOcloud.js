@@ -245,7 +245,7 @@ class OMOcloud {
 		);
 	}
 
-	// the featuredMusic() function features a song with links to the song
+	//the featuredMusic() function features a song with links to the song
 	featuredVideo(videoTitle, description, youtubeEmbedLink, youtubeLink) {
 		return (
 			<div className="featured-video-box content-box">
