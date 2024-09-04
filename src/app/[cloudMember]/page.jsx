@@ -2,6 +2,7 @@ import Lobby from "@/components/Members/Lobby/Lobby.jsx";
 import CallingCard from "@/components/Members/CallingCard/CallingCard"
 import MemberLinks from "@/components/Members/MemberLinks/MemberLinks"
 import FeaturedMusic from "@/components/FeaturedMusic/FeaturedMusic"
+import FeaturedVideo from "@/components/FeaturedVideo/FeaturedVideo"
 
 async function MemberPage({params}) {
 	
@@ -17,6 +18,9 @@ async function MemberPage({params}) {
 			requestedId={params.cloudMember}
 			/>
 		<FeaturedMusic
+			requestedId={params.cloudMember}
+			/>
+		<FeaturedVideo
 			requestedId={params.cloudMember}
 			/>
 		</div>
