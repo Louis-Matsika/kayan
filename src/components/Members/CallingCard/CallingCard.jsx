@@ -1,5 +1,5 @@
-// import "@/components/Members/CallingCard/CallingCard.css"
-// import "@/components/Members/Members.css"
+import "./CallingCard.css"
+import "../OMOcloud.css"
 
 import { redirect } from 'next/navigation'
 
@@ -35,7 +35,7 @@ async function CallingCard(
     <>
         {/* using data of relevant member make a calling card */}
            {member.map((member, index) => (
-            <div key={index}>{member.username}
+            <div key={index} className="calling-card content-box">
             <img className="calling-card-pfp content-image" alt="profile picture"src={member.pfp}></img>
 				<div className="calling-card-right content-right">
 

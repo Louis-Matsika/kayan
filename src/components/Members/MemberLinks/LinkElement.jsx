@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faInstagram} from "@fortawesome/free-brands-svg-icons";
+import "./MemberLinks.css"
 
 // returns a social link element to be used by <Link/>
 function LinkElement({memberLink, platformId}) {

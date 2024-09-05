@@ -6,11 +6,11 @@ import FeaturedVideo from "@/components/FeaturedVideo/FeaturedVideo"
 
 async function MemberPage({params}) {
 	
+	// get /[dynamic link]
 	const member = params.cloudMember;
 
 	return (
 		<div>
-		{params.cloudMember}
 		<CallingCard
 			requestedId={params.cloudMember} 
 			/>
