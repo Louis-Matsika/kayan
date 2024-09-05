@@ -1,17 +1,11 @@
 import Link from 'next/link'
+import Newsletter from '../Newsletter/Newsletter';
 
 async function KayanFooter() {
     return(
-        <header>
-				<Link href="/" className="header-logo-wrapper">
-					<img
-						src="site-content/omologo-white.png"
-						alt="OMO logo"
-						className="header-logo omo-logo"
-					/>
-                    this is footer
-				</Link>
-		</header>
+        <footer>
+				<Newsletter />
+		</footer>
     );
 }
 

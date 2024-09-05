@@ -21,7 +21,6 @@ export default function homePage() {
             <section className="section--rows content-container">
                 <Lobby />
             </section>
-            <Newsletter />
         </div>
     );
 }
