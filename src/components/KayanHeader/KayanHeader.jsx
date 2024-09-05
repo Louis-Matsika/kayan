@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function KayanHeader() {
+async function KayanHeader() {
     return(
         <header>
 				<Link href="/" className="header-logo-wrapper">

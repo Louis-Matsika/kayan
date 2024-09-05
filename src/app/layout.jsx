@@ -14,8 +14,12 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
-            <KayanHeader />
-            <body className={convection.className}>{children}</body>
+            <body className={convection.className}>
+                <KayanHeader />
+                    <main>
+                        {children}
+                    </main>
+            </body>
         </html>
     );
 }
