@@ -1,4 +1,7 @@
+import KayanHeader from "@/components/KayanHeader/KayanHeader";
 import "./globals.css";
+
+import "@/components/KayanHeader/KayanHeader"
 
 // Import convection font
 const convection = "https://fonts.cdnfonts.com/css/convection";
@@ -11,6 +14,7 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
+            <KayanHeader />
             <body className={convection.className}>{children}</body>
         </html>
     );
