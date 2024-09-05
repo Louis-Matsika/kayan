@@ -10,7 +10,7 @@ async function MemberPage({params}) {
 	const member = params.cloudMember;
 
 	return (
-		<div>
+		<div className="member-content-container content-container">
 		<CallingCard
 			requestedId={params.cloudMember} 
 			/>
