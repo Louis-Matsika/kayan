@@ -42,7 +42,7 @@ function LinkElement({memberLink, platformId}) {
                 <li>
                     <a className="link" href={memberLink} target="_blank" rel="noopener">
                         {/* <FontAwesomeIcon icon={faInstagram} /> */}
-                        <p>{platform}</p>
+                        <p>{platformId}</p>
                     </a>
                 </li>
             )}
