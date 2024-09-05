@@ -1,7 +1,7 @@
-import KayanHeader from "@/components/KayanHeader/KayanHeader";
 import "./globals.css";
+import KayanHeader from "@/components/KayanHeader/KayanHeader";
+import KayanFooter from "@/components/KayanFooter/KayanFooter";
 
-import "@/components/KayanHeader/KayanHeader"
 
 // Import convection font
 const convection = "https://fonts.cdnfonts.com/css/convection";
@@ -19,6 +19,7 @@ export default function RootLayout({children}) {
                     <main>
                         {children}
                     </main>
+                <KayanFooter />
             </body>
         </html>
     );
