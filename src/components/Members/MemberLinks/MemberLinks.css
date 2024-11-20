@@ -6,4 +6,10 @@
 	padding: 10px 0;
 	background-color: #333;
 	border-top: 2px solid #f3c20f;
+	
 }
+
+li {
+	list-style-type: none;
+}
+
