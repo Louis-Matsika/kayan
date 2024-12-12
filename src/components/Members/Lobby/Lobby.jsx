@@ -19,7 +19,6 @@ async function Lobby() {
                     </Link>
                 </div>
             ))}
-
             {theCloud.length === 0 && <p>whoopss something went wrong try later, AHHHHH we have no members!!</p>}
         </>
     );
