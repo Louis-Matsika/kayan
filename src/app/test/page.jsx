@@ -4,20 +4,21 @@ async function fetchData(){
     return(res.json());
 }
 
-// const data = await fetchData();
-const data = ["1", "2", "3", "4"];
+// "member-content-container content-container"
 
-const datamapped = data.map((item, index) => (
-    <li key={index}>{item}</li>
-  ));
 
 async function test() {
-
+    // const data = await fetchData();
+    const data = ["1", "2", "3", "4"];
+    
 	return (
-		<div className="member-content-container content-container">
-		<p>{JSON.stringify(data)}</p>
-        {datamapped}
-		</div>
+        <>
+		{data.map((item, index) => (
+            <div key={index} className="calling-card content-box">
+                {item}
+            </div>
+        ))}
+        </>
 	);
 }
 

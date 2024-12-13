@@ -34,7 +34,7 @@ async function CallingCard(
     return (
     <>
         {/* using data of relevant member make a calling card */}
-           {member.map((member, index) => (
+            {member.map((member, index) => (
             <div key={index} className="calling-card content-box">
             <img className="calling-card-pfp content-image" alt="profile picture"src={member.pfp}></img>
 				<div className="calling-card-right content-right">
@@ -70,7 +70,7 @@ async function CallingCard(
 					</div>
 				</div>
             </div>     
-        ))}
+            ))}
 
         {member.length === 0 && 
             /* if OMOcloud member is not real then go back to home page */
