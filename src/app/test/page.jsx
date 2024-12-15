@@ -9,12 +9,21 @@ async function fetchData(){
 
 async function test() {
     const apiData = await fetchData();
-    // const dataArray = Object.values(apiData.links[0]);
+    // const links = apiData.filter(key => key.name.includes("linkElements"));
+
+    const dataArray = Object.values(apiData.linkElements);
     // const dataArray = apiData.links[0];
 
 	return (
         <>
-        {<p>{"LINK DATA HERE -->" + JSON.stringify(apiData)}{console.log(typeof(apiData))}</p>}
+        {<p>{"LINK DATA HERE -->" + JSON.stringify(dataArray)}{console.log(typeof(dataArray))}</p>}
+        {dataArray.map((linkArray, index) => (
+            <div key={index}>
+                {linkArray.link}
+                {linkArray.platform}
+
+            </div>
+        ))}
         </>
 	);
 }
