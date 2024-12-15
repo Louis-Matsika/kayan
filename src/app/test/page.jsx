@@ -8,16 +8,13 @@ async function fetchData(){
 
 
 async function test() {
-    // const data = await fetchData();
-    const data = ["1", "2", "3", "4"];
-    
+    const apiData = await fetchData();
+    // const dataArray = Object.values(apiData.links[0]);
+    // const dataArray = apiData.links[0];
+
 	return (
         <>
-		{data.map((item, index) => (
-            <div key={index} className="calling-card content-box">
-                {item}
-            </div>
-        ))}
+        {<p>{"LINK DATA HERE -->" + JSON.stringify(apiData)}{console.log(typeof(apiData))}</p>}
         </>
 	);
 }
