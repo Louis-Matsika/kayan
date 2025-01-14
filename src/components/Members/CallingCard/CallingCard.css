@@ -1,0 +1,65 @@
+/***************/
+/* CALLING CARD */
+/***************/
+.calling-card-right {
+	padding-top: 10px;
+}
+
+/* main content (name + banner + tag) */
+.calling-card-banner-wrapper {
+	position: relative;
+}
+
+.calling-card-banner {
+	vertical-align: top;
+}
+
+.calling-card-tag {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 100%;
+	font-size: 20px;
+	text-shadow: 0px 0px 2px #000, 0px 0px 5px #000, 0px 0px 2px #000,
+		0px 0px 2px #000;
+}
+
+/* top left (flags) */
+.calling-card-flags {
+	gap: 10px;
+
+	top: 12px;
+	left: 14px;
+}
+
+.calling-card-flag {
+	height: 25px;
+}
+
+/* top right (icon + idNumber) */
+.calling-card-number-wrapper {
+	gap: 10px;
+
+	top: 7px;
+	right: 12px;
+}
+
+.calling-card-icon {
+	width: 35px;
+}
+
+.calling-card-number {
+	font-size: 30px;
+}
+
+/* bottom right (credit / skills) */
+.calling-card-credit {
+	bottom: 5px;
+	right: 5px;
+}
+
+.calling-card-skill {
+	width: 37px;
+}
