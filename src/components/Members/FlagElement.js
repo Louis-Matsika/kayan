@@ -4,7 +4,7 @@ function FlagElement({ memberFlag }) {
 	return (
 		<>
 			{memberFlag !== "" && (
-				<img className="calling-card-flag" src={memberFlag}></img>
+				<image className="calling-card-flag" src={memberFlag}></image>
 			)}
 		</>
 	);
