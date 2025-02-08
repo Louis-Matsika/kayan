@@ -19,32 +19,6 @@
         "flag1": "member-assets/flag-gb.png",
         "flag2": "member-assets/flag-zw.png"
       },
-      "linkElements": [
-        {
-          "platform": "test1",
-          "link": "https://www.youtube.com/@saisfate"
-        },
-        {
-          "platform": "test2",
-          "link": "https://soundcloud.com/saisfate"
-        },
-        {
-          "platform": "test3",
-          "link": "https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg"
-        },
-        {
-          "platform": "test4",
-          "link": "https://www.tiktok.com/@saisfate"
-        },
-        {
-          "platform": "test5",
-          "link": "https://www.instagram.com/omosaisfate"
-        },
-        {
-          "platform": "test6",
-          "link": "https://www.snapchat.com/add/omo541"
-        }
-      ],
       "id": "40b7"
     },
     {
@@ -66,14 +40,6 @@
       "flags": {
         "flag1": "member-assets/flag-no.png",
         "flag2": ""
-      },
-      "links": {
-        "youtube": "https://www.youtube.com/@omoshin",
-        "soundcloud": "",
-        "spotify": "",
-        "tiktok": "https://www.tiktok.com/@shinsvision",
-        "instagram": "https://www.instagram.com/omoshin0",
-        "snapchat": ""
       },
       "id": "19fd"
     },
@@ -97,14 +63,6 @@
         "flag1": "member-assets/flag-gb.png",
         "flag2": "member-assets/flag-es.png"
       },
-      "links": {
-        "youtube": "",
-        "soundcloud": "https://soundcloud.com/omotoni",
-        "spotify": "https://open.spotify.com/artist/52b2C0ye6EH0axeJWPh0nk?si=WCf49JhTTcaEVeOJleAHog",
-        "tiktok": "https://www.tiktok.com/@omotoni101",
-        "instagram": "https://www.instagram.com/omotoni01",
-        "snapchat": ""
-      },
       "id": "d483"
     },
     {
@@ -126,14 +84,6 @@
       "flags": {
         "flag1": "member-assets/flag-dk.png",
         "flag2": "member-assets/flag-et.png"
-      },
-      "links": {
-        "youtube": "",
-        "soundcloud": "",
-        "spotify": "",
-        "tiktok": "",
-        "instagram": "https://www.instagram.com/omoxylet",
-        "snapchat": ""
       },
       "id": "43cc"
     },
@@ -157,14 +107,6 @@
         "flag1": "member-assets/flag-gb.png",
         "flag2": "member-assets/flag-ng.png"
       },
-      "links": {
-        "youtube": "",
-        "soundcloud": "",
-        "spotify": "",
-        "tiktok": "",
-        "instagram": "https://www.instagram.com/lropong_13",
-        "snapchat": ""
-      },
       "id": "a659"
     },
     {
@@ -187,14 +129,6 @@
         "flag1": "member-assets/flag-en.png",
         "flag2": "member-assets/flag-ng.png"
       },
-      "links": {
-        "youtube": "",
-        "soundcloud": "https://soundcloud.com/loss-873819248",
-        "spotify": "",
-        "tiktok": "",
-        "instagram": "https://www.instagram.com/lossent1",
-        "snapchat": ""
-      },
       "id": "1eba"
     },
     {
@@ -216,14 +150,6 @@
       "flags": {
         "flag1": "member-assets/flag-gb.png",
         "flag2": "member-assets/flag-lk.png"
-      },
-      "links": {
-        "youtube": "",
-        "soundcloud": "",
-        "spotify": "",
-        "tiktok": "",
-        "instagram": "",
-        "snapchat": ""
       },
       "id": "9386"
     }
