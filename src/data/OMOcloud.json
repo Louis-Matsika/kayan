@@ -19,32 +19,6 @@
       "flag1": "member-assets/flag-gb.png",
       "flag2": "member-assets/flag-zw.png"
     },
-    "linkElements": [
-      {
-        "platform": "test1",
-        "link": "https://www.youtube.com/@saisfate"
-      },
-      {
-        "platform": "test2",
-        "link": "https://soundcloud.com/saisfate"
-      },
-      {
-        "platform": "test3",
-        "link": "https://open.spotify.com/artist/5j67efm6u2C2b7ULcMgqQl?si=Cu8M4ew9Q4WemZ3uimxYUg"
-      },
-      {
-        "platform": "test4",
-        "link": "https://www.tiktok.com/@saisfate"
-      },
-      {
-        "platform": "test5",
-        "link": "https://www.instagram.com/omosaisfate"
-      },
-      {
-        "platform": "test6",
-        "link": "https://www.snapchat.com/add/omo541"
-      }
-    ],
     "id": "40b7"
   },
   {
