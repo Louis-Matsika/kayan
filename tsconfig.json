@@ -14,9 +14,11 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "#/*": ["./src/*"]
+      "#/*": ["./src/*"],
+      "#/data/*": ["./data/*"]
+
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "layouts/Layout.js", "src/pages/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "layouts/Layout.js", "src/pages/index.tsx", "src/pages/api/OMOdirectory.js", "api/hello.js"],
   "exclude": ["node_modules"]
 }

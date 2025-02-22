@@ -1,16 +1,16 @@
 [
-    {
-        "id":"0001",
-        "callSign": "SAI's fate.",
-        "tag":"sai",
-        "role":"anchor",
-        "perks":["artist","producer","3d","engineer"]
-    },
-    {
-        "id":"0009",
-        "callSign": "Shin",
-        "tag":"bee",
-        "role":"support",
-        "perks":["3d","engineer"]
-    }
+        {
+            "id":"0001",
+            "callSign": "SAI's fate.",
+            "tag":"sai",
+            "role":"anchor",
+            "perks":["artist","producer","3d","engineer"]
+        },
+        {
+            "id":"0009",
+            "callSign": "Shin",
+            "tag":"bee",
+            "role":"support",
+            "perks":["3d","engineer"]
+        }
 ]
