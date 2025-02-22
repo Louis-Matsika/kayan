@@ -1,5 +1,5 @@
 const Header =()=> {
-    return <div>SAI's music site</div>
+    return <div>OMOcloud logo here</div>
 }
 
 export default Header;

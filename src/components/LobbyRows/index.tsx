@@ -1,6 +1,6 @@
 const LobbyRows =()=>{
     return(<span>
-        <p>SAI's fate</p>
+        <p>OMOcloud member directory</p>
     </span>)
 }
 

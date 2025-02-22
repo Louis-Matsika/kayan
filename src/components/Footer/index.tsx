@@ -1,5 +1,5 @@
 const Footer =()=> {
-    return <footer>SAI's foot</footer>
+    return <footer>OMOcloud footer</footer>
 }
 
 export default Footer;
