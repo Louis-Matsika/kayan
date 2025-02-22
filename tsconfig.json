@@ -19,6 +19,6 @@
 
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "layouts/Layout.js", "src/pages/index.tsx", "src/pages/api/OMOdirectory.js", "api/hello.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "layouts/Layout.js", "src/pages/index.jsx", "src/pages/api/OMOdirectory.js", "api/hello.js", "src/components/LobbyRows/index.tsx"],
   "exclude": ["node_modules"]
 }
