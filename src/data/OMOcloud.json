@@ -11,8 +11,8 @@
                 "rapper",
                 "producer",
                 "engineer",
-                "artist",
-            ]
+                "artist"
+            ],
             "flags": [
                 "OC",
                 "ZW",
@@ -35,7 +35,7 @@
             ],
             "flags": [
                 "OC",
-                "NO",
+                "NO"
             ],
             "links": [
                 "https://www.saisfate.com/",

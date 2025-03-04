@@ -1,16 +1,19 @@
-export const getStaticProps = async () => {
-    
+interface LobbyRowProps {
+  name: String;
+  bio: String;
 }
 
-
-
-const LobbyRow =()=>{
-    return(<div>
-         <details>
-  <summary>Epcot Center</summary>
-  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details> 
-    </div>)
-}
+const LobbyRow = ({ name, bio }: LobbyRowProps) => {
+  return (
+    <div>
+      <details>
+        <summary>{name}</summary>
+        <div>
+          <p>{bio}</p>
+        </div>
+      </details>
+    </div>
+  );
+};
 
 export default LobbyRow;
