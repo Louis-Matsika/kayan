@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from "#/components/Header/Header";
-import Frame from "#/components/Frame/Frame";
+import Lobby from '#/components/Lobby/Header';
 import Footer from "#/components/Footer/Footer";
 
 const Home=()=> {
   return (
     <div>
       <Header />
-      <Frame />
+      <Lobby />
       <Footer />
     </div>
   );
