@@ -12,6 +12,8 @@
         span {
             display: flex;
             flex-direction: row;
+
+            
         }
 
         img {
@@ -41,4 +43,6 @@
 
         border-bottom: 1px solid darken($color-primary, 25%);
         }
+
+
 }

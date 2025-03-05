@@ -1,17 +1,10 @@
-@import '#theme/theme';
+@import "#theme/theme";
 
 .lobby {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-     // Select even numbered LobbyRows
-    div:nth-child(even) {
-        background-color: darken($color-primary, 10%);
-    }
-
-    // Select odd numbered LobbyRows
-    div:nth-child(odd) {
-        background-color: $color-primary;
-    }
+  
 }
+
