@@ -1,0 +1,17 @@
+@import "#theme/theme";
+
+.lobbyRow {
+  background-color: $color-primary;
+  width: 600px;
+
+  details {
+    cursor: pointer;
+    summary {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+  }
+}
