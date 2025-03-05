@@ -21,7 +21,8 @@
     "paths": {
       "#/*": ["./src/*"],
       "#/components/*": ["./src/components/*"],
-      "#/data/*": ["./src/data/*"]
+      "#/data/*": ["./src/data/*"],
+      "#theme/*": ["./src/theme/*"]
     }
   },
   "include": [
