@@ -20,7 +20,7 @@ const LobbyRow = ({ name, username, id, bio }: LobbyRowProps) => {
             <p>{id}</p>
           </span>
         </summary>
-        <div>
+        <div className={styles.infoBox}>
           <p>{bio}</p>
         </div>
       </details>

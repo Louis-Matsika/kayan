@@ -1,17 +1,42 @@
 @import "#theme/theme";
 
 .lobbyRow {
-  background-color: $color-primary;
-  width: 600px;
+    background-color: $color-primary;
+    width: 600px;
 
-  details {
-    cursor: pointer;
-    summary {
+    details {
+        cursor: pointer;
 
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+        span {
+            display: flex;
+            flex-direction: row;
+        }
+
+        img {
+            width: 20px;
+            display: inline-flex;
+        }
+
+        summary {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        &[open] {
+            summary {
+                border-bottom: 1px solid darken($color-primary, 25%);
+        
+            }
+
+        }
     }
 
-  }
+    .infoBox{
+        background-color: #7875b3;
+
+        border-bottom: 1px solid darken($color-primary, 25%);
+        }
 }
