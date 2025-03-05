@@ -12,7 +12,7 @@ const LobbyRow = ({ name, id, bio }: LobbyRowProps) => {
         <summary>
 
             <span>{name}</span>
-            <span>{id}</span>
+            <span><img src={'/test-img.jpg'}/><p>{id}</p></span>
 
         </summary>
         <div>
