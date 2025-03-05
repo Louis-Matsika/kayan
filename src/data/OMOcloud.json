@@ -41,6 +41,24 @@
                 "https://www.saisfate.com/",
                 "www.example.com"
             ]
+        },
+        {
+            "id": "1407",
+            "name": "Toni",
+            "username": "toni",
+            "class": "Entry",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
         }
     ]
 }
