@@ -11,7 +11,7 @@ const Lobby = () => {
   return (
     <div className={styles.lobby}>
       {members.map((member) => (
-        <LobbyRow key={member.id} name={member.name} id={member.id}bio={member.bio} />
+        <LobbyRow key={member.id} name={member.name} username={member.username} id={member.id}bio={member.bio} />
       ))}
     </div>
   );
