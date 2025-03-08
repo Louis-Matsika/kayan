@@ -12,9 +12,11 @@
 
 .lobbyRow {
     background-color: $color-primary;
-    width: 600px;
+    width: 60%;
 
     border-left: 5px solid #9b2834;
+
+    
 
     details {
         cursor: pointer;
@@ -36,17 +38,28 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-
         }
 
         &[open] {
             summary {
                 border-bottom: 1px solid darken($color-primary, 25%);
-        
             }
-
         }
+
+        
     }
+
+    &:nth-child(odd) {
+        summary {
+          background-color: #d54949;
+        }
+      }
+      
+      &:nth-child(even) {
+        summary {
+          background-color: #74c43e;
+        }
+      }
 
     .infoBox{
         background-color: #7875b3;

@@ -1,6 +1,7 @@
 import React from "react";
 
 import OMOcloud from "#/data/OMOcloud.json";
+import MemberBanner from "#/components/MemberBanner"
 
 import styles from './index.module.scss';
 
@@ -27,9 +28,7 @@ const LobbyRow = ({ name, username, id, bio }: LobbyRowProps) => {
             <p>{id}</p>
           </span>
         </summary>
-        <div className={styles.infoBox}>
-          <p>{bio}</p>
-        </div>
+        <MemberBanner username={username}/>
       </details>
     </div>
   );
