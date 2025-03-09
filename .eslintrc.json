@@ -1,5 +1,5 @@
 {
-  "extends": ["plugin:node/recommended", "eslint:recommended"],
+  "extends": ["eslint:recommended"],
   "rules": {
     "no-unused-vars": "warn",
     "no-console": "off",
