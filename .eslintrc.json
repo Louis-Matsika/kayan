@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended"],
+  "extends": ["next", "eslint:recommended"],
   "rules": {
 "no-unused-vars": "warn",
     "no-console": "off",
