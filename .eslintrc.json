@@ -1,5 +1,5 @@
 {
-  "extends": ["next", "eslint:recommended"],
+  "extends": ["eslint:recommended"],
   "rules": {
     "import/no-anonymous-default-export": "off",
     "prettier/prettier": "error",
