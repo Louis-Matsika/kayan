@@ -15,12 +15,9 @@
     "next": "15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sass": "^1.85.1",
-    "use-scramble": "^2.2.15"
+    "sass": "^1.85.1"
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "^11.13.5",
-    "@emotion/eslint-plugin": "^11.12.0",
     "@eslint/eslintrc": "^3",
     "@types/node": "^22.13.5",
     "@types/react": "^19.0.10",
