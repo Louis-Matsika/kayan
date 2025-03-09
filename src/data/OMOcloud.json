@@ -1,0 +1,64 @@
+{
+    "about": "something about omocloud",
+    "members": [
+        {
+            "id": "0001",
+            "name": "SAI's fate.",
+            "username": "sai",
+            "class": "Strategist",
+            "bio": "something about sai",
+            "skills": [
+                "rapper",
+                "producer",
+                "engineer",
+                "artist"
+            ],
+            "flags": [
+                "OC",
+                "ZW",
+                "UK"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "0009",
+            "name": "Shin",
+            "username": "shin",
+            "class": "Support",
+            "bio": "something about shin",
+            "skills": [
+                "artist",
+                "engineer"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "1407",
+            "name": "Toni",
+            "username": "toni",
+            "class": "Entry",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        }
+    ]
+}
