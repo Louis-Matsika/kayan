@@ -1,14 +1,11 @@
 {
-    "extends": ["prettier", "plugin:node/recommended", "eslint:recommended",
-    "prettier", "plugin:prettier/recommended"],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error",
-      "no-unused-vars": "warn",
-      "no-console": "off",
-      "func-names": "off",
-      "no-process-exit": "off",
-      "object-shorthand": "off",
-      "class-methods-use-this": "off"
-    }
+  "extends": ["plugin:node/recommended", "eslint:recommended"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off"
   }
+}
