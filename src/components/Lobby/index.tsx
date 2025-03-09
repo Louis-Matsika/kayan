@@ -14,7 +14,7 @@ interface LobbyRowProps {
   bio: String;
 }
 
-const LobbyRow = ({ name, username, id, bio }: LobbyRowProps) => {
+const LobbyRow = ({ name, username, id }: LobbyRowProps) => {
   return (
     <div className={styles.lobbyRow}>
       <details>
