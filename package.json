@@ -15,7 +15,6 @@
     "next": "15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sass": "^1.85.1",
     "use-scramble": "^2.2.15"
   },
   "devDependencies": {
@@ -25,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "sass": "^1.85.1"
   }
 }
