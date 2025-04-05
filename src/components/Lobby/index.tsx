@@ -16,7 +16,7 @@ interface LobbyRowProps {
 
 const LobbyRow = ({ name, username, id }: LobbyRowProps) => {
   return (
-    <div className={styles.lobbyRow}>
+    <div className={`${styles.lobbyRow} ${styles.flare} ${styles[username]}`} >
       <details>
         <summary>
           <span>{name}</span>

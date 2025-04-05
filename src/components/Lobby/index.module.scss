@@ -1,4 +1,4 @@
-@use 'sass:color';
+@use "sass:color";
 @use "../../theme/spacings" as spacings;
 @use "../../theme/palette" as palette;
 @use "../../theme/picture-widths" as picture-widths;
@@ -9,45 +9,80 @@
 }
 
 .lobbyRow {
-    background-color: palette.$GRAPHITE;
-    width: 60%;
-    border-left: 5px solid #9b2834;
+  background-color: palette.$GRAPHITE;
+  width: 60%;
 
-    details {
-        cursor: pointer;
+  details {
+    cursor: pointer;
 
-        span {
-            display: flex;
-            flex-direction: row;
-        }
-
-        img {
-            width: 20px;
-            display: inline-flex;
-        }
-
-        summary {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        &[open] {
-            summary {
-                border-bottom: 1px solid color.adjust(palette.$GRAPHITE, $lightness: -25%);
-            }
-        }
+    span {
+      display: flex;
+      flex-direction: row;
     }
 
-    &:nth-child(odd) {
-        summary {
-            background-color: palette.$NARDO-GREY;
-        }
+    img {
+      width: 20px;
+      display: inline-flex;
     }
-      
-    &:nth-child(even) {
-        summary {
-          background-color: palette.$GRAPHITE;
-        }
+
+    summary {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
+
+    &[open] {
+      summary {
+        border-bottom: 1px solid
+          color.adjust(palette.$GRAPHITE, $lightness: -25%);
+      }
+    }
+  }
+
+  &:nth-child(odd) {
+    summary {
+      background-color: palette.$NARDO-GREY;
+    }
+  }
+
+  &:nth-child(even) {
+    summary {
+      background-color: palette.$GRAPHITE;
+    }
+  }
+}
+
+.flare {
+  border-left: 5px solid #9b2834;
+}
+.sai {
+    border-left: 5px solid palette.$SAI;
+}
+
+.shin {
+    border-left: 5px solid palette.$SHIN;
+}
+
+.xylet {
+    border-left: 5px solid palette.$XYLET;
+}
+
+.mh {
+    border-left: 5px solid palette.$MH;
+}
+
+.tadhg {
+    border-left: 5px solid palette.$TADHG;
+}
+
+.eskimo {
+    border-left: 5px solid palette.$ESKIMO;
+}
+
+.loss {
+    border-left: 5px solid palette.$LOSS;
+}
+
+.bakura {
+    border-left: 5px solid palette.$BAKURA;
 }

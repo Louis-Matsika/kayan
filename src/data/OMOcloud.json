@@ -3,7 +3,7 @@
     "members": [
         {
             "id": "0001",
-            "name": "SAI's fate.",
+            "name": "SAI",
             "username": "sai",
             "class": "Strategist",
             "bio": "something about sai",
@@ -47,6 +47,114 @@
             "name": "Toni",
             "username": "toni",
             "class": "Entry",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "6730",
+            "name": "Xylet",
+            "username": "xylet",
+            "class": "Marksman",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "6730",
+            "name": "MH",
+            "username": "mh",
+            "class": "intel",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "2407",
+            "name": "Grogoch",
+            "username": "tadhg",
+            "class": "intel",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "4544",
+            "name": "Eskimo",
+            "username": "eskimo",
+            "class": "intel",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "1011",
+            "name": "LOSS",
+            "username": "loss",
+            "class": "intel",
+            "bio": "something about toni",
+            "skills": [
+                "rapper"
+            ],
+            "flags": [
+                "OC",
+                "NO"
+            ],
+            "links": [
+                "https://www.saisfate.com/",
+                "www.example.com"
+            ]
+        },
+        {
+            "id": "0777",
+            "name": "Bakura",
+            "username": "bakura",
+            "class": "intel",
             "bio": "something about toni",
             "skills": [
                 "rapper"
