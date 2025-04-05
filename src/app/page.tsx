@@ -3,7 +3,7 @@ import Header from "#/components/Header/Header";
 import Lobby from '#/components/Lobby';
 import Footer from "#/components/Footer/Footer";
 
-import "#theme/global.scss";
+import "./global.css";
 
 const Home=()=> {
   return (
