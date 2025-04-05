@@ -8,10 +8,10 @@ import styles from './index.module.scss';
 const members = OMOcloud.members;
 
 interface LobbyRowProps {
-  name: String;
-  username: String;
-  id: String;
-  bio: String;
+  name: string;
+  username: string;
+  id: string;
+  bio: string;
 }
 
 const LobbyRow = ({ name, username, id }: LobbyRowProps) => {
