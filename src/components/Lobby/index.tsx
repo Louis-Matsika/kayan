@@ -20,8 +20,9 @@ const LobbyRow = ({ name, username, id }: LobbyRowProps) => {
       <details>
         <summary>
           <span>{name}</span>
-          <span>
-            <img
+          
+          <span className={styles.rowSpan}>
+          <img
               src={`/member-assets/emblems/${username}-emblem.png`}
               alt={`${name}'s emblem`}
             ></img>

@@ -2,6 +2,7 @@
 @use "../../theme/spacings" as spacings;
 @use "../../theme/palette" as palette;
 @use "../../theme/picture-widths" as picture-widths;
+
 .lobby {
   display: flex;
   align-items: center;
@@ -10,25 +11,37 @@
 
 .lobbyRow {
   background-color: palette.$GRAPHITE;
-  width: 60%;
+  width: 75%;
 
   details {
     cursor: pointer;
 
-    span {
-      display: flex;
-      flex-direction: row;
-    }
-
-    img {
-      width: 20px;
-      display: inline-flex;
-    }
-
     summary {
+      height: spacings.$SEXTUPLE;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
+      padding-left: spacings.$FULL;
+      padding-right: 0;
+
+      span {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        padding-right: 0;
+
+        img {
+          width: picture-widths.$ICON-MEDIUM;
+          
+          padding-right: spacings.$FULL;
+        }
+
+        p{
+          padding-right: spacings.$FULL
+        }
+      }
     }
 
     &[open] {
@@ -52,37 +65,41 @@
   }
 }
 
+.rowSpan {
+  padding: 0px;
+}
+
 .flare {
-  border-left: 5px solid #9b2834;
+  border-left: spacings.$FULL solid #9b2834;
 }
 .sai {
-    border-left: 5px solid palette.$SAI;
+  border-left: spacings.$FULL solid palette.$SAI;
 }
 
 .shin {
-    border-left: 5px solid palette.$SHIN;
+  border-left: spacings.$FULL solid palette.$SHIN;
 }
 
 .xylet {
-    border-left: 5px solid palette.$XYLET;
+  border-left: spacings.$FULL solid palette.$XYLET;
 }
 
 .mh {
-    border-left: 5px solid palette.$MH;
+  border-left: spacings.$FULL solid palette.$MH;
 }
 
 .tadhg {
-    border-left: 5px solid palette.$TADHG;
+  border-left: spacings.$FULL solid palette.$TADHG;
 }
 
 .eskimo {
-    border-left: 5px solid palette.$ESKIMO;
+  border-left: spacings.$FULL solid palette.$ESKIMO;
 }
 
 .loss {
-    border-left: 5px solid palette.$LOSS;
+  border-left: spacings.$FULL solid palette.$LOSS;
 }
 
 .bakura {
-    border-left: 5px solid palette.$BAKURA;
+  border-left: spacings.$FULL solid palette.$BAKURA;
 }
