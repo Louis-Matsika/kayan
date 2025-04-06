@@ -1,5 +1,7 @@
-@use 'sass:color';
-@use "#theme/theme" as *;
+@use "sass:color";
+@use "../../theme/spacings" as spacings;
+@use "../../theme/palette" as palette;
+@use "../../theme/picture-widths" as picture-widths;
 
 .lobby {
   display: flex;
@@ -8,45 +10,96 @@
 }
 
 .lobbyRow {
-    background-color: $color-primary;
-    width: 60%;
-    border-left: 5px solid #9b2834;
+  background-color: palette.$GRAPHITE;
+  width: 75%;
 
-    details {
-        cursor: pointer;
+  details {
+    cursor: pointer;
 
-        span {
-            display: flex;
-            flex-direction: row;
-        }
+    summary {
+      height: spacings.$SEXTUPLE;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      padding-left: spacings.$FULL;
+      padding-right: 0;
+
+      span {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        padding-right: 0;
 
         img {
-            width: 20px;
-            display: inline-flex;
+          width: picture-widths.$ICON-MEDIUM;
+          
+          padding-right: spacings.$FULL;
         }
 
-        summary {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+        p{
+          padding-right: spacings.$FULL
         }
-
-        &[open] {
-            summary {
-                border-bottom: 1px solid color.adjust($color-primary, $lightness: -25%);
-            }
-        }
+      }
     }
 
-    &:nth-child(odd) {
-        summary {
-          background-color: #d54949;
-        }
+    &[open] {
+      summary {
+        border-bottom: 1px solid
+          color.adjust(palette.$GRAPHITE, $lightness: -25%);
+      }
     }
-      
-    &:nth-child(even) {
-        summary {
-          background-color: #74c43e;
-        }
+  }
+
+  &:nth-child(odd) {
+    summary {
+      background-color: palette.$NARDO-GREY;
     }
+  }
+
+  &:nth-child(even) {
+    summary {
+      background-color: palette.$GRAPHITE;
+    }
+  }
+}
+
+.rowSpan {
+  padding: 0px;
+}
+
+.flare {
+  border-left: spacings.$FULL solid #9b2834;
+}
+.sai {
+  border-left: spacings.$FULL solid palette.$SAI;
+}
+
+.shin {
+  border-left: spacings.$FULL solid palette.$SHIN;
+}
+
+.xylet {
+  border-left: spacings.$FULL solid palette.$XYLET;
+}
+
+.mh {
+  border-left: spacings.$FULL solid palette.$MH;
+}
+
+.tadhg {
+  border-left: spacings.$FULL solid palette.$TADHG;
+}
+
+.eskimo {
+  border-left: spacings.$FULL solid palette.$ESKIMO;
+}
+
+.loss {
+  border-left: spacings.$FULL solid palette.$LOSS;
+}
+
+.bakura {
+  border-left: spacings.$FULL solid palette.$BAKURA;
 }

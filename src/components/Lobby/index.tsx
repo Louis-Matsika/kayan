@@ -8,20 +8,21 @@ import styles from './index.module.scss';
 const members = OMOcloud.members;
 
 interface LobbyRowProps {
-  name: String;
-  username: String;
-  id: String;
-  bio: String;
+  name: string;
+  username: string;
+  id: string;
+  bio: string;
 }
 
 const LobbyRow = ({ name, username, id }: LobbyRowProps) => {
   return (
-    <div className={styles.lobbyRow}>
+    <div className={`${styles.lobbyRow} ${styles.flare} ${styles[username]}`} >
       <details>
         <summary>
           <span>{name}</span>
-          <span>
-            <img
+          
+          <span className={styles.rowSpan}>
+          <img
               src={`/member-assets/emblems/${username}-emblem.png`}
               alt={`${name}'s emblem`}
             ></img>
